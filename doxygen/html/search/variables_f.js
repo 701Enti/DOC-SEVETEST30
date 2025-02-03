@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['rate_0',['rate',['../structbaidu___a_s_r__cfg__t.html#a0069b390b1b2e29fed110edce045b2e4',1,'baidu_ASR_cfg_t']]],
+  ['raw_5fcfg_1',['raw_cfg',['../sevetest30__sound_8c.html#a50137e2766a35717614c143586fd8bfa',1,'sevetest30_sound.c']]],
+  ['raw_5fread_2',['raw_read',['../sevetest30__sound_8c.html#a3458e3a91a2ca7d4d2465b23868a0482',1,'sevetest30_sound.c']]],
+  ['real_5ftime_5fweather_5fdata_3',['real_time_weather_data',['../sevetest30___i_w_e_d_a_8h.html#ac7bb61d4f7ba5faf047aa01bbf89956f',1,'real_time_weather_data:&#160;sevetest30_IWEDA.c'],['../sevetest30___i_w_e_d_a_8c.html#ac7bb61d4f7ba5faf047aa01bbf89956f',1,'real_time_weather_data:&#160;sevetest30_IWEDA.c']]],
+  ['record_5fsave_5ftimes_5fmax_4',['record_save_times_max',['../structbaidu___a_s_r__cfg__t.html#a61a2ab526eb6005b2c841c040b864878',1,'baidu_ASR_cfg_t']]],
+  ['red_5fy1_5',['red_y1',['../sevetest30___led_array_8c.html#ad44e1ae1c4f598fe02ebc3eb954e5820',1,'sevetest30_LedArray.c']]],
+  ['red_5fy10_6',['red_y10',['../sevetest30___led_array_8c.html#a21bdacda990e8d3298c917ca08242a04',1,'sevetest30_LedArray.c']]],
+  ['red_5fy11_7',['red_y11',['../sevetest30___led_array_8c.html#aacc4ccd900a8206611c259b456b6bb8e',1,'sevetest30_LedArray.c']]],
+  ['red_5fy12_8',['red_y12',['../sevetest30___led_array_8c.html#a77e4b35443879308f6e21ea521f25bf1',1,'sevetest30_LedArray.c']]],
+  ['red_5fy2_9',['red_y2',['../sevetest30___led_array_8c.html#ab5de663c114235e7c8ccd61c8f135961',1,'sevetest30_LedArray.c']]],
+  ['red_5fy3_10',['red_y3',['../sevetest30___led_array_8c.html#aa4c4611d22f3ccbb1b368068a4b9fcf5',1,'sevetest30_LedArray.c']]],
+  ['red_5fy4_11',['red_y4',['../sevetest30___led_array_8c.html#a539fbf6aa70ee23c9e9e2b2c674b930c',1,'sevetest30_LedArray.c']]],
+  ['red_5fy5_12',['red_y5',['../sevetest30___led_array_8c.html#a435a079e71aa8aafa84563747c7b98ff',1,'sevetest30_LedArray.c']]],
+  ['red_5fy6_13',['red_y6',['../sevetest30___led_array_8c.html#afee0b5bcdd375220257264402111beec',1,'sevetest30_LedArray.c']]],
+  ['red_5fy7_14',['red_y7',['../sevetest30___led_array_8c.html#ab9979d3c8c123bec855d7ac12427dbe0',1,'sevetest30_LedArray.c']]],
+  ['red_5fy8_15',['red_y8',['../sevetest30___led_array_8c.html#a89d839e16672ca9353e608407687e140',1,'sevetest30_LedArray.c']]],
+  ['red_5fy9_16',['red_y9',['../sevetest30___led_array_8c.html#a1daff4a6c90d34894d6097271bd2ad83',1,'sevetest30_LedArray.c']]],
+  ['refresh_5fmode_5fbuf_17',['refresh_mode_buf',['../sevetest30___led_array_8c.html#a63cce031c5f961a28a01b0863bbbc912',1,'sevetest30_LedArray.c']]],
+  ['refresh_5ftask_5fmutex_18',['refresh_Task_Mutex',['../sevetest30___led_array_8c.html#aa35baad1478bed024ce17f93bc5f4ce0',1,'sevetest30_LedArray.c']]],
+  ['reg_5faddress_19',['reg_address',['../struct_i_m_u__reg__mapping__t.html#a0bbdc838c5611afe00877d8742b8bda4',1,'IMU_reg_mapping_t']]],
+  ['reg_5fvalue_20',['reg_value',['../struct_i_m_u__reg__mapping__t.html#a59e98e375b883a05767def2d741a98f8',1,'IMU_reg_mapping_t']]],
+  ['rmt_5fcfg0_21',['rmt_cfg0',['../sevetest30___led_array_8c.html#a16ebbd49920cbc3bd87ba89ccd565928',1,'sevetest30_LedArray.c']]],
+  ['rmt_5fcfg1_22',['rmt_cfg1',['../sevetest30___led_array_8c.html#ad24caf1fb6502d896f22bc6d3d147192',1,'sevetest30_LedArray.c']]],
+  ['rsp_5fcfg_23',['rsp_cfg',['../sevetest30__sound_8c.html#a12bfa84f2a9ae3357df04ec7f1d5cb01',1,'sevetest30_sound.c']]],
+  ['running_5fi2s_5fport_24',['running_i2s_port',['../sevetest30__sound_8h.html#aee102a99c3594bf6aa26ce6f1164c233',1,'running_i2s_port:&#160;sevetest30_sound.c'],['../sevetest30__sound_8c.html#aee102a99c3594bf6aa26ce6f1164c233',1,'running_i2s_port:&#160;sevetest30_sound.c']]]
+];

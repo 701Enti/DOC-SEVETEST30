@@ -1,0 +1,14 @@
+var searchData=
+[
+  ['tca6416a_5fgpio_5fservice_0',['tca6416a_gpio_service',['../_t_c_a6416_a_8c.html#acd16f8e50904d583bd542451716e8a73',1,'TCA6416A_gpio_service(TCA6416A_value_t *pTCA6416Avalue):&#160;TCA6416A.c'],['../_t_c_a6416_a_8h.html#acd16f8e50904d583bd542451716e8a73',1,'TCA6416A_gpio_service(TCA6416A_value_t *pTCA6416Avalue):&#160;TCA6416A.c']]],
+  ['tca6416a_5fmode_5fset_1',['tca6416a_mode_set',['../_t_c_a6416_a_8h.html#a1296270d47065321a8499d26dd2bb317',1,'TCA6416A_mode_set(TCA6416A_mode_t *pTCA6416Amode):&#160;TCA6416A.c'],['../_t_c_a6416_a_8c.html#a1296270d47065321a8499d26dd2bb317',1,'TCA6416A_mode_set(TCA6416A_mode_t *pTCA6416Amode):&#160;TCA6416A.c']]],
+  ['temp_5fto_5fcolor_2',['temp_to_color',['../sevetest30___u_i_8h.html#a8b639bb35cee3220c3fc491ea43b4b1a',1,'temp_to_color(int temp, uint8_t value_max, uint8_t *high, uint8_t *comfort, uint8_t *low):&#160;sevetest30_UI.c'],['../sevetest30___u_i_8c.html#a8b639bb35cee3220c3fc491ea43b4b1a',1,'temp_to_color(int temp, uint8_t value_max, uint8_t *high, uint8_t *comfort, uint8_t *low):&#160;sevetest30_UI.c']]],
+  ['time_5fui_5f1_3',['time_ui_1',['../sevetest30___u_i_8h.html#a838cbb7bad8b790ff2b70ba268c3d8bd',1,'time_UI_1(int16_t x, int16_t y, uint8_t change):&#160;sevetest30_UI.c'],['../sevetest30___u_i_8c.html#a838cbb7bad8b790ff2b70ba268c3d8bd',1,'time_UI_1(int16_t x, int16_t y, uint8_t change):&#160;sevetest30_UI.c']]],
+  ['time_5fui_5f2_4',['time_ui_2',['../sevetest30___u_i_8h.html#afc972054f7b59c25e7643fe7727284bd',1,'time_UI_2(int16_t x, int16_t y, uint8_t change):&#160;sevetest30_UI.c'],['../sevetest30___u_i_8c.html#afc972054f7b59c25e7643fe7727284bd',1,'time_UI_2(int16_t x, int16_t y, uint8_t change):&#160;sevetest30_UI.c']]],
+  ['transform_5fip_5faddress_5',['transform_ip_address',['../sevetest30___i_w_e_d_a_8c.html#a7e37a9a731dbc6ae76209c2bf82d6ed9',1,'sevetest30_IWEDA.c']]],
+  ['transform_5flng_5flat_6',['transform_lng_lat',['../sevetest30___i_w_e_d_a_8c.html#a4ee1c1d994236e8eee7199baae486b01',1,'sevetest30_IWEDA.c']]],
+  ['transform_5flocationid_7',['transform_locationID',['../sevetest30___i_w_e_d_a_8c.html#aec9ce0a4f817dcba7dbf0729d0d7449a',1,'sevetest30_IWEDA.c']]],
+  ['transform_5fpostcode_8',['transform_postcode',['../sevetest30___i_w_e_d_a_8c.html#a9e45a7edd8edbe3b4a405d4bb66ec91e',1,'sevetest30_IWEDA.c']]],
+  ['transform_5freal_5ftime_5fweather_5fdata_9',['transform_real_time_weather_data',['../sevetest30___i_w_e_d_a_8c.html#a1f7f523937b41549158ede27ddeb6550',1,'sevetest30_IWEDA.c']]],
+  ['tts_5fservice_5fplay_10',['tts_service_play',['../sevetest30__sound_8h.html#a075e7e53d27ae5545b174b529f134310',1,'tts_service_play(baidu_TTS_cfg_t *tts_cfg, UBaseType_t priority):&#160;sevetest30_sound.c'],['../sevetest30__sound_8c.html#a075e7e53d27ae5545b174b529f134310',1,'tts_service_play(baidu_TTS_cfg_t *tts_cfg, UBaseType_t priority):&#160;sevetest30_sound.c']]]
+];
