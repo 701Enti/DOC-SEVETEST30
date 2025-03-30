@@ -143,44 +143,63 @@ TCA6416A.c 的引用(Include)关系图:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 函数</h2></td></tr>
-<tr class="memitem:a1296270d47065321a8499d26dd2bb317" id="r_a1296270d47065321a8499d26dd2bb317"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_c_a6416_a_8c.html#a1296270d47065321a8499d26dd2bb317">TCA6416A_mode_set</a> (<a class="el" href="struct_t_c_a6416_a__mode__t.html">TCA6416A_mode_t</a> *pTCA6416Amode)</td></tr>
-<tr class="memdesc:a1296270d47065321a8499d26dd2bb317"><td class="mdescLeft">&#160;</td><td class="mdescRight">GPIO输入输出模式设置，同时保存模式数据，初始化用  <br /></td></tr>
-<tr class="separator:a1296270d47065321a8499d26dd2bb317"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd16f8e50904d583bd542451716e8a73" id="r_acd16f8e50904d583bd542451716e8a73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_c_a6416_a_8c.html#acd16f8e50904d583bd542451716e8a73">TCA6416A_gpio_service</a> (<a class="el" href="struct_t_c_a6416_a__value__t.html">TCA6416A_value_t</a> *pTCA6416Avalue)</td></tr>
-<tr class="separator:acd16f8e50904d583bd542451716e8a73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0745867194d13276c4b9b223a1df1b28" id="r_a0745867194d13276c4b9b223a1df1b28"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_c_a6416_a_8c.html#a0745867194d13276c4b9b223a1df1b28">TCA6416A_mode_set</a> (<a class="el" href="struct_t_c_a6416_a__mode__t.html">TCA6416A_mode_t</a> *pTCA6416Amode)</td></tr>
+<tr class="memdesc:a0745867194d13276c4b9b223a1df1b28"><td class="mdescLeft">&#160;</td><td class="mdescRight">GPIO输入输出模式设置，同时保存模式数据，初始化用  <br /></td></tr>
+<tr class="separator:a0745867194d13276c4b9b223a1df1b28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac181a3696843bab4cc7b0cdfe98794c2" id="r_ac181a3696843bab4cc7b0cdfe98794c2"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_c_a6416_a_8c.html#ac181a3696843bab4cc7b0cdfe98794c2">TCA6416A_gpio_service</a> (<a class="el" href="struct_t_c_a6416_a__level__t.html">TCA6416A_level_t</a> *pTCA6416Alevel)</td></tr>
+<tr class="memdesc:ac181a3696843bab4cc7b0cdfe98794c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">GPIO引脚数据交互服务，一次性全更新、写入，根据引脚模式配置以读写操作，以下是我一些肤浅的思路  <br /></td></tr>
+<tr class="separator:ac181a3696843bab4cc7b0cdfe98794c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 变量</h2></td></tr>
-<tr class="memitem:a542b01116d4c8ab81413cb29fab79c54" id="r_a542b01116d4c8ab81413cb29fab79c54"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_c_a6416_a_8c.html#a542b01116d4c8ab81413cb29fab79c54">TCA6416A_data_buf</a> [3] = { 0x00,0x00,0x00 }</td></tr>
-<tr class="separator:a542b01116d4c8ab81413cb29fab79c54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad20142e79d92a919d6e36e822d1eed44" id="r_ad20142e79d92a919d6e36e822d1eed44"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_c_a6416_a_8c.html#ad20142e79d92a919d6e36e822d1eed44">TCA6416A_data_buf</a> [3] = { 0x00,0x00,0x00 }</td></tr>
+<tr class="separator:ad20142e79d92a919d6e36e822d1eed44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">函数说明</h2>
-<a id="acd16f8e50904d583bd542451716e8a73" name="acd16f8e50904d583bd542451716e8a73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd16f8e50904d583bd542451716e8a73">&#9670;&#160;</a></span>TCA6416A_gpio_service()</h2>
+<a id="ac181a3696843bab4cc7b0cdfe98794c2" name="ac181a3696843bab4cc7b0cdfe98794c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac181a3696843bab4cc7b0cdfe98794c2">&#9670;&#160;</a></span>TCA6416A_gpio_service()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void TCA6416A_gpio_service </td>
+          <td class="memname">esp_err_t TCA6416A_gpio_service </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_t_c_a6416_a__value__t.html">TCA6416A_value_t</a> *&#160;</td>
-          <td class="paramname"><em>pTCA6416Avalue</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="struct_t_c_a6416_a__level__t.html">TCA6416A_level_t</a> *&#160;</td>
+          <td class="paramname"><em>pTCA6416Alevel</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>GPIO引脚数据交互服务，一次性全更新、写入，根据引脚模式配置以读写操作，以下是我一些肤浅的思路 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pTCA6416Alevel</td><td>TCA6416A_level_t电平数据存储位置 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>[ESP_OK 成功] <br  />
+ </dd>
+<dd>
+[ESP_ERR_INVALID_ARG 参数错误] </dd>
+<dd>
+[ESP_FAIL 发送命令时发现问题, TCA6416A未应答] </dd>
+<dd>
+[ESP_ERR_INVALID_STATE I2C driver 未安装或没有运行在主机模式] </dd>
+<dd>
+[ESP_ERR_TIMEOUT 操作超时因为总线忙] </dd></dl>
+
 </div>
 </div>
-<a id="a1296270d47065321a8499d26dd2bb317" name="a1296270d47065321a8499d26dd2bb317"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1296270d47065321a8499d26dd2bb317">&#9670;&#160;</a></span>TCA6416A_mode_set()</h2>
+<a id="a0745867194d13276c4b9b223a1df1b28" name="a0745867194d13276c4b9b223a1df1b28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0745867194d13276c4b9b223a1df1b28">&#9670;&#160;</a></span>TCA6416A_mode_set()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void TCA6416A_mode_set </td>
+          <td class="memname">esp_err_t TCA6416A_mode_set </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_t_c_a6416_a__mode__t.html">TCA6416A_mode_t</a> *&#160;</td>
           <td class="paramname"><em>pTCA6416Amode</em></td><td>)</td>
@@ -190,18 +209,35 @@ TCA6416A.c 的引用(Include)关系图:</div>
 </div><div class="memdoc">
 
 <p>GPIO输入输出模式设置，同时保存模式数据，初始化用 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pTCA6416Amode</td><td>TCA6416A_mode_t模式配置存储位置 </td></tr>
+    <tr><td class="paramname">pTCA6416Alevel</td><td>TCA6416A_level_t电平数据存储位置 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>[ESP_OK 成功] <br  />
+ </dd>
+<dd>
+[ESP_ERR_INVALID_ARG 参数错误] </dd>
+<dd>
+[ESP_FAIL 发送命令时发现问题, TCA6416A未应答] </dd>
+<dd>
+[ESP_ERR_INVALID_STATE I2C driver 未安装或没有运行在主机模式] </dd>
+<dd>
+[ESP_ERR_TIMEOUT 操作超时因为总线忙] </dd></dl>
 
 </div>
 </div>
 <h2 class="groupheader">变量说明</h2>
-<a id="a542b01116d4c8ab81413cb29fab79c54" name="a542b01116d4c8ab81413cb29fab79c54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a542b01116d4c8ab81413cb29fab79c54">&#9670;&#160;</a></span>TCA6416A_data_buf</h2>
+<a id="ad20142e79d92a919d6e36e822d1eed44" name="ad20142e79d92a919d6e36e822d1eed44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad20142e79d92a919d6e36e822d1eed44">&#9670;&#160;</a></span>TCA6416A_data_buf</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t TCA6416A_data_buf[3] = { 0x00,0x00,0x00 }</td>
+          <td class="memname">esp_err_t TCA6416A_data_buf[3] = { 0x00,0x00,0x00 }</td>
         </tr>
       </table>
 </div><div class="memdoc">

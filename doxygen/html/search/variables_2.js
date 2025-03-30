@@ -7,7 +7,7 @@ var searchData=
   ['char_5fhandle_4',['char_handle',['../structgatts__profile__inst.html#a24a2a156265df785fbe124f390535706',1,'gatts_profile_inst']]],
   ['char_5fuuid_5',['char_uuid',['../structgatts__profile__inst.html#a804b494ce49c3a89dd02650b14fe9136',1,'gatts_profile_inst']]],
   ['charge_5fflag_6',['charge_flag',['../structbattery__data__t.html#a9a925d719be87d8de3e357cb5f3c066c',1,'battery_data_t']]],
-  ['charge_5fsign_7',['charge_SIGN',['../struct_t_c_a6416_a__value__t.html#a39273cce24224ea9f4cbe0f3a53c7b86',1,'TCA6416A_value_t']]],
+  ['charge_5fsign_7',['charge_SIGN',['../struct_t_c_a6416_a__level__t.html#acfe01fd1b583870f68a39b7a78ca35bc',1,'TCA6416A_level_t']]],
   ['cloud_8',['cloud',['../struct_real__time__weather.html#a3fbc8a32b281fc0e75214b9d580baec5',1,'Real_time_weather']]],
   ['codec_5fadc_5fgain_9',['codec_adc_gain',['../structboard__ctrl__t.html#a3772271735f7ace1f0c13511f88bdbd2',1,'board_ctrl_t']]],
   ['codec_5fadc_5fpin_10',['codec_adc_pin',['../structboard__ctrl__t.html#a081056be281e2b8adbe714207b5dc862',1,'board_ctrl_t']]],

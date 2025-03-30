@@ -7,8 +7,9 @@ var board__ctrl_8c =
     [ "codechip_mode_and_status_set", "board__ctrl_8c.html#a171032b6c17b1759d20665c0a8a6a26a", null ],
     [ "codechip_volume_set", "board__ctrl_8c.html#ad558dc59310632fb4b185922efdbaddf", null ],
     [ "device_i2c_init", "board__ctrl_8c.html#ac99044e3543686d249dffc95b1751527", null ],
-    [ "sevetest30_all_device_init", "board__ctrl_8c.html#a2340de89d410eb14b6542a35c9bbee62", null ],
+    [ "sevetest30_all_device_init", "board__ctrl_8c.html#af3c96c222eb4b145233c35456c8cf706", null ],
     [ "sevetest30_board_ctrl", "board__ctrl_8c.html#af56a4cb2a06ffa952db6fe69029d5a85", null ],
     [ "board_ctrl_buf", "board__ctrl_8c.html#ae697ce7d8a54f4c08d7b3d842d19d273", null ],
+    [ "board_ctrl_init_report", "board__ctrl_8c.html#a445c868a22258071fa13ac1e6cd60709", null ],
     [ "se30_periph_set_handle", "board__ctrl_8c.html#aeaaf905f04464312cce03723cf3a9307", null ]
 ];

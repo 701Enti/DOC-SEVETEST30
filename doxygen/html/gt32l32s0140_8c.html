@@ -146,7 +146,7 @@ gt32l32s0140.c 的引用(Include)关系图:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 函数</h2></td></tr>
 <tr class="memitem:a91f3a05d283bbe44c0bbe0fb31431c47" id="r_a91f3a05d283bbe44c0bbe0fb31431c47"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gt32l32s0140_8c.html#a91f3a05d283bbe44c0bbe0fb31431c47">fonts_chip_init</a> ()</td></tr>
-<tr class="memdesc:a91f3a05d283bbe44c0bbe0fb31431c47"><td class="mdescLeft">&#160;</td><td class="mdescRight">通用字库芯片基本初始化工作  <br /></td></tr>
+<tr class="memdesc:a91f3a05d283bbe44c0bbe0fb31431c47"><td class="mdescLeft">&#160;</td><td class="mdescRight">字库芯片GT32L32S0140基本初始化工作  <br /></td></tr>
 <tr class="separator:a91f3a05d283bbe44c0bbe0fb31431c47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02e04d0261683a301b35efc9c8be1c29" id="r_a02e04d0261683a301b35efc9c8be1c29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gt32l32s0140_8c.html#a02e04d0261683a301b35efc9c8be1c29">fonts_read_zh_CN_12x</a> (uint32_t Unicode, uint8_t *dest)</td></tr>
 <tr class="memdesc:a02e04d0261683a301b35efc9c8be1c29"><td class="mdescLeft">&#160;</td><td class="mdescRight">从字库读取12x12汉字字模,可以作为绘制函数的字模参数  <br /></td></tr>
@@ -223,14 +223,14 @@ gt32l32s0140.c 的引用(Include)关系图:</div>
       </table>
 </div><div class="memdoc">
 
-<p>通用字库芯片基本初始化工作 </p>
+<p>字库芯片GT32L32S0140基本初始化工作 </p>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
     <tr><td class="paramname">board_device_handle</td><td></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>返回</dt><dd>ESP_OK/ESP_FAIL </dd></dl>
+<dl class="section return"><dt>返回</dt><dd>ESP_OK 成功 ESP_FAIL 失败(未包含原因的) ESP_ERR_INVALID_STATE 失败(字库芯片异常或未上件) </dd></dl>
 
 </div>
 </div>
@@ -264,7 +264,7 @@ gt32l32s0140.c 的引用(Include)关系图:</div>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
     <tr><td class="paramname">Unicode</td><td>ASCII字符字模的Unicode编码 </td></tr>
-    <tr><td class="paramname">dest</td><td>导入读取缓存位置,内部不会自动清理缓存,缓存必须足够FONT_READ_ASCII_6X12_BYTES </td></tr>
+    <tr><td class="paramname">dest</td><td>导入读取缓存位置,内部不会自动清理缓存,缓存必须足够GT32L32S0140_READ_ASCII_6X12_BYTES </td></tr>
   </table>
   </dd>
 </dl>
@@ -301,7 +301,7 @@ gt32l32s0140.c 的引用(Include)关系图:</div>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
     <tr><td class="paramname">Unicode</td><td>汉字字模的Unicode编码 </td></tr>
-    <tr><td class="paramname">dest</td><td>导入读取缓存位置,内部不会自动清理缓存,缓存必须足够FONT_READ_CN_12X_BYTES </td></tr>
+    <tr><td class="paramname">dest</td><td>导入读取缓存位置,内部不会自动清理缓存,缓存必须足够GT32L32S0140_READ_CN_12X_BYTES </td></tr>
   </table>
   </dd>
 </dl>

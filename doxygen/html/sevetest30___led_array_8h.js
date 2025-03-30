@@ -1,8 +1,8 @@
 var sevetest30___led_array_8h =
 [
     [ "FIGURE", "sevetest30___led_array_8h.html#a18ff66448700e8d0184a01b54e05f340", null ],
-    [ "FONT_PRINT_FMT_BUF_SIZE", "sevetest30___led_array_8h.html#a7e587c17cee27d7a1d748472306ec17b", null ],
-    [ "FONT_PRINT_NUM_MAX", "sevetest30___led_array_8h.html#a040fd7a36c7bade335b19df6c8ccf925", null ],
+    [ "FONT_CHIP_PRINT_FMT_BUF_SIZE", "sevetest30___led_array_8h.html#a43a1e63788f38cc12a669caf175088f2", null ],
+    [ "FONT_CHIP_PRINT_NUM_MAX", "sevetest30___led_array_8h.html#ac67fe2c4f9a541177ac7910707d4f84a", null ],
     [ "LEDARRAY_REFRESH_INIT_MODE", "sevetest30___led_array_8h.html#ac1338a63be3ce085ed1707b3cd37a8c7", null ],
     [ "LEDARRAY_REFRESH_TASK_CORE", "sevetest30___led_array_8h.html#a7397500f61c23a1abea851012874bd3d", null ],
     [ "LEDARRAY_REFRESH_TASK_PRIO", "sevetest30___led_array_8h.html#a604ddda5b43efb35391391758c9d8b03", null ],
@@ -27,7 +27,7 @@ var sevetest30___led_array_8h =
     [ "font_roll_print_12x", "sevetest30___led_array_8h.html#ab7ec88320017091e65a906970e06dafd", null ],
     [ "led_strip_hsv2rgb", "sevetest30___led_array_8h.html#a1d9fe3c8e1488269731f114f65493de9", null ],
     [ "ledarray_deinit", "sevetest30___led_array_8h.html#af09cfa198e2fb90a5aa9654d886f3664", null ],
-    [ "ledarray_init", "sevetest30___led_array_8h.html#aefd30405e1080808060dc92054df0bdb", null ],
+    [ "ledarray_init", "sevetest30___led_array_8h.html#a1e0620bbe75d6552585cf52e3d7170ef", null ],
     [ "ledarray_intensity_change", "sevetest30___led_array_8h.html#acf17011d8638511cc2a6ea72883b0bdb", null ],
     [ "ledarray_set_and_write", "sevetest30___led_array_8h.html#a0aa50fecb446229afaf4d7b4808254d8", null ],
     [ "ledarray_set_refresh_mode", "sevetest30___led_array_8h.html#a350204007e04d378da6acbc29c1c816c", null ],

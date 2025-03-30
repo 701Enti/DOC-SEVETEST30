@@ -7,6 +7,7 @@ var sevetest30___b_w_e_d_a_8c =
     [ "BLE_SERVICE_MEDIA_CTRL_UUID16", "sevetest30___b_w_e_d_a_8c.html#a9a00abf5ebe37d88d7a548990c08f33b", null ],
     [ "CHAR_UUID_ACS_DATA_OUT_INDICATE", "sevetest30___b_w_e_d_a_8c.html#a4160274d0929e2527596a35a22932b67", null ],
     [ "CHAR_UUID_ACS_DATA_OUT_NOTIFY", "sevetest30___b_w_e_d_a_8c.html#a94e6830498933c86fbd3a389fae96758", null ],
+    [ "CHAR_UUID_VOLUME_STATE", "sevetest30___b_w_e_d_a_8c.html#a218e1c2981869ae546eb60060760e650", null ],
     [ "ESP_APP_ID", "sevetest30___b_w_e_d_a_8c.html#a7f58e13befd440c6ec2fba126a64c013", null ],
     [ "SCAN_RSP_CONFIG_FLAG", "sevetest30___b_w_e_d_a_8c.html#ad92fd6350531e23c955c71626296406c", null ],
     [ "SERV_UUID_AUTOMATION_IO", "sevetest30___b_w_e_d_a_8c.html#a2b81bffeb6a116bdbf1ab31a72dd65e4", null ],

@@ -11,8 +11,9 @@ var searchData=
   ['fifo_5fstatus2_8',['FIFO_STATUS2',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a7c598c80316e1eff3e552cf692c4f023',1,'lsm6ds3trc.h']]],
   ['fifo_5fstatus3_9',['FIFO_STATUS3',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7afd6d435bcb0248734ae595857e192f19',1,'lsm6ds3trc.h']]],
   ['fifo_5fstatus4_10',['FIFO_STATUS4',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a788a582e60d4da48476bf12e01f82f62',1,'lsm6ds3trc.h']]],
-  ['free_5ffall_11',['FREE_FALL',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a908991a63e752d5cde263ae762c91ae3',1,'lsm6ds3trc.h']]],
-  ['func_5fcfg_5faccess_12',['FUNC_CFG_ACCESS',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a68f263cfab40c996aa592c78271f9bdb',1,'lsm6ds3trc.h']]],
-  ['func_5fsrc1_13',['FUNC_SRC1',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7aa59467ff94e9b4da9d69c31b92f173b0',1,'lsm6ds3trc.h']]],
-  ['func_5fsrc2_14',['FUNC_SRC2',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a1c1ec29347bde4c2f40b0a0bff5bd5a4',1,'lsm6ds3trc.h']]]
+  ['fonts_5fchip_5finit_11',['FONTS_CHIP_INIT',['../board__ctrl_8h.html#aaf5e14aa5469195ef948ffc62cff1191a8234cf88b5b2ab04c4b9740937b0c213',1,'board_ctrl.h']]],
+  ['free_5ffall_12',['FREE_FALL',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a908991a63e752d5cde263ae762c91ae3',1,'lsm6ds3trc.h']]],
+  ['func_5fcfg_5faccess_13',['FUNC_CFG_ACCESS',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a68f263cfab40c996aa592c78271f9bdb',1,'lsm6ds3trc.h']]],
+  ['func_5fsrc1_14',['FUNC_SRC1',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7aa59467ff94e9b4da9d69c31b92f173b0',1,'lsm6ds3trc.h']]],
+  ['func_5fsrc2_15',['FUNC_SRC2',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a1c1ec29347bde4c2f40b0a0bff5bd5a4',1,'lsm6ds3trc.h']]]
 ];

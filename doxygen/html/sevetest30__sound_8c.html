@@ -193,9 +193,9 @@ sevetest30_sound.c 的引用(Include)关系图:</div>
 <tr class="separator:a0678479a9dde6de8c94484c2b2c62afe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab791f14dfde0a93926b9ed08c87de7d5" id="r_ab791f14dfde0a93926b9ed08c87de7d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30__sound_8c.html#ab791f14dfde0a93926b9ed08c87de7d5">i2s_filter_raw_start</a> (TaskFunction_t running_event, UBaseType_t priority)</td></tr>
 <tr class="separator:ab791f14dfde0a93926b9ed08c87de7d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97e17f0f8f18399573cafff71099a2c1" id="r_a97e17f0f8f18399573cafff71099a2c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30__sound_8c.html#a97e17f0f8f18399573cafff71099a2c1">music_uri_play</a> (const char *uri, UBaseType_t priority)</td></tr>
-<tr class="memdesc:a97e17f0f8f18399573cafff71099a2c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">uri音乐播放  <br /></td></tr>
-<tr class="separator:a97e17f0f8f18399573cafff71099a2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa504781ae2e6f2a3cd857ff90c62446e" id="r_aa504781ae2e6f2a3cd857ff90c62446e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30__sound_8c.html#aa504781ae2e6f2a3cd857ff90c62446e">music_uri_or_url_play</a> (const char *uri_or_url, UBaseType_t priority)</td></tr>
+<tr class="memdesc:aa504781ae2e6f2a3cd857ff90c62446e"><td class="mdescLeft">&#160;</td><td class="mdescRight">uri/url音乐播放  <br /></td></tr>
+<tr class="separator:aa504781ae2e6f2a3cd857ff90c62446e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a075e7e53d27ae5545b174b529f134310" id="r_a075e7e53d27ae5545b174b529f134310"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30__sound_8c.html#a075e7e53d27ae5545b174b529f134310">tts_service_play</a> (<a class="el" href="structbaidu___t_t_s__cfg__t.html">baidu_TTS_cfg_t</a> *tts_cfg, UBaseType_t priority)</td></tr>
 <tr class="memdesc:a075e7e53d27ae5545b174b529f134310"><td class="mdescLeft">&#160;</td><td class="mdescRight">请求TTS服务并播放  <br /></td></tr>
 <tr class="separator:a075e7e53d27ae5545b174b529f134310"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -463,17 +463,17 @@ sevetest30_sound.c 的引用(Include)关系图:</div>
 
 </div>
 </div>
-<a id="a97e17f0f8f18399573cafff71099a2c1" name="a97e17f0f8f18399573cafff71099a2c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97e17f0f8f18399573cafff71099a2c1">&#9670;&#160;</a></span>music_uri_play()</h2>
+<a id="aa504781ae2e6f2a3cd857ff90c62446e" name="aa504781ae2e6f2a3cd857ff90c62446e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa504781ae2e6f2a3cd857ff90c62446e">&#9670;&#160;</a></span>music_uri_or_url_play()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void music_uri_play </td>
+          <td class="memname">void music_uri_or_url_play </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>uri</em>, </td>
+          <td class="paramname"><em>uri_or_url</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -489,10 +489,10 @@ sevetest30_sound.c 的引用(Include)关系图:</div>
       </table>
 </div><div class="memdoc">
 
-<p>uri音乐播放 </p>
+<p>uri/url音乐播放 </p>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
-    <tr><td class="paramname">uri</td><td>导入音乐uri </td></tr>
+    <tr><td class="paramname">uriurl</td><td>导入音乐uri/url </td></tr>
     <tr><td class="paramname">priority</td><td>任务优先级 </td></tr>
   </table>
   </dd>

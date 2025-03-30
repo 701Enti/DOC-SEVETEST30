@@ -148,7 +148,7 @@ var lsm6ds3trc_8h =
     [ "lsm6ds3trc_get_free_fall_status", "lsm6ds3trc_8h.html#a8aaae71782145d70d4670637a15407bf", null ],
     [ "lsm6ds3trc_get_now_temperature", "lsm6ds3trc_8h.html#aaf0042004ca7f0dffcb0cebe2823e44b", null ],
     [ "lsm6ds3trc_get_step_counter", "lsm6ds3trc_8h.html#af9289ed6975d2a4f1122c9c4be5f7e87", null ],
-    [ "lsm6ds3trc_init_or_reset", "lsm6ds3trc_8h.html#aa26d2387af3001abe5809e9ba5fcd9c4", null ],
+    [ "lsm6ds3trc_init_or_reset", "lsm6ds3trc_8h.html#a4694ff8dfb7859c461760eccf792d738", null ],
     [ "MAP_BASE", "lsm6ds3trc_8h.html#ae55ae4bfe12a8118edf7f4ddadfd74d1", null ],
     [ "MAP_BASE", "lsm6ds3trc_8h.html#a47aa319d4e952beb65ea924f7c2ece96", null ],
     [ "MAP_BASE", "lsm6ds3trc_8h.html#a4e867fa022746aafd1ca9d75a2606162", null ],

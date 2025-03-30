@@ -16,5 +16,6 @@ var searchData=
   ['blue_5fy8_13',['blue_y8',['../sevetest30___led_array_8c.html#ac74003f8060ad60a09320238f5c296fd',1,'sevetest30_LedArray.c']]],
   ['blue_5fy9_14',['blue_y9',['../sevetest30___led_array_8c.html#ac25cee29209cacfa7ca7117034e2f5ae',1,'sevetest30_LedArray.c']]],
   ['board_5fctrl_5fbuf_15',['board_ctrl_buf',['../board__ctrl_8c.html#ae697ce7d8a54f4c08d7b3d842d19d273',1,'board_ctrl.c']]],
-  ['boost_5fvoltage_16',['boost_voltage',['../structboard__ctrl__t.html#a75d27430d446afc5d0442d6163de5498',1,'board_ctrl_t']]]
+  ['board_5fctrl_5finit_5freport_16',['board_ctrl_init_report',['../board__ctrl_8c.html#a445c868a22258071fa13ac1e6cd60709',1,'board_ctrl.c']]],
+  ['boost_5fvoltage_17',['boost_voltage',['../structboard__ctrl__t.html#a75d27430d446afc5d0442d6163de5498',1,'board_ctrl_t']]]
 ];

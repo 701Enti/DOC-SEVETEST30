@@ -143,8 +143,9 @@ AHT21.c 的引用(Include)关系图:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 函数</h2></td></tr>
-<tr class="memitem:a93a1dec19424b87fab4cd90a028ededd" id="r_a93a1dec19424b87fab4cd90a028ededd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_a_h_t21_8c.html#a93a1dec19424b87fab4cd90a028ededd">AHT21_begin</a> ()</td></tr>
-<tr class="separator:a93a1dec19424b87fab4cd90a028ededd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf941ac575f9ec8c4a06db472ce90d78" id="r_adf941ac575f9ec8c4a06db472ce90d78"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_a_h_t21_8c.html#adf941ac575f9ec8c4a06db472ce90d78">AHT21_begin</a> ()</td></tr>
+<tr class="memdesc:adf941ac575f9ec8c4a06db472ce90d78"><td class="mdescLeft">&#160;</td><td class="mdescRight">尝试启动AHT21  <br /></td></tr>
+<tr class="separator:adf941ac575f9ec8c4a06db472ce90d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99f6c77204fcdd4841705367b6e811dd" id="r_a99f6c77204fcdd4841705367b6e811dd"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_a_h_t21_8c.html#a99f6c77204fcdd4841705367b6e811dd">AHT21_get_status</a> ()</td></tr>
 <tr class="memdesc:a99f6c77204fcdd4841705367b6e811dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取运行状态字  <br /></td></tr>
 <tr class="separator:a99f6c77204fcdd4841705367b6e811dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,20 +160,25 @@ AHT21.c 的引用(Include)关系图:</div>
 <tr class="separator:a73ecb3c8fb53f37e054055d47cf67bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">函数说明</h2>
-<a id="a93a1dec19424b87fab4cd90a028ededd" name="a93a1dec19424b87fab4cd90a028ededd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93a1dec19424b87fab4cd90a028ededd">&#9670;&#160;</a></span>AHT21_begin()</h2>
+<a id="adf941ac575f9ec8c4a06db472ce90d78" name="adf941ac575f9ec8c4a06db472ce90d78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf941ac575f9ec8c4a06db472ce90d78">&#9670;&#160;</a></span>AHT21_begin()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AHT21_begin </td>
+          <td class="memname">esp_err_t AHT21_begin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>尝试启动AHT21 </p>
+<dl class="section return"><dt>返回</dt><dd>[ESP_OK 传感器可以正常运行] </dd>
+<dd>
+[ESP_ERR_INVALID_STATE 传感器需要关键的初始化操作] </dd></dl>
 
 </div>
 </div>

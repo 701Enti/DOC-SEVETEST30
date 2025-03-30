@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['addr_0',['addr',['../struct_t_c_a6416_a__value__t.html#aad4c7f009a1c0ab91f1e86439f04a836',1,'TCA6416A_value_t::addr'],['../struct_t_c_a6416_a__mode__t.html#a8e2e5363cab8a1be64dbc5f0c2f7ab67',1,'TCA6416A_mode_t::addr']]],
+  ['addr_0',['addr',['../struct_t_c_a6416_a__level__t.html#a82c15cd81fda892464cbadc6f38decb3',1,'TCA6416A_level_t::addr'],['../struct_t_c_a6416_a__mode__t.html#a8e2e5363cab8a1be64dbc5f0c2f7ab67',1,'TCA6416A_mode_t::addr']]],
   ['adj_5fen_5for_5fxstp_1',['adj_en_or_xstp',['../struct_b_l5372__cfg__t.html#a6839ad32e3caf5a2c47155330e13c26b',1,'BL5372_cfg_t']]],
   ['adm1_2',['adm1',['../structip__position.html#a3849bdd31bbb379a4b8416b436c1c542',1,'ip_position']]],
   ['adm2_3',['adm2',['../structip__position.html#a981f833a38bee57bf913286823ef3e4e',1,'ip_position']]],
@@ -8,10 +8,10 @@ var searchData=
   ['alarm_5fa_5fout_5fflag_5for_5fout_5fkeep_5',['alarm_A_out_flag_or_out_keep',['../struct_b_l5372__cfg__t.html#ad57eba2f0e560bd7ca0a154ff502636d',1,'BL5372_cfg_t']]],
   ['alarm_5fb_5fen_6',['alarm_B_en',['../struct_b_l5372__cfg__t.html#a5e87cce37b6270657c4a83d7dfd3d867',1,'BL5372_cfg_t']]],
   ['alarm_5fb_5fout_5fflag_5for_5fout_5fkeep_7',['alarm_B_out_flag_or_out_keep',['../struct_b_l5372__cfg__t.html#a6ae3e18c2a3b2c2a7da15205a51a5657',1,'BL5372_cfg_t']]],
-  ['alarm_5fint_8',['ALARM_INT',['../struct_t_c_a6416_a__value__t.html#a28be9cee9a060cd67184cdff7382f451',1,'TCA6416A_value_t']]],
-  ['als_5fint_9',['ALS_INT',['../struct_t_c_a6416_a__value__t.html#aebca08e0d0fbd1913a7420a619db93bb',1,'TCA6416A_value_t']]],
+  ['alarm_5fint_8',['ALARM_INT',['../struct_t_c_a6416_a__level__t.html#a1b4265fb7ddc02a477cba46bb35f57d8',1,'TCA6416A_level_t']]],
+  ['als_5fint_9',['ALS_INT',['../struct_t_c_a6416_a__level__t.html#aa6bb17a22f58c73cc1252e703dca89de',1,'TCA6416A_level_t']]],
   ['amplifier_5fmute_10',['amplifier_mute',['../structboard__ctrl__t.html#ac8b35aaf0c6f74736b097412ff655eed',1,'board_ctrl_t']]],
-  ['amplifier_5fsd_11',['amplifier_SD',['../struct_t_c_a6416_a__value__t.html#a3e8917befb48d37aa36d11283f5d5b76',1,'TCA6416A_value_t']]],
+  ['amplifier_5fsd_11',['amplifier_SD',['../struct_t_c_a6416_a__level__t.html#ae6e345567642535547e5b15e9649caea',1,'TCA6416A_level_t']]],
   ['amplifier_5fvolume_12',['amplifier_volume',['../structboard__ctrl__t.html#ad92037e11f941ab6265efda74be5f453',1,'board_ctrl_t']]],
   ['app_5fid_13',['app_id',['../structgatts__profile__inst.html#a9ad98b3ef12c175e238b5ea7a0a72bc1',1,'gatts_profile_inst']]],
   ['asr_5fcfg_5fbuf_14',['ASR_cfg_buf',['../sevetest30__sound_8c.html#ac94c9afb2cf553a7f46671270080a9dd',1,'sevetest30_sound.c']]],

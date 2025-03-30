@@ -161,9 +161,9 @@ sevetest30_touch.h 的引用(Include)关系图:</div>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 函数</h2></td></tr>
-<tr class="memitem:a590d10d86e68a161f7f4a37e79f58fbc" id="r_a590d10d86e68a161f7f4a37e79f58fbc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30__touch_8h.html#a590d10d86e68a161f7f4a37e79f58fbc">vibra_motor_init</a> (gpio_num_t in1_gpio, gpio_num_t in2_gpio)</td></tr>
-<tr class="memdesc:a590d10d86e68a161f7f4a37e79f58fbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">初始化线性振动马达  <br /></td></tr>
-<tr class="separator:a590d10d86e68a161f7f4a37e79f58fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ca8037c4d5233eaa6a6dfcc24492c84" id="r_a2ca8037c4d5233eaa6a6dfcc24492c84"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30__touch_8h.html#a2ca8037c4d5233eaa6a6dfcc24492c84">vibra_motor_init</a> (gpio_num_t in1_gpio, gpio_num_t in2_gpio)</td></tr>
+<tr class="memdesc:a2ca8037c4d5233eaa6a6dfcc24492c84"><td class="mdescLeft">&#160;</td><td class="mdescRight">初始化线性振动马达  <br /></td></tr>
+<tr class="separator:a2ca8037c4d5233eaa6a6dfcc24492c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab29827dd401a8c660c22c7ba30f421a1" id="r_ab29827dd401a8c660c22c7ba30f421a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30__touch_8h.html#ab29827dd401a8c660c22c7ba30f421a1">vibra_motor_start</a> ()</td></tr>
 <tr class="memdesc:ab29827dd401a8c660c22c7ba30f421a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">启动线性振动马达  <br /></td></tr>
 <tr class="separator:ab29827dd401a8c660c22c7ba30f421a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,14 +246,14 @@ sevetest30_touch.h 的引用(Include)关系图:</div>
 </div>
 </div>
 <h2 class="groupheader">函数说明</h2>
-<a id="a590d10d86e68a161f7f4a37e79f58fbc" name="a590d10d86e68a161f7f4a37e79f58fbc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a590d10d86e68a161f7f4a37e79f58fbc">&#9670;&#160;</a></span>vibra_motor_init()</h2>
+<a id="a2ca8037c4d5233eaa6a6dfcc24492c84" name="a2ca8037c4d5233eaa6a6dfcc24492c84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ca8037c4d5233eaa6a6dfcc24492c84">&#9670;&#160;</a></span>vibra_motor_init()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void vibra_motor_init </td>
+          <td class="memname">esp_err_t vibra_motor_init </td>
           <td>(</td>
           <td class="paramtype">gpio_num_t&#160;</td>
           <td class="paramname"><em>in1_gpio</em>, </td>
@@ -280,6 +280,11 @@ sevetest30_touch.h 的引用(Include)关系图:</div>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>返回</dt><dd>[ESP_OK 成功] <br  />
+ </dd>
+<dd>
+[ESP_ERR_INVALID_ARG 参数错误] <br  />
+ </dd></dl>
 
 </div>
 </div>

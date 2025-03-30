@@ -1,7 +1,7 @@
 var _t_c_a6416_a_8h =
 [
     [ "TCA6416A_mode_t", "struct_t_c_a6416_a__mode__t.html", "struct_t_c_a6416_a__mode__t" ],
-    [ "TCA6416A_value_t", "struct_t_c_a6416_a__value__t.html", "struct_t_c_a6416_a__value__t" ],
+    [ "TCA6416A_level_t", "struct_t_c_a6416_a__level__t.html", "struct_t_c_a6416_a__level__t" ],
     [ "TCA6416A_DEFAULT_CONFIG_MODE", "_t_c_a6416_a_8h.html#afeab57a13b94a2c4182f4bf4bf3b899b", null ],
     [ "TCA6416A_DEFAULT_CONFIG_VALUE", "_t_c_a6416_a_8h.html#ad3a407e19a128821e446e2a6f6424629", null ],
     [ "TCA6416A_IN1", "_t_c_a6416_a_8h.html#a0c33d4868738b4bf851bda963751a319", null ],
@@ -10,8 +10,8 @@ var _t_c_a6416_a_8h =
     [ "TCA6416A_MODE2", "_t_c_a6416_a_8h.html#aa6a770c8820b6be7160cd5557834fe1f", null ],
     [ "TCA6416A_OUT1", "_t_c_a6416_a_8h.html#a9601b2e366a0bb9bfb574e308d6310a2", null ],
     [ "TCA6416A_OUT2", "_t_c_a6416_a_8h.html#a98bd63c55595faa7ae4105644c52c474", null ],
+    [ "TCA6416A_level_t", "_t_c_a6416_a_8h.html#a8e54019fcda5f2208280b8ccc561d691", null ],
     [ "TCA6416A_mode_t", "_t_c_a6416_a_8h.html#a403e3348f1e6e790346b8255d889bd87", null ],
-    [ "TCA6416A_value_t", "_t_c_a6416_a_8h.html#a885cd9c026f9d07b3c8f7552471fb185", null ],
-    [ "TCA6416A_gpio_service", "_t_c_a6416_a_8h.html#acd16f8e50904d583bd542451716e8a73", null ],
-    [ "TCA6416A_mode_set", "_t_c_a6416_a_8h.html#a1296270d47065321a8499d26dd2bb317", null ]
+    [ "TCA6416A_gpio_service", "_t_c_a6416_a_8h.html#a73748f384d2c0e76389383e4228ff84f", null ],
+    [ "TCA6416A_mode_set", "_t_c_a6416_a_8h.html#a0745867194d13276c4b9b223a1df1b28", null ]
 ];

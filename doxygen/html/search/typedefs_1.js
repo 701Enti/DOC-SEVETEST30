@@ -6,5 +6,15 @@ var searchData=
   ['bl5372_5falarm_5fcycle_5fplan_5ft_3',['BL5372_alarm_cycle_plan_t',['../_b_l5372_8h.html#a72448396760b656492d80eee50f0791a',1,'BL5372.h']]],
   ['bl5372_5fcfg_5ft_4',['BL5372_cfg_t',['../_b_l5372_8h.html#af557d5dba18e309f9e783df5fb4e38e3',1,'BL5372.h']]],
   ['bl5372_5ftime_5ft_5',['BL5372_time_t',['../_b_l5372_8h.html#adf950e3da729812e1664c141c2cae301',1,'BL5372.h']]],
-  ['board_5fctrl_5ft_6',['board_ctrl_t',['../board__ctrl_8h.html#a784ab0d9a5ec2940aba453a82d057502',1,'board_ctrl.h']]]
+  ['board_5fctrl_5famplifier_6',['BOARD_CTRL_AMPLIFIER',['../board__ctrl_8h.html#ab230bbd71d50175dfa1fdfe2019474c2',1,'board_ctrl.h']]],
+  ['board_5fctrl_5fboost_7',['BOARD_CTRL_BOOST',['../board__ctrl_8h.html#ae6c266e3ab34bd4173c11e51628367ac',1,'board_ctrl.h']]],
+  ['board_5fctrl_5fcodec_5fadc_5fgain_8',['BOARD_CTRL_CODEC_ADC_GAIN',['../board__ctrl_8h.html#a07a3166654c98a0801bac984bb77d6e3',1,'board_ctrl.h']]],
+  ['board_5fctrl_5fcodec_5fadc_5fpin_9',['BOARD_CTRL_CODEC_ADC_PIN',['../board__ctrl_8h.html#a45bb250689de7397d93f3e8d8483e6be',1,'board_ctrl.h']]],
+  ['board_5fctrl_5fcodec_5fdac_5fpin_10',['BOARD_CTRL_CODEC_DAC_PIN',['../board__ctrl_8h.html#ad4a10f0c9a268d7d1c3022c4e7694f0a',1,'board_ctrl.h']]],
+  ['board_5fctrl_5fcodec_5fdac_5fvol_11',['BOARD_CTRL_CODEC_DAC_VOL',['../board__ctrl_8h.html#a29a631aa083c5cd7bb4a44157e8948ae',1,'board_ctrl.h']]],
+  ['board_5fctrl_5fcodec_5fmode_5fand_5fstatus_12',['BOARD_CTRL_CODEC_MODE_AND_STATUS',['../board__ctrl_8h.html#abe2f73353fa2b257d422f69e79335ba7',1,'board_ctrl.h']]],
+  ['board_5fctrl_5fdevice_5fi2c_13',['BOARD_CTRL_DEVICE_I2C',['../board__ctrl_8h.html#a176ef212def5b3f9b39599d400485978',1,'board_ctrl.h']]],
+  ['board_5fctrl_5fext_5fio_14',['BOARD_CTRL_EXT_IO',['../board__ctrl_8h.html#a0147abac2a8e923ce7809b7e86a0510a',1,'board_ctrl.h']]],
+  ['board_5fctrl_5fselect_5ft_15',['board_ctrl_select_t',['../board__ctrl_8h.html#ac92dfc8cf3b1b0749f4bcf54e008b467',1,'board_ctrl.h']]],
+  ['board_5fctrl_5ft_16',['board_ctrl_t',['../board__ctrl_8h.html#a784ab0d9a5ec2940aba453a82d057502',1,'board_ctrl.h']]]
 ];

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['obstime_0',['obsTime',['../struct_real__time__weather.html#a4d1dd969b95b8df7171eacad73c6ed8f',1,'Real_time_weather']]],
-  ['otg_5fen_1',['OTG_EN',['../struct_t_c_a6416_a__value__t.html#aadb27b9ca6afb9b73de990baefc23945',1,'TCA6416A_value_t']]],
+  ['otg_5fen_1',['OTG_EN',['../struct_t_c_a6416_a__level__t.html#a34b98664a0527c3d9e65339dcd17b246',1,'TCA6416A_level_t']]],
   ['out_5f32khz_5ffalse_2',['out_32KHz_false',['../struct_b_l5372__cfg__t.html#a542d6826c3c9ce1edda43e3d56ff15fa',1,'BL5372_cfg_t']]],
   ['out_5fmag_5fraw_5fx_5fh_3',['OUT_MAG_RAW_X_H',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a9c5492ff7df89f65f8b4dc53bd4be669',1,'lsm6ds3trc.h']]],
   ['out_5fmag_5fraw_5fx_5fl_4',['OUT_MAG_RAW_X_L',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7ab81e31dd3951aa22b168c8212a454c2c',1,'lsm6ds3trc.h']]],

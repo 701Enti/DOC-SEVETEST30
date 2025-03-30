@@ -10,6 +10,6 @@ var structboard__ctrl__t =
     [ "codec_dac_volume", "structboard__ctrl__t.html#af4f84a0c5609a57e608829515ae2f1b3", null ],
     [ "codec_mode", "structboard__ctrl__t.html#a34dbf8676e948fa4cf9ce72770b0200f", null ],
     [ "p_ext_io_mode", "structboard__ctrl__t.html#a8551d7322dae40f59d3f79e68cb9a594", null ],
-    [ "p_ext_io_value", "structboard__ctrl__t.html#a2ca997b0da2941bcdd164673c32c5975", null ],
+    [ "p_ext_io_value", "structboard__ctrl__t.html#a14adb4fb2bfbd1ad5a5d8538518e130c", null ],
     [ "p_i2c_device_config", "structboard__ctrl__t.html#a8bf1c6fe99a2c85f16ecbeeb58ae1447", null ]
 ];

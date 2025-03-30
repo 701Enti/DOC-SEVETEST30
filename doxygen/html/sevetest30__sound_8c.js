@@ -9,7 +9,7 @@ var sevetest30__sound_8c =
     [ "http_i2s_mp3_music_start", "sevetest30__sound_8c.html#a0678479a9dde6de8c94484c2b2c62afe", null ],
     [ "i2s_filter_raw_start", "sevetest30__sound_8c.html#ab791f14dfde0a93926b9ed08c87de7d5", null ],
     [ "mp3_decoder_play_time_get", "sevetest30__sound_8c.html#af5551e0dbaa7b1734fba448a42f09d35", null ],
-    [ "music_uri_play", "sevetest30__sound_8c.html#a97e17f0f8f18399573cafff71099a2c1", null ],
+    [ "music_uri_or_url_play", "sevetest30__sound_8c.html#aa504781ae2e6f2a3cd857ff90c62446e", null ],
     [ "tts_service_play", "sevetest30__sound_8c.html#a075e7e53d27ae5545b174b529f134310", null ],
     [ "ASR_cfg_buf", "sevetest30__sound_8c.html#ac94c9afb2cf553a7f46671270080a9dd", null ],
     [ "audio_rsp_filter", "sevetest30__sound_8c.html#a2178a7d77ec600217b2d53be32c95fdf", null ],

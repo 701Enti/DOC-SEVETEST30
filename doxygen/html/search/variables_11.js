@@ -1,12 +1,12 @@
 var searchData=
 [
-  ['tca6416a_5fdata_5fbuf_0',['TCA6416A_data_buf',['../_t_c_a6416_a_8c.html#a542b01116d4c8ab81413cb29fab79c54',1,'TCA6416A.c']]],
+  ['tca6416a_5fdata_5fbuf_0',['TCA6416A_data_buf',['../_t_c_a6416_a_8c.html#ad20142e79d92a919d6e36e822d1eed44',1,'TCA6416A.c']]],
   ['temp_1',['temp',['../struct_a_h_t21__result__t.html#a71d38f4c510e978f0671f5a94c397079',1,'AHT21_result_t::temp'],['../struct_real__time__weather.html#a9dd2156d87943d691420af1a86604ffc',1,'Real_time_weather::temp']]],
   ['test_5fen_2',['test_en',['../struct_b_l5372__cfg__t.html#aa1f54ad5b9db98eb2a234363e8087408',1,'BL5372_cfg_t']]],
   ['tex_3',['tex',['../structbaidu___t_t_s__cfg__t.html#a404cecb80bf26a140f781e6ae6760ddd',1,'baidu_TTS_cfg_t']]],
   ['text_4',['text',['../struct_real__time__weather.html#a169f65c2da4724b0b0b2dd98237938e5',1,'Real_time_weather']]],
-  ['thumbwheel_5fccw_5',['thumbwheel_CCW',['../struct_t_c_a6416_a__value__t.html#ac8f3e8daf4caf9d14b48ed0eb9d86e4f',1,'TCA6416A_value_t']]],
-  ['thumbwheel_5fcw_6',['thumbwheel_CW',['../struct_t_c_a6416_a__value__t.html#acb4b72f67215d78f5a7d1e1fba138f98',1,'TCA6416A_value_t']]],
+  ['thumbwheel_5fccw_5',['thumbwheel_CCW',['../struct_t_c_a6416_a__level__t.html#ac15a1dd33a5cd35b651de04210599b15',1,'TCA6416A_level_t']]],
+  ['thumbwheel_5fcw_6',['thumbwheel_CW',['../struct_t_c_a6416_a__level__t.html#ab1c3f04f8f50f31f69308c9323df18a7',1,'TCA6416A_level_t']]],
   ['thursday_5fen_7',['Thursday_en',['../struct_b_l5372__alarm__cycle__plan__t.html#a5f0867a024658622bf5cdab6ee6bc549',1,'BL5372_alarm_cycle_plan_t']]],
   ['total_5fkey_5fframe_8',['total_key_frame',['../structcartoon__plan__t.html#abd59ea8722bcae2e2a74faca7c2c6ba9',1,'cartoon_plan_t']]],
   ['total_5fstep_5fbuf_9',['total_step_buf',['../structcartoon__plan__t.html#add97917ca1cdf01b36f6cf15bedb67b5',1,'cartoon_plan_t']]],

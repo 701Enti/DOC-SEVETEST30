@@ -10,7 +10,7 @@ var lsm6ds3trc_8c =
     [ "lsm6ds3trc_get_free_fall_status", "lsm6ds3trc_8c.html#a8aaae71782145d70d4670637a15407bf", null ],
     [ "lsm6ds3trc_get_now_temperature", "lsm6ds3trc_8c.html#aaf0042004ca7f0dffcb0cebe2823e44b", null ],
     [ "lsm6ds3trc_get_step_counter", "lsm6ds3trc_8c.html#af9289ed6975d2a4f1122c9c4be5f7e87", null ],
-    [ "lsm6ds3trc_init_or_reset", "lsm6ds3trc_8c.html#aa26d2387af3001abe5809e9ba5fcd9c4", null ],
+    [ "lsm6ds3trc_init_or_reset", "lsm6ds3trc_8c.html#a4694ff8dfb7859c461760eccf792d738", null ],
     [ "value_compound_CTRL10_C", "lsm6ds3trc_8c.html#a76ffb927430ce46212f80dc9a4b6e575", null ],
     [ "value_compound_CTRL1_XL", "lsm6ds3trc_8c.html#a32e7c8785938fbad63ba6528b7119a3d", null ],
     [ "value_compound_CTRL2_G", "lsm6ds3trc_8c.html#a42b9a0c8a3b4afa9d476e9a3d8d28a08", null ],

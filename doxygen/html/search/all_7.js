@@ -20,5 +20,14 @@ var searchData=
   ['green_5fy9_17',['green_y9',['../sevetest30___led_array_8c.html#ab085bed50e76747cef84dc4a569ddf1b',1,'sevetest30_LedArray.c']]],
   ['gt32l32s0140_2ec_18',['gt32l32s0140.c',['../gt32l32s0140_8c.html',1,'']]],
   ['gt32l32s0140_2eh_19',['gt32l32s0140.h',['../gt32l32s0140_8h.html',1,'']]],
-  ['gzip_5fdecompress_20',['gzip_decompress',['../sevetest30___i_w_e_d_a_8h.html#a4d019480577b2ef75c99737c66688672',1,'gzip_decompress(void *input, void *output, int len):&#160;sevetest30_IWEDA.c'],['../sevetest30___i_w_e_d_a_8c.html#a4d019480577b2ef75c99737c66688672',1,'gzip_decompress(void *input, void *output, int len):&#160;sevetest30_IWEDA.c']]]
+  ['gt32l32s0140_5fascii_5f6x12_5fbase_5fadd_20',['GT32L32S0140_ASCII_6X12_BASE_ADD',['../gt32l32s0140_8h.html#a49d2d3fc8fce06265da8b8016263024b',1,'gt32l32s0140.h']]],
+  ['gt32l32s0140_5fgb2312_5fmap_5fbase_5fadd_21',['GT32L32S0140_GB2312_MAP_BASE_ADD',['../gt32l32s0140_8h.html#a71730b7b274ab61d9823410dec127de5',1,'gt32l32s0140.h']]],
+  ['gt32l32s0140_5fread_5faddress_5fbits_22',['GT32L32S0140_READ_ADDRESS_BITS',['../gt32l32s0140_8h.html#ade4fa8653d05cafc925fee3603633d14',1,'gt32l32s0140.h']]],
+  ['gt32l32s0140_5fread_5fcmd_23',['GT32L32S0140_READ_CMD',['../gt32l32s0140_8h.html#a81e464e3d9eb529eae4de208b2ba86fd',1,'gt32l32s0140.h']]],
+  ['gt32l32s0140_5fread_5fcommand_5fbits_24',['GT32L32S0140_READ_COMMAND_BITS',['../gt32l32s0140_8h.html#a3729fcbfd1972738efeeb0d698f9f045',1,'gt32l32s0140.h']]],
+  ['gt32l32s0140_5fread_5fdummy_5fbits_25',['GT32L32S0140_READ_DUMMY_BITS',['../gt32l32s0140_8h.html#aeb917d165660ba43082956a83658daae',1,'gt32l32s0140.h']]],
+  ['gt32l32s0140_5fread_5ftimeout_5fms_26',['GT32L32S0140_READ_TIMEOUT_MS',['../gt32l32s0140_8h.html#a6a224a999b8d45c1aab2bc0f5ce2b56d',1,'gt32l32s0140.h']]],
+  ['gt32l32s0140_5fspi_5fmode_27',['GT32L32S0140_SPI_MODE',['../gt32l32s0140_8h.html#a42a14327daed07c36df319b97fba6674',1,'gt32l32s0140.h']]],
+  ['gt32l32s0140_5fzh_5fcn_5f12x_5fbase_5fadd_28',['GT32L32S0140_ZH_CN_12x_BASE_ADD',['../gt32l32s0140_8h.html#a8b4f74e6f447792619ee5e657be3eae8',1,'gt32l32s0140.h']]],
+  ['gzip_5fdecompress_29',['gzip_decompress',['../sevetest30___i_w_e_d_a_8h.html#a4d019480577b2ef75c99737c66688672',1,'gzip_decompress(void *input, void *output, int len):&#160;sevetest30_IWEDA.c'],['../sevetest30___i_w_e_d_a_8c.html#a4d019480577b2ef75c99737c66688672',1,'gzip_decompress(void *input, void *output, int len):&#160;sevetest30_IWEDA.c']]]
 ];

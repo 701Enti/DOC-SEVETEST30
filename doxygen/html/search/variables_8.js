@@ -11,7 +11,7 @@ var searchData=
   ['imu_5fgy_5fl_8',['imu_gy_l',['../sevetest30___s_w_e_d_a_8c.html#aaa2d6c2ce5dbc924423937afc7ee1f53',1,'IMU_Gy_L:&#160;sevetest30_SWEDA.c'],['../sevetest30___s_w_e_d_a_8h.html#aaa2d6c2ce5dbc924423937afc7ee1f53',1,'IMU_Gy_L:&#160;sevetest30_SWEDA.c']]],
   ['imu_5fgz_5fh_9',['imu_gz_h',['../sevetest30___s_w_e_d_a_8c.html#acc97c3d10adce9c8b77f10e44886f4a9',1,'IMU_Gz_H:&#160;sevetest30_SWEDA.c'],['../sevetest30___s_w_e_d_a_8h.html#acc97c3d10adce9c8b77f10e44886f4a9',1,'IMU_Gz_H:&#160;sevetest30_SWEDA.c']]],
   ['imu_5fgz_5fl_10',['imu_gz_l',['../sevetest30___s_w_e_d_a_8h.html#a5d728ea4221bb21a77d4a08c2bff14f4',1,'IMU_Gz_L:&#160;sevetest30_SWEDA.c'],['../sevetest30___s_w_e_d_a_8c.html#a5d728ea4221bb21a77d4a08c2bff14f4',1,'IMU_Gz_L:&#160;sevetest30_SWEDA.c']]],
-  ['imu_5fint_11',['IMU_INT',['../struct_t_c_a6416_a__value__t.html#ae941d55f57f7ccf7b8bdcf0db0186514',1,'TCA6416A_value_t']]],
+  ['imu_5fint_11',['IMU_INT',['../struct_t_c_a6416_a__level__t.html#aa59a9460c73c90ed042b6058a2f0a24c',1,'TCA6416A_level_t']]],
   ['imu_5fxlx_5fh_12',['imu_xlx_h',['../sevetest30___s_w_e_d_a_8h.html#a33254c170bd6c3930ef2fa3b6606796f',1,'IMU_XLx_H:&#160;sevetest30_SWEDA.c'],['../sevetest30___s_w_e_d_a_8c.html#a33254c170bd6c3930ef2fa3b6606796f',1,'IMU_XLx_H:&#160;sevetest30_SWEDA.c']]],
   ['imu_5fxlx_5fl_13',['imu_xlx_l',['../sevetest30___s_w_e_d_a_8h.html#a77568ad2a0a1de84af5c720601d52bbe',1,'IMU_XLx_L:&#160;sevetest30_SWEDA.c'],['../sevetest30___s_w_e_d_a_8c.html#a77568ad2a0a1de84af5c720601d52bbe',1,'IMU_XLx_L:&#160;sevetest30_SWEDA.c']]],
   ['imu_5fxly_5fh_14',['imu_xly_h',['../sevetest30___s_w_e_d_a_8h.html#a6bcc2930d06758082d903c66c2282488',1,'IMU_XLy_H:&#160;sevetest30_SWEDA.c'],['../sevetest30___s_w_e_d_a_8c.html#a6bcc2930d06758082d903c66c2282488',1,'IMU_XLy_H:&#160;sevetest30_SWEDA.c']]],
@@ -24,5 +24,5 @@ var searchData=
   ['io_5fctrl_5fservice_5fhandle_5ftable_21',['io_ctrl_service_handle_table',['../sevetest30___b_w_e_d_a_8c.html#a6216759639ba936214a16ceed081db9f',1,'sevetest30_BWEDA.c']]],
   ['ip_5faddress_22',['ip_address',['../sevetest30___i_w_e_d_a_8h.html#a43cfeffd1fd4cfd457c5183f70d3cdaf',1,'ip_address:&#160;sevetest30_IWEDA.c'],['../sevetest30___i_w_e_d_a_8c.html#a43cfeffd1fd4cfd457c5183f70d3cdaf',1,'ip_address:&#160;sevetest30_IWEDA.c']]],
   ['ip_5fposition_5fdata_23',['ip_position_data',['../sevetest30___i_w_e_d_a_8h.html#aa9a1aac211eb71e3942f10b52638f904',1,'ip_position_data:&#160;sevetest30_IWEDA.c'],['../sevetest30___i_w_e_d_a_8c.html#aa9a1aac211eb71e3942f10b52638f904',1,'ip_position_data:&#160;sevetest30_IWEDA.c']]],
-  ['ir_24',['ir',['../struct_t_c_a6416_a__value__t.html#a0351c1376c43b0cdc12111e10e477144',1,'TCA6416A_value_t']]]
+  ['ir_24',['ir',['../struct_t_c_a6416_a__level__t.html#a00fee0a56cdebadfc72b23dd955ad068',1,'TCA6416A_level_t']]]
 ];

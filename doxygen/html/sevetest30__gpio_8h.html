@@ -171,14 +171,18 @@ sevetest30_gpio.h 的引用(Include)关系图:</div>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 函数</h2></td></tr>
-<tr class="memitem:a81f0008748f9b5e03f7681ef74146d72" id="r_a81f0008748f9b5e03f7681ef74146d72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30__gpio_8h.html#a81f0008748f9b5e03f7681ef74146d72">sevetest30_gpio_init</a> (<a class="el" href="struct_t_c_a6416_a__mode__t.html">TCA6416A_mode_t</a> *p_ext_mode, <a class="el" href="struct_t_c_a6416_a__value__t.html">TCA6416A_value_t</a> *p_ext_value)</td></tr>
-<tr class="separator:a81f0008748f9b5e03f7681ef74146d72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bc3c1d66d3b006c69df61492ddfd5c9" id="r_a9bc3c1d66d3b006c69df61492ddfd5c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30__gpio_8h.html#a9bc3c1d66d3b006c69df61492ddfd5c9">ext_io_value_service</a> ()</td></tr>
-<tr class="separator:a9bc3c1d66d3b006c69df61492ddfd5c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adad7c0479faa334137a7d6448a485bf8" id="r_adad7c0479faa334137a7d6448a485bf8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30__gpio_8h.html#adad7c0479faa334137a7d6448a485bf8">ext_io_mode_service</a> ()</td></tr>
-<tr class="separator:adad7c0479faa334137a7d6448a485bf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04eb3ac77e00b49f7c4aab5e25fcf275" id="r_a04eb3ac77e00b49f7c4aab5e25fcf275"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30__gpio_8h.html#a04eb3ac77e00b49f7c4aab5e25fcf275">ext_io_init</a> (<a class="el" href="struct_t_c_a6416_a__mode__t.html">TCA6416A_mode_t</a> *p_mode, <a class="el" href="struct_t_c_a6416_a__value__t.html">TCA6416A_value_t</a> *p_value)</td></tr>
-<tr class="separator:a04eb3ac77e00b49f7c4aab5e25fcf275"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3885e1d013125f9bf688cb53418d633" id="r_ac3885e1d013125f9bf688cb53418d633"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30__gpio_8h.html#ac3885e1d013125f9bf688cb53418d633">sevetest30_gpio_init</a> (<a class="el" href="struct_t_c_a6416_a__mode__t.html">TCA6416A_mode_t</a> *p_ext_mode, <a class="el" href="struct_t_c_a6416_a__level__t.html">TCA6416A_level_t</a> *p_ext_value)</td></tr>
+<tr class="memdesc:ac3885e1d013125f9bf688cb53418d633"><td class="mdescLeft">&#160;</td><td class="mdescRight">全局GPIO初始化,包括内部IO和扩展IO  <br /></td></tr>
+<tr class="separator:ac3885e1d013125f9bf688cb53418d633"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46cc9f10d334134bc1a06aeec4942bd7" id="r_a46cc9f10d334134bc1a06aeec4942bd7"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30__gpio_8h.html#a46cc9f10d334134bc1a06aeec4942bd7">ext_io_level_service</a> ()</td></tr>
+<tr class="memdesc:a46cc9f10d334134bc1a06aeec4942bd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">扩展GPIO电平值服务，读写通用，当有电平变化，系统中断触发会自动调用该函数，所以主要用来写操作  <br /></td></tr>
+<tr class="separator:a46cc9f10d334134bc1a06aeec4942bd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f2d3e754333cf2f36172ff82052fc4f" id="r_a5f2d3e754333cf2f36172ff82052fc4f"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30__gpio_8h.html#a5f2d3e754333cf2f36172ff82052fc4f">ext_io_mode_service</a> ()</td></tr>
+<tr class="memdesc:a5f2d3e754333cf2f36172ff82052fc4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">扩展GPIO输入输出模式服务  <br /></td></tr>
+<tr class="separator:a5f2d3e754333cf2f36172ff82052fc4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64390072adf703512acaffce44a9bf53" id="r_a64390072adf703512acaffce44a9bf53"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30__gpio_8h.html#a64390072adf703512acaffce44a9bf53">ext_io_reset_to_default</a> (<a class="el" href="struct_t_c_a6416_a__mode__t.html">TCA6416A_mode_t</a> *p_mode, <a class="el" href="struct_t_c_a6416_a__level__t.html">TCA6416A_level_t</a> *p_value)</td></tr>
+<tr class="memdesc:a64390072adf703512acaffce44a9bf53"><td class="mdescLeft">&#160;</td><td class="mdescRight">扩展GPIO(TCA6416A)重置到默认，在gpio_init函数调用时该函数就会被执行  <br /></td></tr>
+<tr class="separator:a64390072adf703512acaffce44a9bf53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 变量</h2></td></tr>
@@ -258,14 +262,74 @@ sevetest30_gpio.h 的引用(Include)关系图:</div>
 </div>
 </div>
 <h2 class="groupheader">函数说明</h2>
-<a id="a04eb3ac77e00b49f7c4aab5e25fcf275" name="a04eb3ac77e00b49f7c4aab5e25fcf275"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04eb3ac77e00b49f7c4aab5e25fcf275">&#9670;&#160;</a></span>ext_io_init()</h2>
+<a id="a46cc9f10d334134bc1a06aeec4942bd7" name="a46cc9f10d334134bc1a06aeec4942bd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46cc9f10d334134bc1a06aeec4942bd7">&#9670;&#160;</a></span>ext_io_level_service()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void ext_io_init </td>
+          <td class="memname">esp_err_t ext_io_level_service </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>扩展GPIO电平值服务，读写通用，当有电平变化，系统中断触发会自动调用该函数，所以主要用来写操作 </p>
+<p>写：先对ext_io_value_data这个全局公共结构体变量修改值，等待系统大循环调用该函数写入IO电平</p>
+<p>读：（当中断读取使能，只要电平变化系统中断触发，将全自动读取，一般无需调用）如果需要主动读取：先调用该函数刷新ext_io_value_data，之后直接读取ext_io_value_data内的成员变量值 *&zwj;/ </p><dl class="section return"><dt>返回</dt><dd>[ESP_OK 成功] <br  />
+ </dd>
+<dd>
+[ESP_ERR_INVALID_ARG 参数错误] </dd>
+<dd>
+[ESP_FAIL 发送命令时发现问题, TCA6416A未应答] </dd>
+<dd>
+[ESP_ERR_INVALID_STATE I2C driver 未安装或没有运行在主机模式] </dd>
+<dd>
+[ESP_ERR_TIMEOUT 操作超时因为总线忙] </dd></dl>
+
+</div>
+</div>
+<a id="a5f2d3e754333cf2f36172ff82052fc4f" name="a5f2d3e754333cf2f36172ff82052fc4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f2d3e754333cf2f36172ff82052fc4f">&#9670;&#160;</a></span>ext_io_mode_service()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">esp_err_t ext_io_mode_service </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>扩展GPIO输入输出模式服务 </p>
+<p>写：先对ext_io_mode_data这个全局公共结构体变量写入需要修改的值，再调用该函数控制IO输入输出模式</p>
+<p>读：直接读取ext_io_mode_data内的成员变量值，不需要调用该函数 *&zwj;/ </p><dl class="section return"><dt>返回</dt><dd>[ESP_OK 成功] <br  />
+ </dd>
+<dd>
+[ESP_ERR_INVALID_ARG 参数错误] </dd>
+<dd>
+[ESP_FAIL 发送命令时发现问题, TCA6416A未应答] </dd>
+<dd>
+[ESP_ERR_INVALID_STATE I2C driver 未安装或没有运行在主机模式] </dd>
+<dd>
+[ESP_ERR_TIMEOUT 操作超时因为总线忙] </dd></dl>
+
+</div>
+</div>
+<a id="a64390072adf703512acaffce44a9bf53" name="a64390072adf703512acaffce44a9bf53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64390072adf703512acaffce44a9bf53">&#9670;&#160;</a></span>ext_io_reset_to_default()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">esp_err_t ext_io_reset_to_default </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_t_c_a6416_a__mode__t.html">TCA6416A_mode_t</a> *&#160;</td>
           <td class="paramname"><em>p_mode</em>, </td>
@@ -273,8 +337,8 @@ sevetest30_gpio.h 的引用(Include)关系图:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_t_c_a6416_a__value__t.html">TCA6416A_value_t</a> *&#160;</td>
-          <td class="paramname"><em>p_value</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="struct_t_c_a6416_a__level__t.html">TCA6416A_level_t</a> *&#160;</td>
+          <td class="paramname"><em>p_level</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -284,50 +348,35 @@ sevetest30_gpio.h 的引用(Include)关系图:</div>
       </table>
 </div><div class="memdoc">
 
+<p>扩展GPIO(TCA6416A)重置到默认，在gpio_init函数调用时该函数就会被执行 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">p_mode</td><td>缓存位置-模式配置(比如定义一个TCA6416A_mode_t结构体作为缓存位置导入,之后可直接改变结构体成员值来控制扩展IO) </td></tr>
+    <tr><td class="paramname">p_level</td><td>缓存位置-电平数据(比如定义一个TCA6416A_level_t结构体作为缓存位置导入,之后可直接改变结构体成员值来控制扩展IO) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>[ESP_OK 成功] <br  />
+ </dd>
+<dd>
+[ESP_ERR_INVALID_ARG 参数错误] </dd>
+<dd>
+[ESP_FAIL 发送命令时发现问题, TCA6416A未应答] </dd>
+<dd>
+[ESP_ERR_INVALID_STATE I2C driver 未安装或没有运行在主机模式] </dd>
+<dd>
+[ESP_ERR_TIMEOUT 操作超时因为总线忙] </dd></dl>
+
 </div>
 </div>
-<a id="adad7c0479faa334137a7d6448a485bf8" name="adad7c0479faa334137a7d6448a485bf8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adad7c0479faa334137a7d6448a485bf8">&#9670;&#160;</a></span>ext_io_mode_service()</h2>
+<a id="ac3885e1d013125f9bf688cb53418d633" name="ac3885e1d013125f9bf688cb53418d633"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3885e1d013125f9bf688cb53418d633">&#9670;&#160;</a></span>sevetest30_gpio_init()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void ext_io_mode_service </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9bc3c1d66d3b006c69df61492ddfd5c9" name="a9bc3c1d66d3b006c69df61492ddfd5c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9bc3c1d66d3b006c69df61492ddfd5c9">&#9670;&#160;</a></span>ext_io_value_service()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ext_io_value_service </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a81f0008748f9b5e03f7681ef74146d72" name="a81f0008748f9b5e03f7681ef74146d72"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81f0008748f9b5e03f7681ef74146d72">&#9670;&#160;</a></span>sevetest30_gpio_init()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sevetest30_gpio_init </td>
+          <td class="memname">esp_err_t sevetest30_gpio_init </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_t_c_a6416_a__mode__t.html">TCA6416A_mode_t</a> *&#160;</td>
           <td class="paramname"><em>p_ext_mode</em>, </td>
@@ -335,7 +384,7 @@ sevetest30_gpio.h 的引用(Include)关系图:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_t_c_a6416_a__value__t.html">TCA6416A_value_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="struct_t_c_a6416_a__level__t.html">TCA6416A_level_t</a> *&#160;</td>
           <td class="paramname"><em>p_ext_value</em>&#160;</td>
         </tr>
         <tr>
@@ -345,6 +394,29 @@ sevetest30_gpio.h 的引用(Include)关系图:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>全局GPIO初始化,包括内部IO和扩展IO </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">p_mode</td><td>缓存位置-模式配置(比如定义一个TCA6416A_mode_t结构体作为缓存位置导入,之后可直接改变结构体成员值来控制扩展IO) </td></tr>
+    <tr><td class="paramname">p_level</td><td>缓存位置-电平数据(比如定义一个TCA6416A_level_t结构体作为缓存位置导入,之后可直接改变结构体成员值来控制扩展IO) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>[ESP_OK 成功] <br  />
+ </dd>
+<dd>
+[ESP_ERR_INVALID_ARG 输入参数错误 / 选择了错误的GPIO] </dd>
+<dd>
+[ESP_FAIL 发送命令时发现问题, TCA6416A未应答] </dd>
+<dd>
+[ESP_ERR_INVALID_STATE ISR服务已经安装 / ISR服务安装失败 / I2C driver 未安装或没有运行在主机模式] </dd>
+<dd>
+[ESP_ERR_TIMEOUT 操作超时因为总线忙] </dd>
+<dd>
+[ESP_ERR_NO_MEM 安装ISR服务时发现内存不足] </dd>
+<dd>
+[ESP_ERR_NOT_FOUND 没有找到特定FLAG的空闲interrupt] </dd></dl>
 
 </div>
 </div>

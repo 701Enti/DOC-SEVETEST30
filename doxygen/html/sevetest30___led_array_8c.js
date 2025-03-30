@@ -10,7 +10,7 @@ var sevetest30___led_array_8c =
     [ "font_roll_print_12x", "sevetest30___led_array_8c.html#ab7ec88320017091e65a906970e06dafd", null ],
     [ "led_strip_hsv2rgb", "sevetest30___led_array_8c.html#a1d9fe3c8e1488269731f114f65493de9", null ],
     [ "ledarray_deinit", "sevetest30___led_array_8c.html#af09cfa198e2fb90a5aa9654d886f3664", null ],
-    [ "ledarray_init", "sevetest30___led_array_8c.html#aefd30405e1080808060dc92054df0bdb", null ],
+    [ "ledarray_init", "sevetest30___led_array_8c.html#a1e0620bbe75d6552585cf52e3d7170ef", null ],
     [ "ledarray_intensity_change", "sevetest30___led_array_8c.html#acf17011d8638511cc2a6ea72883b0bdb", null ],
     [ "ledarray_set_and_write", "sevetest30___led_array_8c.html#a0aa50fecb446229afaf4d7b4808254d8", null ],
     [ "ledarray_set_refresh_mode", "sevetest30___led_array_8c.html#a350204007e04d378da6acbc29c1c816c", null ],

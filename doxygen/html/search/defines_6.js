@@ -8,17 +8,8 @@ var searchData=
   ['fft_5fview_5fdata_5fmin_5',['FFT_VIEW_DATA_MIN',['../sevetest30___u_i_8h.html#a15418b88b8cdb9b60b141866bf515c80',1,'sevetest30_UI.h']]],
   ['fft_5fview_5fwidth_5fmax_6',['FFT_VIEW_WIDTH_MAX',['../sevetest30___u_i_8h.html#a6cc612327a8c53b80112c2a8392539b1',1,'sevetest30_UI.h']]],
   ['figure_7',['FIGURE',['../sevetest30___led_array_8h.html#a18ff66448700e8d0184a01b54e05f340',1,'sevetest30_LedArray.h']]],
-  ['font_5fascii_5f6x12_5fbase_5fadd_8',['FONT_ASCII_6X12_BASE_ADD',['../gt32l32s0140_8h.html#afbfdb4a09c98c28026eba5a8faa26d9c',1,'gt32l32s0140.h']]],
-  ['font_5fgb2312_5fmap_5fbase_5fadd_9',['FONT_GB2312_MAP_BASE_ADD',['../gt32l32s0140_8h.html#a91cde5cdb4729ee4521c4509fbc0c696',1,'gt32l32s0140.h']]],
-  ['font_5fprint_5ffmt_5fbuf_5fsize_10',['FONT_PRINT_FMT_BUF_SIZE',['../sevetest30___led_array_8h.html#a7e587c17cee27d7a1d748472306ec17b',1,'sevetest30_LedArray.h']]],
-  ['font_5fprint_5fnum_5fmax_11',['FONT_PRINT_NUM_MAX',['../sevetest30___led_array_8h.html#a040fd7a36c7bade335b19df6c8ccf925',1,'sevetest30_LedArray.h']]],
-  ['font_5fread_5faddress_5fbits_12',['FONT_READ_ADDRESS_BITS',['../gt32l32s0140_8h.html#a9fdefa60db7c3bb6e4fa3376ca9ad3f8',1,'gt32l32s0140.h']]],
-  ['font_5fread_5fascii_5f6x12_5fbytes_13',['FONT_READ_ASCII_6X12_BYTES',['../gt32l32s0140_8h.html#a16bdee40048a6b366aefc94f7d8eae71',1,'gt32l32s0140.h']]],
-  ['font_5fread_5fcmd_14',['FONT_READ_CMD',['../gt32l32s0140_8h.html#a84f50b436e51b3ff3b765d52c73e1e81',1,'gt32l32s0140.h']]],
-  ['font_5fread_5fcommand_5fbits_15',['FONT_READ_COMMAND_BITS',['../gt32l32s0140_8h.html#a8ad87e757264a30d8f5d817008efdabf',1,'gt32l32s0140.h']]],
-  ['font_5fread_5fdummy_5fbits_16',['FONT_READ_DUMMY_BITS',['../gt32l32s0140_8h.html#a19f96d20fb623bae160142c93f8ad4c7',1,'gt32l32s0140.h']]],
-  ['font_5fread_5ftimeout_5fms_17',['FONT_READ_TIMEOUT_MS',['../gt32l32s0140_8h.html#a66cff30b4bb3e790ffeb4405cbca4746',1,'gt32l32s0140.h']]],
-  ['font_5fread_5fzh_5fcn_5f12x_5fbytes_18',['FONT_READ_ZH_CN_12X_BYTES',['../gt32l32s0140_8h.html#a83d046665b7600df8b85b8c6184ebb3f',1,'gt32l32s0140.h']]],
-  ['font_5fspi_5fmode_19',['FONT_SPI_MODE',['../gt32l32s0140_8h.html#a791375ca1953bff9c94cf49ce9b44b05',1,'gt32l32s0140.h']]],
-  ['font_5fzh_5fcn_5f12x_5fbase_5fadd_20',['FONT_ZH_CN_12x_BASE_ADD',['../gt32l32s0140_8h.html#a4d593ef25667f329586304c323053662',1,'gt32l32s0140.h']]]
+  ['font_5fchip_5fprint_5ffmt_5fbuf_5fsize_8',['FONT_CHIP_PRINT_FMT_BUF_SIZE',['../sevetest30___led_array_8h.html#a43a1e63788f38cc12a669caf175088f2',1,'sevetest30_LedArray.h']]],
+  ['font_5fchip_5fprint_5fnum_5fmax_9',['FONT_CHIP_PRINT_NUM_MAX',['../sevetest30___led_array_8h.html#ac67fe2c4f9a541177ac7910707d4f84a',1,'sevetest30_LedArray.h']]],
+  ['font_5fchip_5fread_5fascii_5f6x12_5fbytes_10',['FONT_CHIP_READ_ASCII_6X12_BYTES',['../gt32l32s0140_8h.html#aba2cee3c5ad238117eb26aafc96b0120',1,'gt32l32s0140.h']]],
+  ['font_5fchip_5fread_5fzh_5fcn_5f12x_5fbytes_11',['FONT_CHIP_READ_ZH_CN_12X_BYTES',['../gt32l32s0140_8h.html#aa31dcc105d64b58377ab3cab43c14d26',1,'gt32l32s0140.h']]]
 ];

@@ -25,7 +25,7 @@ var annotated_dup =
     [ "prepare_type_env_t", "structprepare__type__env__t.html", "structprepare__type__env__t" ],
     [ "Real_time_weather", "struct_real__time__weather.html", "struct_real__time__weather" ],
     [ "systemtime_t", "structsystemtime__t.html", "structsystemtime__t" ],
+    [ "TCA6416A_level_t", "struct_t_c_a6416_a__level__t.html", "struct_t_c_a6416_a__level__t" ],
     [ "TCA6416A_mode_t", "struct_t_c_a6416_a__mode__t.html", "struct_t_c_a6416_a__mode__t" ],
-    [ "TCA6416A_value_t", "struct_t_c_a6416_a__value__t.html", "struct_t_c_a6416_a__value__t" ],
     [ "UI_color_visual_cfg_t", "struct_u_i__color__visual__cfg__t.html", "struct_u_i__color__visual__cfg__t" ]
 ];
