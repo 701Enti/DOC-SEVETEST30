@@ -1,17 +1,19 @@
 var board__ctrl_8h =
 [
     [ "board_ctrl_t", "structboard__ctrl__t.html", "structboard__ctrl__t" ],
-    [ "BOARD_CTRL_AMPLIFIER", "board__ctrl_8h.html#ab230bbd71d50175dfa1fdfe2019474c2", null ],
-    [ "BOARD_CTRL_BOOST", "board__ctrl_8h.html#ae6c266e3ab34bd4173c11e51628367ac", null ],
-    [ "BOARD_CTRL_CODEC_ADC_GAIN", "board__ctrl_8h.html#a07a3166654c98a0801bac984bb77d6e3", null ],
-    [ "BOARD_CTRL_CODEC_ADC_PIN", "board__ctrl_8h.html#a45bb250689de7397d93f3e8d8483e6be", null ],
-    [ "BOARD_CTRL_CODEC_DAC_PIN", "board__ctrl_8h.html#ad4a10f0c9a268d7d1c3022c4e7694f0a", null ],
-    [ "BOARD_CTRL_CODEC_DAC_VOL", "board__ctrl_8h.html#a29a631aa083c5cd7bb4a44157e8948ae", null ],
-    [ "BOARD_CTRL_CODEC_MODE_AND_STATUS", "board__ctrl_8h.html#abe2f73353fa2b257d422f69e79335ba7", null ],
-    [ "BOARD_CTRL_DEVICE_I2C", "board__ctrl_8h.html#a176ef212def5b3f9b39599d400485978", null ],
-    [ "BOARD_CTRL_EXT_IO", "board__ctrl_8h.html#a0147abac2a8e923ce7809b7e86a0510a", null ],
-    [ "board_ctrl_select_t", "board__ctrl_8h.html#ac92dfc8cf3b1b0749f4bcf54e008b467", null ],
     [ "board_ctrl_t", "board__ctrl_8h.html#a784ab0d9a5ec2940aba453a82d057502", null ],
+    [ "board_ctrl_select_t", "board__ctrl_8h.html#a5743515e10f317337f4c19563764b3dd", [
+      [ "BOARD_CTRL_ALL", "board__ctrl_8h.html#a5743515e10f317337f4c19563764b3dda2777537adcf560d7517d6044dfaa0ec6", null ],
+      [ "BOARD_CTRL_DEVICE_I2C", "board__ctrl_8h.html#a5743515e10f317337f4c19563764b3ddaaba1ed6f5e268d7928bca6fb6aa5b730", null ],
+      [ "BOARD_CTRL_AMPLIFIER", "board__ctrl_8h.html#a5743515e10f317337f4c19563764b3dda00ce78d0281ebf4eac8197f29b462a0c", null ],
+      [ "BOARD_CTRL_BOOST", "board__ctrl_8h.html#a5743515e10f317337f4c19563764b3ddaa1994a9cfa0e397e7f029a739fc218fd", null ],
+      [ "BOARD_CTRL_CODEC_MODE_AND_STATUS", "board__ctrl_8h.html#a5743515e10f317337f4c19563764b3dda3f9e5dee7c29db801ef9685b5e6273c9", null ],
+      [ "BOARD_CTRL_CODEC_DAC_PIN", "board__ctrl_8h.html#a5743515e10f317337f4c19563764b3dda7408df7590add2816fadd30c82f193a1", null ],
+      [ "BOARD_CTRL_CODEC_DAC_VOL", "board__ctrl_8h.html#a5743515e10f317337f4c19563764b3dda45ff7c9cffb0bc3835079d7e658aff56", null ],
+      [ "BOARD_CTRL_CODEC_ADC_PIN", "board__ctrl_8h.html#a5743515e10f317337f4c19563764b3dda02369bb3ac688cb27f1f5bb19d2dddc9", null ],
+      [ "BOARD_CTRL_CODEC_ADC_GAIN", "board__ctrl_8h.html#a5743515e10f317337f4c19563764b3dda383b4d793e7eaa2c390e6b0bc1268625", null ],
+      [ "BOARD_CTRL_EXT_IO", "board__ctrl_8h.html#a5743515e10f317337f4c19563764b3dda36b0bd04f0623bfb81b5c3b0c64ab786", null ]
+    ] ],
     [ "init_step_id_t", "board__ctrl_8h.html#aaf5e14aa5469195ef948ffc62cff1191", [
       [ "AUDIO_BOARD_INIT", "board__ctrl_8h.html#aaf5e14aa5469195ef948ffc62cff1191a02ea06202aae50b383e3ff34615a0f6f", null ],
       [ "SEVETEST30_GPIO_INIT", "board__ctrl_8h.html#aaf5e14aa5469195ef948ffc62cff1191a3144116bf2ee8bbfd870682fb8321350", null ],

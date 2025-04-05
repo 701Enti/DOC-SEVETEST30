@@ -216,13 +216,16 @@ sevetest30_IWEDA.h 的引用(Include)关系图:</div>
 <tr class="memdesc:a87dac3e875ff547b5217b6b5f1f7f59d"><td class="mdescLeft">&#160;</td><td class="mdescRight">检测URL的可用性，进行针对如音频资源的可用检查而无其他复杂上下文  <br /></td></tr>
 <tr class="separator:a87dac3e875ff547b5217b6b5f1f7f59d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bf7359c50e40d51701bee3becfaf201" id="r_a1bf7359c50e40d51701bee3becfaf201"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___i_w_e_d_a_8h.html#a1bf7359c50e40d51701bee3becfaf201">http_check_response_content</a> (esp_http_client_handle_t client_handle)</td></tr>
-<tr class="memdesc:a1bf7359c50e40d51701bee3becfaf201"><td class="mdescLeft">&#160;</td><td class="mdescRight">检查响应内容  <br /></td></tr>
+<tr class="memdesc:a1bf7359c50e40d51701bee3becfaf201"><td class="mdescLeft">&#160;</td><td class="mdescRight">检查响应内容是不是可以直接获取资源  <br /></td></tr>
 <tr class="separator:a1bf7359c50e40d51701bee3becfaf201"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9c17de9ad3e974ac5dbcfa04b69aa17" id="r_ab9c17de9ad3e974ac5dbcfa04b69aa17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___i_w_e_d_a_8h.html#ab9c17de9ad3e974ac5dbcfa04b69aa17">http_init_get_request</a> ()</td></tr>
 <tr class="memdesc:ab9c17de9ad3e974ac5dbcfa04b69aa17"><td class="mdescLeft">&#160;</td><td class="mdescRight">初始化GET请求  <br /></td></tr>
 <tr class="separator:ab9c17de9ad3e974ac5dbcfa04b69aa17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a028a26229a83f29f38df40c82a3715c1" id="r_a028a26229a83f29f38df40c82a3715c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___i_w_e_d_a_8h.html#a028a26229a83f29f38df40c82a3715c1">http_get_request_send</a> (bool *flag)</td></tr>
 <tr class="separator:a028a26229a83f29f38df40c82a3715c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3c434acd88497068768e177bfda1048" id="r_aa3c434acd88497068768e177bfda1048"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___i_w_e_d_a_8h.html#aa3c434acd88497068768e177bfda1048">change_url_if_need_redirect</a> (char **url)</td></tr>
+<tr class="memdesc:aa3c434acd88497068768e177bfda1048"><td class="mdescLeft">&#160;</td><td class="mdescRight">如果这个url需要重定向,更改url内容  <br /></td></tr>
+<tr class="separator:aa3c434acd88497068768e177bfda1048"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea77672640e2d57865fcd3e7c26dc4b1" id="r_aea77672640e2d57865fcd3e7c26dc4b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___i_w_e_d_a_8h.html#aea77672640e2d57865fcd3e7c26dc4b1">asr_data_save_result</a> (char *asr_response)</td></tr>
 <tr class="memdesc:aea77672640e2d57865fcd3e7c26dc4b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">解析百度语音识别响应的数据，缓存识别结果到 asr_result_tex  <br /></td></tr>
 <tr class="separator:aea77672640e2d57865fcd3e7c26dc4b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -250,10 +253,10 @@ sevetest30_IWEDA.h 的引用(Include)关系图:</div>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 变量</h2></td></tr>
-<tr class="memitem:a133d5084d12e7ff3fd5f9241628b1e06" id="r_a133d5084d12e7ff3fd5f9241628b1e06"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___i_w_e_d_a_8h.html#a133d5084d12e7ff3fd5f9241628b1e06">http_get_out_buf</a> [<a class="el" href="sevetest30___i_w_e_d_a_8h.html#a39df150cec693d7e56c68ce387ed6517">HTTP_BUF_MAX</a>]</td></tr>
-<tr class="separator:a133d5084d12e7ff3fd5f9241628b1e06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2059450556bc82366d96a332d68881bf" id="r_a2059450556bc82366d96a332d68881bf"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___i_w_e_d_a_8h.html#a2059450556bc82366d96a332d68881bf">http_get_url_buf</a> [<a class="el" href="sevetest30___i_w_e_d_a_8h.html#a39df150cec693d7e56c68ce387ed6517">HTTP_BUF_MAX</a>]</td></tr>
-<tr class="separator:a2059450556bc82366d96a332d68881bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96720c6d525cfe2398069bb871f6ff3d" id="r_a96720c6d525cfe2398069bb871f6ff3d"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___i_w_e_d_a_8h.html#a96720c6d525cfe2398069bb871f6ff3d">http_output_buf</a> [<a class="el" href="sevetest30___i_w_e_d_a_8h.html#a39df150cec693d7e56c68ce387ed6517">HTTP_BUF_MAX</a>]</td></tr>
+<tr class="separator:a96720c6d525cfe2398069bb871f6ff3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b695cd309c55961dc8814c3c1955f06" id="r_a9b695cd309c55961dc8814c3c1955f06"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___i_w_e_d_a_8h.html#a9b695cd309c55961dc8814c3c1955f06">http_url_buf</a> [<a class="el" href="sevetest30___i_w_e_d_a_8h.html#a39df150cec693d7e56c68ce387ed6517">HTTP_BUF_MAX</a>]</td></tr>
+<tr class="separator:a9b695cd309c55961dc8814c3c1955f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43cfeffd1fd4cfd457c5183f70d3cdaf" id="r_a43cfeffd1fd4cfd457c5183f70d3cdaf"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___i_w_e_d_a_8h.html#a43cfeffd1fd4cfd457c5183f70d3cdaf">ip_address</a></td></tr>
 <tr class="separator:a43cfeffd1fd4cfd457c5183f70d3cdaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b1df1a1a353073fa2f8db3dd6fe3f26" id="r_a2b1df1a1a353073fa2f8db3dd6fe3f26"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___i_w_e_d_a_8h.html#a2b1df1a1a353073fa2f8db3dd6fe3f26">sevetest30_asr_result_tex</a></td></tr>
@@ -605,6 +608,34 @@ sevetest30_IWEDA.h 的引用(Include)关系图:</div>
 
 </div>
 </div>
+<a id="aa3c434acd88497068768e177bfda1048" name="aa3c434acd88497068768e177bfda1048"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3c434acd88497068768e177bfda1048">&#9670;&#160;</a></span>change_url_if_need_redirect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void change_url_if_need_redirect </td>
+          <td>(</td>
+          <td class="paramtype">char **&#160;</td>
+          <td class="paramname"><em>url</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>如果这个url需要重定向,更改url内容 </p>
+<p>原来url数据不会清除, 只是参数url指代位置切换到location_url缓存</p>
+<p>请尽快使用或复制该url, 在下次change_url_if_need_redirect调用之前 </p><dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">url</td><td><br  />
+ </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a8b985c45f6a665a338a423b498bbdb9d" name="a8b985c45f6a665a338a423b498bbdb9d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8b985c45f6a665a338a423b498bbdb9d">&#9670;&#160;</a></span>ERNIE_Bot_4_chat_tex_exchange()</h2>
 
@@ -753,14 +784,14 @@ sevetest30_IWEDA.h 的引用(Include)关系图:</div>
       </table>
 </div><div class="memdoc">
 
-<p>检查响应内容 </p>
+<p>检查响应内容是不是可以直接获取资源 </p>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
     <tr><td class="paramname">client_handle</td><td>连接句柄 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>返回</dt><dd>ESP_OK 正确可用 否则返回 响应错误码 </dd></dl>
+<dl class="section return"><dt>返回</dt><dd>ESP_OK 可以直接获取资源 否则(不可用/需要重定向)返回 响应码 </dd></dl>
 
 </div>
 </div>
@@ -996,8 +1027,8 @@ sevetest30_IWEDA.h 的引用(Include)关系图:</div>
 </div>
 </div>
 <h2 class="groupheader">变量说明</h2>
-<a id="a133d5084d12e7ff3fd5f9241628b1e06" name="a133d5084d12e7ff3fd5f9241628b1e06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a133d5084d12e7ff3fd5f9241628b1e06">&#9670;&#160;</a></span>http_get_out_buf</h2>
+<a id="a96720c6d525cfe2398069bb871f6ff3d" name="a96720c6d525cfe2398069bb871f6ff3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96720c6d525cfe2398069bb871f6ff3d">&#9670;&#160;</a></span>http_output_buf</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1006,7 +1037,7 @@ sevetest30_IWEDA.h 的引用(Include)关系图:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">char http_get_out_buf[<a class="el" href="sevetest30___i_w_e_d_a_8h.html#a39df150cec693d7e56c68ce387ed6517">HTTP_BUF_MAX</a>]</td>
+          <td class="memname">char http_output_buf[<a class="el" href="sevetest30___i_w_e_d_a_8h.html#a39df150cec693d7e56c68ce387ed6517">HTTP_BUF_MAX</a>]</td>
         </tr>
       </table>
   </td>
@@ -1018,8 +1049,8 @@ sevetest30_IWEDA.h 的引用(Include)关系图:</div>
 
 </div>
 </div>
-<a id="a2059450556bc82366d96a332d68881bf" name="a2059450556bc82366d96a332d68881bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2059450556bc82366d96a332d68881bf">&#9670;&#160;</a></span>http_get_url_buf</h2>
+<a id="a9b695cd309c55961dc8814c3c1955f06" name="a9b695cd309c55961dc8814c3c1955f06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b695cd309c55961dc8814c3c1955f06">&#9670;&#160;</a></span>http_url_buf</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1028,7 +1059,7 @@ sevetest30_IWEDA.h 的引用(Include)关系图:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">char http_get_url_buf[<a class="el" href="sevetest30___i_w_e_d_a_8h.html#a39df150cec693d7e56c68ce387ed6517">HTTP_BUF_MAX</a>]</td>
+          <td class="memname">char http_url_buf[<a class="el" href="sevetest30___i_w_e_d_a_8h.html#a39df150cec693d7e56c68ce387ed6517">HTTP_BUF_MAX</a>]</td>
         </tr>
       </table>
   </td>

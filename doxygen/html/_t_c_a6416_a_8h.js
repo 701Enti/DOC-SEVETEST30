@@ -12,6 +12,6 @@ var _t_c_a6416_a_8h =
     [ "TCA6416A_OUT2", "_t_c_a6416_a_8h.html#a98bd63c55595faa7ae4105644c52c474", null ],
     [ "TCA6416A_level_t", "_t_c_a6416_a_8h.html#a8e54019fcda5f2208280b8ccc561d691", null ],
     [ "TCA6416A_mode_t", "_t_c_a6416_a_8h.html#a403e3348f1e6e790346b8255d889bd87", null ],
-    [ "TCA6416A_gpio_service", "_t_c_a6416_a_8h.html#a73748f384d2c0e76389383e4228ff84f", null ],
-    [ "TCA6416A_mode_set", "_t_c_a6416_a_8h.html#a0745867194d13276c4b9b223a1df1b28", null ]
+    [ "TCA6416A_gpio_level_service", "_t_c_a6416_a_8h.html#a43edcbdb40db5f6b12ced9694fb1efc3", null ],
+    [ "TCA6416A_gpio_mode_set", "_t_c_a6416_a_8h.html#a4d88e91996ed1a9a40ebb3c4c269ef2c", null ]
 ];

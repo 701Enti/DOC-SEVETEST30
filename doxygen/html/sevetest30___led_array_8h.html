@@ -139,7 +139,7 @@ $(document).ready(function(){initNavTree('sevetest30___led_array_8h.html',''); i
 </div><div class="textblock"><div class="dynheader">
 sevetest30_LedArray.h 的引用(Include)关系图:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="sevetest30___led_array_8h__incl.svg" width="1511" height="432"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="sevetest30___led_array_8h__incl.svg" width="1604" height="432"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 此图展示该文件直接或间接的被哪些文件引用了:</div>
@@ -169,6 +169,8 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
 <tr class="separator:a7397500f61c23a1abea851012874bd3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a604ddda5b43efb35391391758c9d8b03" id="r_a604ddda5b43efb35391391758c9d8b03"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a604ddda5b43efb35391391758c9d8b03">LEDARRAY_REFRESH_TASK_PRIO</a>&#160;&#160;&#160;(1)</td></tr>
 <tr class="separator:a604ddda5b43efb35391391758c9d8b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af03f12e6e5c41a397cacda371d2cd2e0" id="r_af03f12e6e5c41a397cacda371d2cd2e0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#af03f12e6e5c41a397cacda371d2cd2e0">LEDARRAY_REFRESH_TASK_STACK_SIZE</a>&#160;&#160;&#160;(1024 * 2)</td></tr>
+<tr class="separator:af03f12e6e5c41a397cacda371d2cd2e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1338a63be3ce085ed1707b3cd37a8c7" id="r_ac1338a63be3ce085ed1707b3cd37a8c7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#ac1338a63be3ce085ed1707b3cd37a8c7">LEDARRAY_REFRESH_INIT_MODE</a>&#160;&#160;&#160;<a class="el" href="sevetest30___led_array_8h.html#a43484d7921da2388b427cde75836f46eadd4d1b30cc7e6a4bbceee0a073bf49e6">LEDARRAY_REFRESH_ALL_ONCE</a></td></tr>
 <tr class="separator:ac1338a63be3ce085ed1707b3cd37a8c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -188,7 +190,7 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 函数</h2></td></tr>
 <tr class="memitem:a350204007e04d378da6acbc29c1c816c" id="r_a350204007e04d378da6acbc29c1c816c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a350204007e04d378da6acbc29c1c816c">ledarray_set_refresh_mode</a> (<a class="el" href="sevetest30___led_array_8h.html#a43484d7921da2388b427cde75836f46e">ledarray_refresh_mode_t</a> mode)</td></tr>
-<tr class="memdesc:a350204007e04d378da6acbc29c1c816c"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置LED阵列的刷新模式  <br /></td></tr>
+<tr class="memdesc:a350204007e04d378da6acbc29c1c816c"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置LED阵列的刷新模式("ALL_ONCE" "ALL_MULTIPLE" "PART_ONCE" "PART_MULTIPLE")  <br /></td></tr>
 <tr class="separator:a350204007e04d378da6acbc29c1c816c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2dce94d7dcbda0dd03daf92d029147e" id="r_af2dce94d7dcbda0dd03daf92d029147e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#af2dce94d7dcbda0dd03daf92d029147e">separation_draw</a> (int32_t x, int32_t y, uint8_t breadth, const uint8_t *p, uint8_t byte_number, uint8_t *color_in, uint8_t change)</td></tr>
 <tr class="separator:af2dce94d7dcbda0dd03daf92d029147e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -345,6 +347,20 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
       <table class="memname">
         <tr>
           <td class="memname">#define LEDARRAY_REFRESH_TASK_PRIO&#160;&#160;&#160;(1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af03f12e6e5c41a397cacda371d2cd2e0" name="af03f12e6e5c41a397cacda371d2cd2e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af03f12e6e5c41a397cacda371d2cd2e0">&#9670;&#160;</a></span>LEDARRAY_REFRESH_TASK_STACK_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LEDARRAY_REFRESH_TASK_STACK_SIZE&#160;&#160;&#160;(1024 * 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -964,10 +980,10 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
       </table>
 </div><div class="memdoc">
 
-<p>设置LED阵列的刷新模式 </p>
+<p>设置LED阵列的刷新模式("ALL_ONCE" "ALL_MULTIPLE" "PART_ONCE" "PART_MULTIPLE") </p>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
-    <tr><td class="paramname">mode</td><td>刷新模式 </td></tr>
+    <tr><td class="paramname">mode</td><td>刷新模式,这是一个枚举类型 </td></tr>
   </table>
   </dd>
 </dl>

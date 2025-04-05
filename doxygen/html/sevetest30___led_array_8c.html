@@ -147,28 +147,29 @@ $(document).ready(function(){initNavTree('sevetest30___led_array_8c.html',''); i
 <code>#include &quot;driver/rmt.h&quot;</code><br />
 <code>#include &quot;hal/rmt_types.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="gt32l32s0140_8h_source.html">gt32l32s0140.h</a>&quot;</code><br />
+<code>#include &quot;esp_check.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 sevetest30_LedArray.c 的引用(Include)关系图:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="sevetest30___led_array_8c__incl.svg" width="3008" height="476"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="sevetest30___led_array_8c__incl.svg" width="2948" height="476"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 函数</h2></td></tr>
 <tr class="memitem:a7494912b8b468cd33f54bbfecbbbba17" id="r_a7494912b8b468cd33f54bbfecbbbba17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8c.html#a7494912b8b468cd33f54bbfecbbbba17">refresh_ALL_ONCE_Task</a> ()</td></tr>
-<tr class="memdesc:a7494912b8b468cd33f54bbfecbbbba17"><td class="mdescLeft">&#160;</td><td class="mdescRight">[单次全刷任务]一次性刷新整个屏幕所有行,全屏刷新之后才发生延时  <br /></td></tr>
+<tr class="memdesc:a7494912b8b468cd33f54bbfecbbbba17"><td class="mdescLeft">&#160;</td><td class="mdescRight">[单次全刷任务 - ALL_ONCE]一次性刷新整个屏幕所有行,全屏刷新之后才发生延时  <br /></td></tr>
 <tr class="separator:a7494912b8b468cd33f54bbfecbbbba17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0c691643dc5861bc0fda7636c697537" id="r_ad0c691643dc5861bc0fda7636c697537"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8c.html#ad0c691643dc5861bc0fda7636c697537">refresh_ALL_MULTIPLE_Task</a> ()</td></tr>
-<tr class="memdesc:ad0c691643dc5861bc0fda7636c697537"><td class="mdescLeft">&#160;</td><td class="mdescRight">[多次全刷任务]分多步进地完成刷新整个屏幕所有行,每步之后发生延时  <br /></td></tr>
+<tr class="memdesc:ad0c691643dc5861bc0fda7636c697537"><td class="mdescLeft">&#160;</td><td class="mdescRight">[多次全刷任务 - ALL_MULTIPLE]分多步进地完成刷新整个屏幕所有行,每步之后发生延时  <br /></td></tr>
 <tr class="separator:ad0c691643dc5861bc0fda7636c697537"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f203095cbab702cdc81c81b3b784ad0" id="r_a3f203095cbab702cdc81c81b3b784ad0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8c.html#a3f203095cbab702cdc81c81b3b784ad0">refresh_PART_ONCE_Task</a> ()</td></tr>
-<tr class="memdesc:a3f203095cbab702cdc81c81b3b784ad0"><td class="mdescLeft">&#160;</td><td class="mdescRight">[单次局刷任务]一次性刷新所有发生绘制活动的行,需要部分完全刷新之后才发生延时  <br /></td></tr>
+<tr class="memdesc:a3f203095cbab702cdc81c81b3b784ad0"><td class="mdescLeft">&#160;</td><td class="mdescRight">[单次局刷任务 - PART_ONCE]一次性刷新所有发生绘制活动的行,需要部分完全刷新之后才发生延时  <br /></td></tr>
 <tr class="separator:a3f203095cbab702cdc81c81b3b784ad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bfb656ba73798b17635142277e0ee33" id="r_a2bfb656ba73798b17635142277e0ee33"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8c.html#a2bfb656ba73798b17635142277e0ee33">refresh_PART_MULTIPLE_Task</a> ()</td></tr>
-<tr class="memdesc:a2bfb656ba73798b17635142277e0ee33"><td class="mdescLeft">&#160;</td><td class="mdescRight">[多次局刷任务]分多步进地完成刷新所有发生绘制活动的行,每步之后发生延时  <br /></td></tr>
+<tr class="memdesc:a2bfb656ba73798b17635142277e0ee33"><td class="mdescLeft">&#160;</td><td class="mdescRight">[多次局刷任务 - PART_MULTIPLE]分多步进地完成刷新所有发生绘制活动的行,每步之后发生延时  <br /></td></tr>
 <tr class="separator:a2bfb656ba73798b17635142277e0ee33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a350204007e04d378da6acbc29c1c816c" id="r_a350204007e04d378da6acbc29c1c816c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8c.html#a350204007e04d378da6acbc29c1c816c">ledarray_set_refresh_mode</a> (<a class="el" href="sevetest30___led_array_8h.html#a43484d7921da2388b427cde75836f46e">ledarray_refresh_mode_t</a> mode)</td></tr>
-<tr class="memdesc:a350204007e04d378da6acbc29c1c816c"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置LED阵列的刷新模式  <br /></td></tr>
+<tr class="memdesc:a350204007e04d378da6acbc29c1c816c"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置LED阵列的刷新模式("ALL_ONCE" "ALL_MULTIPLE" "PART_ONCE" "PART_MULTIPLE")  <br /></td></tr>
 <tr class="separator:a350204007e04d378da6acbc29c1c816c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa49fb91e47f7a6f6e916239164d8ee4b" id="r_aa49fb91e47f7a6f6e916239164d8ee4b"><td class="memItemLeft" align="right" valign="top">uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8c.html#aa49fb91e47f7a6f6e916239164d8ee4b">rectangle</a> (int8_t breadth, int8_t length)</td></tr>
 <tr class="memdesc:aa49fb91e47f7a6f6e916239164d8ee4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">生成一个矩形字模(需要释放)  <br /></td></tr>
@@ -871,10 +872,10 @@ sevetest30_LedArray.c 的引用(Include)关系图:</div>
       </table>
 </div><div class="memdoc">
 
-<p>设置LED阵列的刷新模式 </p>
+<p>设置LED阵列的刷新模式("ALL_ONCE" "ALL_MULTIPLE" "PART_ONCE" "PART_MULTIPLE") </p>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
-    <tr><td class="paramname">mode</td><td>刷新模式 </td></tr>
+    <tr><td class="paramname">mode</td><td>刷新模式,这是一个枚举类型 </td></tr>
   </table>
   </dd>
 </dl>
@@ -1038,7 +1039,7 @@ sevetest30_LedArray.c 的引用(Include)关系图:</div>
       </table>
 </div><div class="memdoc">
 
-<p>[多次全刷任务]分多步进地完成刷新整个屏幕所有行,每步之后发生延时 </p>
+<p>[多次全刷任务 - ALL_MULTIPLE]分多步进地完成刷新整个屏幕所有行,每步之后发生延时 </p>
 
 </div>
 </div>
@@ -1057,7 +1058,7 @@ sevetest30_LedArray.c 的引用(Include)关系图:</div>
       </table>
 </div><div class="memdoc">
 
-<p>[单次全刷任务]一次性刷新整个屏幕所有行,全屏刷新之后才发生延时 </p>
+<p>[单次全刷任务 - ALL_ONCE]一次性刷新整个屏幕所有行,全屏刷新之后才发生延时 </p>
 
 </div>
 </div>
@@ -1076,7 +1077,7 @@ sevetest30_LedArray.c 的引用(Include)关系图:</div>
       </table>
 </div><div class="memdoc">
 
-<p>[多次局刷任务]分多步进地完成刷新所有发生绘制活动的行,每步之后发生延时 </p>
+<p>[多次局刷任务 - PART_MULTIPLE]分多步进地完成刷新所有发生绘制活动的行,每步之后发生延时 </p>
 
 </div>
 </div>
@@ -1095,7 +1096,7 @@ sevetest30_LedArray.c 的引用(Include)关系图:</div>
       </table>
 </div><div class="memdoc">
 
-<p>[单次局刷任务]一次性刷新所有发生绘制活动的行,需要部分完全刷新之后才发生延时 </p>
+<p>[单次局刷任务 - PART_ONCE]一次性刷新所有发生绘制活动的行,需要部分完全刷新之后才发生延时 </p>
 
 </div>
 </div>

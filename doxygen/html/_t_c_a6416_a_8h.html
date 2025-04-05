@@ -135,10 +135,11 @@ $(document).ready(function(){initNavTree('_t_c_a6416_a_8h.html',''); initResizab
 <div class="contents">
 <div class="textblock"><code>#include &lt;string.h&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &quot;esp_err.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 TCA6416A.h 的引用(Include)关系图:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_t_c_a6416_a_8h__incl.svg" width="210" height="124"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="_t_c_a6416_a_8h__incl.svg" width="295" height="124"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 此图展示该文件直接或间接的被哪些文件引用了:</div>
@@ -183,12 +184,12 @@ TCA6416A.h 的引用(Include)关系图:</div>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 函数</h2></td></tr>
-<tr class="memitem:a0745867194d13276c4b9b223a1df1b28" id="r_a0745867194d13276c4b9b223a1df1b28"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_c_a6416_a_8h.html#a0745867194d13276c4b9b223a1df1b28">TCA6416A_mode_set</a> (<a class="el" href="struct_t_c_a6416_a__mode__t.html">TCA6416A_mode_t</a> *pTCA6416Amode)</td></tr>
-<tr class="memdesc:a0745867194d13276c4b9b223a1df1b28"><td class="mdescLeft">&#160;</td><td class="mdescRight">GPIO输入输出模式设置，同时保存模式数据，初始化用  <br /></td></tr>
-<tr class="separator:a0745867194d13276c4b9b223a1df1b28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73748f384d2c0e76389383e4228ff84f" id="r_a73748f384d2c0e76389383e4228ff84f"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_c_a6416_a_8h.html#a73748f384d2c0e76389383e4228ff84f">TCA6416A_gpio_service</a> (<a class="el" href="struct_t_c_a6416_a__level__t.html">TCA6416A_level_t</a> *pTCA6416Avalue)</td></tr>
-<tr class="memdesc:a73748f384d2c0e76389383e4228ff84f"><td class="mdescLeft">&#160;</td><td class="mdescRight">GPIO引脚数据交互服务，一次性全更新、写入，根据引脚模式配置以读写操作，以下是我一些肤浅的思路  <br /></td></tr>
-<tr class="separator:a73748f384d2c0e76389383e4228ff84f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d88e91996ed1a9a40ebb3c4c269ef2c" id="r_a4d88e91996ed1a9a40ebb3c4c269ef2c"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_c_a6416_a_8h.html#a4d88e91996ed1a9a40ebb3c4c269ef2c">TCA6416A_gpio_mode_set</a> (<a class="el" href="struct_t_c_a6416_a__mode__t.html">TCA6416A_mode_t</a> *pTCA6416Amode)</td></tr>
+<tr class="memdesc:a4d88e91996ed1a9a40ebb3c4c269ef2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">GPIO输入输出模式设置，同时保存模式数据，初始化用  <br /></td></tr>
+<tr class="separator:a4d88e91996ed1a9a40ebb3c4c269ef2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43edcbdb40db5f6b12ced9694fb1efc3" id="r_a43edcbdb40db5f6b12ced9694fb1efc3"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_c_a6416_a_8h.html#a43edcbdb40db5f6b12ced9694fb1efc3">TCA6416A_gpio_level_service</a> (<a class="el" href="struct_t_c_a6416_a__level__t.html">TCA6416A_level_t</a> *pTCA6416Avalue)</td></tr>
+<tr class="memdesc:a43edcbdb40db5f6b12ced9694fb1efc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">GPIO引脚电平数据交互服务，一次性全更新、写入，根据引脚模式配置以读写操作，以下是我一些肤浅的思路  <br /></td></tr>
+<tr class="separator:a43edcbdb40db5f6b12ced9694fb1efc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">宏定义说明</h2>
 <a id="afeab57a13b94a2c4182f4bf4bf3b899b" name="afeab57a13b94a2c4182f4bf4bf3b899b"></a>
@@ -333,14 +334,14 @@ TCA6416A.h 的引用(Include)关系图:</div>
 </div>
 </div>
 <h2 class="groupheader">函数说明</h2>
-<a id="a73748f384d2c0e76389383e4228ff84f" name="a73748f384d2c0e76389383e4228ff84f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73748f384d2c0e76389383e4228ff84f">&#9670;&#160;</a></span>TCA6416A_gpio_service()</h2>
+<a id="a43edcbdb40db5f6b12ced9694fb1efc3" name="a43edcbdb40db5f6b12ced9694fb1efc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43edcbdb40db5f6b12ced9694fb1efc3">&#9670;&#160;</a></span>TCA6416A_gpio_level_service()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">esp_err_t TCA6416A_gpio_service </td>
+          <td class="memname">esp_err_t TCA6416A_gpio_level_service </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_t_c_a6416_a__level__t.html">TCA6416A_level_t</a> *&#160;</td>
           <td class="paramname"><em>pTCA6416Alevel</em></td><td>)</td>
@@ -349,7 +350,7 @@ TCA6416A.h 的引用(Include)关系图:</div>
       </table>
 </div><div class="memdoc">
 
-<p>GPIO引脚数据交互服务，一次性全更新、写入，根据引脚模式配置以读写操作，以下是我一些肤浅的思路 </p>
+<p>GPIO引脚电平数据交互服务，一次性全更新、写入，根据引脚模式配置以读写操作，以下是我一些肤浅的思路 </p>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
     <tr><td class="paramname">pTCA6416Alevel</td><td>TCA6416A_level_t电平数据存储位置 </td></tr>
@@ -369,14 +370,14 @@ TCA6416A.h 的引用(Include)关系图:</div>
 
 </div>
 </div>
-<a id="a0745867194d13276c4b9b223a1df1b28" name="a0745867194d13276c4b9b223a1df1b28"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0745867194d13276c4b9b223a1df1b28">&#9670;&#160;</a></span>TCA6416A_mode_set()</h2>
+<a id="a4d88e91996ed1a9a40ebb3c4c269ef2c" name="a4d88e91996ed1a9a40ebb3c4c269ef2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d88e91996ed1a9a40ebb3c4c269ef2c">&#9670;&#160;</a></span>TCA6416A_gpio_mode_set()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">esp_err_t TCA6416A_mode_set </td>
+          <td class="memname">esp_err_t TCA6416A_gpio_mode_set </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_t_c_a6416_a__mode__t.html">TCA6416A_mode_t</a> *&#160;</td>
           <td class="paramname"><em>pTCA6416Amode</em></td><td>)</td>

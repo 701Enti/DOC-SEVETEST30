@@ -6,6 +6,7 @@ var sevetest30___led_array_8h =
     [ "LEDARRAY_REFRESH_INIT_MODE", "sevetest30___led_array_8h.html#ac1338a63be3ce085ed1707b3cd37a8c7", null ],
     [ "LEDARRAY_REFRESH_TASK_CORE", "sevetest30___led_array_8h.html#a7397500f61c23a1abea851012874bd3d", null ],
     [ "LEDARRAY_REFRESH_TASK_PRIO", "sevetest30___led_array_8h.html#a604ddda5b43efb35391391758c9d8b03", null ],
+    [ "LEDARRAY_REFRESH_TASK_STACK_SIZE", "sevetest30___led_array_8h.html#af03f12e6e5c41a397cacda371d2cd2e0", null ],
     [ "LINE_LED_NUMBER", "sevetest30___led_array_8h.html#ab042d2d448a216c0570d1a147af03adb", null ],
     [ "RECTANGLE_MATRIX", "sevetest30___led_array_8h.html#a7eebbaa5b8e0a2e58d079d7990de0ea3", null ],
     [ "RECTANGLE_SIZE_MAX", "sevetest30___led_array_8h.html#a543c7297f480deb68423813a2aba5b13", null ],

@@ -1,5 +1,9 @@
 var NAVTREEINDEX4 =
 {
+"struct_real__time__weather.html#ab1dc2382a884dd4c5b720e02cab92070":[0,0,23,12],
+"struct_real__time__weather.html#ab78ae843feae177bd248b28038098b67":[0,0,23,10],
+"struct_real__time__weather.html#ac48ac149f50353dfdf63440dc66e4560":[0,0,23,11],
+"struct_real__time__weather.html#ae544b520ace9f9b47d979505cf0ec744":[0,0,23,2],
 "struct_t_c_a6416_a__level__t.html":[0,0,25],
 "struct_t_c_a6416_a__level__t.html#a00fee0a56cdebadfc72b23dd955ad068":[0,0,25,8],
 "struct_t_c_a6416_a__level__t.html#a031817e00eee9f56adec65f66794ce1b":[0,0,25,9],
