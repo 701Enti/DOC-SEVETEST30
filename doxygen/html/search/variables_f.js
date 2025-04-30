@@ -17,12 +17,10 @@ var searchData=
   ['red_5fy7_14',['red_y7',['../sevetest30___led_array_8c.html#ab9979d3c8c123bec855d7ac12427dbe0',1,'sevetest30_LedArray.c']]],
   ['red_5fy8_15',['red_y8',['../sevetest30___led_array_8c.html#a89d839e16672ca9353e608407687e140',1,'sevetest30_LedArray.c']]],
   ['red_5fy9_16',['red_y9',['../sevetest30___led_array_8c.html#a1daff4a6c90d34894d6097271bd2ad83',1,'sevetest30_LedArray.c']]],
-  ['refresh_5fmode_5fbuf_17',['refresh_mode_buf',['../sevetest30___led_array_8c.html#a63cce031c5f961a28a01b0863bbbc912',1,'sevetest30_LedArray.c']]],
+  ['refresh_5fmode_5fbuf_17',['refresh_mode_buf',['../sevetest30___led_array_8c.html#aa7887f430d2c110d01e652d806d3f916',1,'sevetest30_LedArray.c']]],
   ['refresh_5ftask_5fmutex_18',['refresh_Task_Mutex',['../sevetest30___led_array_8c.html#aa35baad1478bed024ce17f93bc5f4ce0',1,'sevetest30_LedArray.c']]],
   ['reg_5faddress_19',['reg_address',['../struct_i_m_u__reg__mapping__t.html#a0bbdc838c5611afe00877d8742b8bda4',1,'IMU_reg_mapping_t']]],
   ['reg_5fvalue_20',['reg_value',['../struct_i_m_u__reg__mapping__t.html#a59e98e375b883a05767def2d741a98f8',1,'IMU_reg_mapping_t']]],
-  ['rmt_5fcfg0_21',['rmt_cfg0',['../sevetest30___led_array_8c.html#a16ebbd49920cbc3bd87ba89ccd565928',1,'sevetest30_LedArray.c']]],
-  ['rmt_5fcfg1_22',['rmt_cfg1',['../sevetest30___led_array_8c.html#ad24caf1fb6502d896f22bc6d3d147192',1,'sevetest30_LedArray.c']]],
-  ['rsp_5fcfg_23',['rsp_cfg',['../sevetest30__sound_8c.html#a12bfa84f2a9ae3357df04ec7f1d5cb01',1,'sevetest30_sound.c']]],
-  ['running_5fi2s_5fport_24',['running_i2s_port',['../sevetest30__sound_8h.html#aee102a99c3594bf6aa26ce6f1164c233',1,'running_i2s_port:&#160;sevetest30_sound.c'],['../sevetest30__sound_8c.html#aee102a99c3594bf6aa26ce6f1164c233',1,'running_i2s_port:&#160;sevetest30_sound.c']]]
+  ['rsp_5fcfg_21',['rsp_cfg',['../sevetest30__sound_8c.html#a12bfa84f2a9ae3357df04ec7f1d5cb01',1,'sevetest30_sound.c']]],
+  ['running_5fi2s_5fport_22',['running_i2s_port',['../sevetest30__sound_8h.html#aee102a99c3594bf6aa26ce6f1164c233',1,'running_i2s_port:&#160;sevetest30_sound.c'],['../sevetest30__sound_8c.html#aee102a99c3594bf6aa26ce6f1164c233',1,'running_i2s_port:&#160;sevetest30_sound.c']]]
 ];

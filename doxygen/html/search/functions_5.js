@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['element_5fcfg_5fdata_5freset_0',['element_cfg_data_reset',['../sevetest30__sound_8h.html#a691a2138d2ca99fe7812ece3d5ef03b6',1,'element_cfg_data_reset():&#160;sevetest30_sound.c'],['../sevetest30__sound_8c.html#a691a2138d2ca99fe7812ece3d5ef03b6',1,'element_cfg_data_reset():&#160;sevetest30_sound.c']]],
+  ['element_5fcfg_5fdata_5freset_0',['element_cfg_data_reset',['../sevetest30__sound_8c.html#a691a2138d2ca99fe7812ece3d5ef03b6',1,'sevetest30_sound.c']]],
   ['ernie_5fbot_5f4_5fchat_5fhttp_5ftask_1',['ERNIE_Bot_4_chat_http_Task',['../sevetest30___i_w_e_d_a_8c.html#a3cd770bd0608c2ae8ff52ff4728ee04d',1,'sevetest30_IWEDA.c']]],
   ['ernie_5fbot_5f4_5fchat_5fover_5fstatus_2',['ERNIE_Bot_4_chat_over_status',['../sevetest30___i_w_e_d_a_8c.html#a5b4a89294fdd0ea7d8b14eae9cc14a58',1,'sevetest30_IWEDA.c']]],
   ['ernie_5fbot_5f4_5fchat_5ftex_5fexchange_3',['ernie_bot_4_chat_tex_exchange',['../sevetest30___i_w_e_d_a_8h.html#a8b985c45f6a665a338a423b498bbdb9d',1,'ERNIE_Bot_4_chat_tex_exchange(char *user_content):&#160;sevetest30_IWEDA.c'],['../sevetest30___i_w_e_d_a_8c.html#a8b985c45f6a665a338a423b498bbdb9d',1,'ERNIE_Bot_4_chat_tex_exchange(char *user_content):&#160;sevetest30_IWEDA.c']]],

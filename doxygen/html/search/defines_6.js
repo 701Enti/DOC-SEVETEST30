@@ -7,7 +7,7 @@ var searchData=
   ['fft_5fview_5fdata_5fmax_4',['FFT_VIEW_DATA_MAX',['../sevetest30___u_i_8h.html#ad2e779965bebf4652152dc97bd825c9d',1,'sevetest30_UI.h']]],
   ['fft_5fview_5fdata_5fmin_5',['FFT_VIEW_DATA_MIN',['../sevetest30___u_i_8h.html#a15418b88b8cdb9b60b141866bf515c80',1,'sevetest30_UI.h']]],
   ['fft_5fview_5fwidth_5fmax_6',['FFT_VIEW_WIDTH_MAX',['../sevetest30___u_i_8h.html#a6cc612327a8c53b80112c2a8392539b1',1,'sevetest30_UI.h']]],
-  ['figure_7',['FIGURE',['../sevetest30___led_array_8h.html#a18ff66448700e8d0184a01b54e05f340',1,'sevetest30_LedArray.h']]],
+  ['figure_5fbreath_7',['FIGURE_BREATH',['../sevetest30___led_array_8h.html#ac77d15e44d3882546672aabc404a9ac6',1,'sevetest30_LedArray.h']]],
   ['font_5fchip_5fprint_5ffmt_5fbuf_5fsize_8',['FONT_CHIP_PRINT_FMT_BUF_SIZE',['../sevetest30___led_array_8h.html#a43a1e63788f38cc12a669caf175088f2',1,'sevetest30_LedArray.h']]],
   ['font_5fchip_5fprint_5fnum_5fmax_9',['FONT_CHIP_PRINT_NUM_MAX',['../sevetest30___led_array_8h.html#ac67fe2c4f9a541177ac7910707d4f84a',1,'sevetest30_LedArray.h']]],
   ['font_5fchip_5fread_5fascii_5f6x12_5fbytes_10',['FONT_CHIP_READ_ASCII_6X12_BYTES',['../gt32l32s0140_8h.html#aba2cee3c5ad238117eb26aafc96b0120',1,'gt32l32s0140.h']]],

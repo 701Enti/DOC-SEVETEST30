@@ -134,12 +134,13 @@ $(document).ready(function(){initNavTree('sevetest30___led_array_8h.html',''); i
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;string.h&gt;</code><br />
+<code>#include &quot;led_strip_types.h&quot;</code><br />
 <code>#include &lt;<a class="el" href="sevetest30___u_i_8h_source.html">sevetest30_UI.h</a>&gt;</code><br />
 <code>#include &quot;esp_types.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 sevetest30_LedArray.h 的引用(Include)关系图:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="sevetest30___led_array_8h__incl.svg" width="1604" height="432"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="sevetest30___led_array_8h__incl.svg" width="1750" height="432"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 此图展示该文件直接或间接的被哪些文件引用了:</div>
@@ -151,13 +152,27 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 宏定义</h2></td></tr>
-<tr class="memitem:a18ff66448700e8d0184a01b54e05f340" id="r_a18ff66448700e8d0184a01b54e05f340"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a18ff66448700e8d0184a01b54e05f340">FIGURE</a>&#160;&#160;&#160;4</td></tr>
-<tr class="separator:a18ff66448700e8d0184a01b54e05f340"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac77d15e44d3882546672aabc404a9ac6" id="r_ac77d15e44d3882546672aabc404a9ac6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#ac77d15e44d3882546672aabc404a9ac6">FIGURE_BREATH</a>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:ac77d15e44d3882546672aabc404a9ac6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8343ae408f4f701ba08718127662b4c" id="r_ab8343ae408f4f701ba08718127662b4c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#ab8343ae408f4f701ba08718127662b4c">LEDARRAY_LED_MODEL</a>&#160;&#160;&#160;LED_MODEL_WS2812</td></tr>
+<tr class="separator:ab8343ae408f4f701ba08718127662b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb4f3a7a2691644b22b69256295fd605" id="r_abb4f3a7a2691644b22b69256295fd605"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#abb4f3a7a2691644b22b69256295fd605">LEDARRAY_LED_COLOR_COMPONENT_FMT</a>&#160;&#160;&#160;LED_STRIP_COLOR_COMPONENT_FMT_GRB</td></tr>
+<tr class="separator:abb4f3a7a2691644b22b69256295fd605"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecc61db375d758b1d86c573795deaff2" id="r_aecc61db375d758b1d86c573795deaff2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#aecc61db375d758b1d86c573795deaff2">LEDARRAY_LED_INVERT_OUT</a>&#160;&#160;&#160;(false)</td></tr>
+<tr class="separator:aecc61db375d758b1d86c573795deaff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3756538f8c248b3c63b6147ca547344" id="r_ae3756538f8c248b3c63b6147ca547344"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#ae3756538f8c248b3c63b6147ca547344">LEDARRAY_LED_RMT_RESOLUTION_HZ</a>&#160;&#160;&#160;(10*1000*1000)</td></tr>
+<tr class="separator:ae3756538f8c248b3c63b6147ca547344"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14c73a611969c5e90685933827fbc9ba" id="r_a14c73a611969c5e90685933827fbc9ba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a14c73a611969c5e90685933827fbc9ba">LEDARRAY_LED_RMT_CLK_SRC</a>&#160;&#160;&#160;RMT_CLK_SRC_DEFAULT</td></tr>
+<tr class="separator:a14c73a611969c5e90685933827fbc9ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44701197dbdd46a12d2accd4cc3d548f" id="r_a44701197dbdd46a12d2accd4cc3d548f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a44701197dbdd46a12d2accd4cc3d548f">LEDARRAY_LED_WITH_DMA</a>&#160;&#160;&#160;(true)</td></tr>
+<tr class="separator:a44701197dbdd46a12d2accd4cc3d548f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0552f4ab4d9a0e8f4626337142272349" id="r_a0552f4ab4d9a0e8f4626337142272349"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a0552f4ab4d9a0e8f4626337142272349">LEDARRAY_LED_RMT_MEM_BLOCK_SYMBOLS</a>&#160;&#160;&#160;64</td></tr>
+<tr class="separator:a0552f4ab4d9a0e8f4626337142272349"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab042d2d448a216c0570d1a147af03adb" id="r_ab042d2d448a216c0570d1a147af03adb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#ab042d2d448a216c0570d1a147af03adb">LINE_LED_NUMBER</a>&#160;&#160;&#160;24</td></tr>
 <tr class="separator:ab042d2d448a216c0570d1a147af03adb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8412ebaff2eca2bda07acae207229394" id="r_a8412ebaff2eca2bda07acae207229394"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a8412ebaff2eca2bda07acae207229394">VERTICAL_LED_NUMBER</a>&#160;&#160;&#160;12</td></tr>
 <tr class="separator:a8412ebaff2eca2bda07acae207229394"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7eebbaa5b8e0a2e58d079d7990de0ea3" id="r_a7eebbaa5b8e0a2e58d079d7990de0ea3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a7eebbaa5b8e0a2e58d079d7990de0ea3">RECTANGLE_MATRIX</a>(pRECTANGLE)&#160;&#160;&#160;(pRECTANGLE+0x01)</td></tr>
+<tr class="memitem:a7eebbaa5b8e0a2e58d079d7990de0ea3" id="r_a7eebbaa5b8e0a2e58d079d7990de0ea3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a7eebbaa5b8e0a2e58d079d7990de0ea3">RECTANGLE_MATRIX</a>(pRECTANGLE)&#160;&#160;&#160;(pRECTANGLE+0x08)</td></tr>
 <tr class="separator:a7eebbaa5b8e0a2e58d079d7990de0ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a543c7297f480deb68423813a2aba5b13" id="r_a543c7297f480deb68423813a2aba5b13"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a543c7297f480deb68423813a2aba5b13">RECTANGLE_SIZE_MAX</a>&#160;&#160;&#160;36</td></tr>
 <tr class="separator:a543c7297f480deb68423813a2aba5b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,70 +186,72 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
 <tr class="separator:a604ddda5b43efb35391391758c9d8b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af03f12e6e5c41a397cacda371d2cd2e0" id="r_af03f12e6e5c41a397cacda371d2cd2e0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#af03f12e6e5c41a397cacda371d2cd2e0">LEDARRAY_REFRESH_TASK_STACK_SIZE</a>&#160;&#160;&#160;(1024 * 2)</td></tr>
 <tr class="separator:af03f12e6e5c41a397cacda371d2cd2e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1338a63be3ce085ed1707b3cd37a8c7" id="r_ac1338a63be3ce085ed1707b3cd37a8c7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#ac1338a63be3ce085ed1707b3cd37a8c7">LEDARRAY_REFRESH_INIT_MODE</a>&#160;&#160;&#160;<a class="el" href="sevetest30___led_array_8h.html#a43484d7921da2388b427cde75836f46eadd4d1b30cc7e6a4bbceee0a073bf49e6">LEDARRAY_REFRESH_ALL_ONCE</a></td></tr>
+<tr class="memitem:ac1338a63be3ce085ed1707b3cd37a8c7" id="r_ac1338a63be3ce085ed1707b3cd37a8c7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#ac1338a63be3ce085ed1707b3cd37a8c7">LEDARRAY_REFRESH_INIT_MODE</a>&#160;&#160;&#160;<a class="el" href="sevetest30___led_array_8h.html#a2b0c0a87a69aec8574e6a2217d8b2923aa695df486f38bdd46c119674de811909">LEDARRAY_AUTO_REFRESH_ALL_ONCE</a></td></tr>
 <tr class="separator:ac1338a63be3ce085ed1707b3cd37a8c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 枚举</h2></td></tr>
-<tr class="memitem:a43484d7921da2388b427cde75836f46e" id="r_a43484d7921da2388b427cde75836f46e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a43484d7921da2388b427cde75836f46e">ledarray_refresh_mode_t</a> { <br />
-&#160;&#160;<a class="el" href="sevetest30___led_array_8h.html#a43484d7921da2388b427cde75836f46ea5befe4eb59c860532f3f3287eae868d9">LEDARRAY_REFRESH_DISABLE</a> = 0
-, <a class="el" href="sevetest30___led_array_8h.html#a43484d7921da2388b427cde75836f46eadd4d1b30cc7e6a4bbceee0a073bf49e6">LEDARRAY_REFRESH_ALL_ONCE</a>
-, <a class="el" href="sevetest30___led_array_8h.html#a43484d7921da2388b427cde75836f46ea75f5782064dc57b7bdf8f2641a839d3d">LEDARRAY_REFRESH_ALL_MULTIPLE</a>
-, <a class="el" href="sevetest30___led_array_8h.html#a43484d7921da2388b427cde75836f46eaa47c4d025e54bcb08511a20420ee96de">LEDARRAY_REFRESH_PART_ONCE</a>
+<tr class="memitem:a2b0c0a87a69aec8574e6a2217d8b2923" id="r_a2b0c0a87a69aec8574e6a2217d8b2923"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a2b0c0a87a69aec8574e6a2217d8b2923">ledarray_auto_refresh_mode_t</a> { <br />
+&#160;&#160;<a class="el" href="sevetest30___led_array_8h.html#a2b0c0a87a69aec8574e6a2217d8b2923a1296c7fd42ca32fae7a8058663808c60">LEDARRAY_AUTO_REFRESH_DISABLE</a> = 0
+, <a class="el" href="sevetest30___led_array_8h.html#a2b0c0a87a69aec8574e6a2217d8b2923aa695df486f38bdd46c119674de811909">LEDARRAY_AUTO_REFRESH_ALL_ONCE</a>
+, <a class="el" href="sevetest30___led_array_8h.html#a2b0c0a87a69aec8574e6a2217d8b2923a352cb495cf3a4e89996e739c4209b77c">LEDARRAY_AUTO_REFRESH_ALL_MULTIPLE</a>
+, <a class="el" href="sevetest30___led_array_8h.html#a2b0c0a87a69aec8574e6a2217d8b2923a2e3a98b0baabf93eed328151f8cc2528">LEDARRAY_AUTO_REFRESH_PART_ONCE</a>
 , <br />
-&#160;&#160;<a class="el" href="sevetest30___led_array_8h.html#a43484d7921da2388b427cde75836f46eaba1737e697aceb7d95d172c23bc7075a">LEDARRAY_REFRESH_PART_MULTIPLE</a>
+&#160;&#160;<a class="el" href="sevetest30___led_array_8h.html#a2b0c0a87a69aec8574e6a2217d8b2923a4a6390cc7ed5f61a2f2a1529c6f4cebf">LEDARRAY_AUTO_REFRESH_PART_MULTIPLE</a>
 <br />
  }</td></tr>
-<tr class="separator:a43484d7921da2388b427cde75836f46e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a2b0c0a87a69aec8574e6a2217d8b2923"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 函数</h2></td></tr>
-<tr class="memitem:a350204007e04d378da6acbc29c1c816c" id="r_a350204007e04d378da6acbc29c1c816c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a350204007e04d378da6acbc29c1c816c">ledarray_set_refresh_mode</a> (<a class="el" href="sevetest30___led_array_8h.html#a43484d7921da2388b427cde75836f46e">ledarray_refresh_mode_t</a> mode)</td></tr>
-<tr class="memdesc:a350204007e04d378da6acbc29c1c816c"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置LED阵列的刷新模式("ALL_ONCE" "ALL_MULTIPLE" "PART_ONCE" "PART_MULTIPLE")  <br /></td></tr>
-<tr class="separator:a350204007e04d378da6acbc29c1c816c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2dce94d7dcbda0dd03daf92d029147e" id="r_af2dce94d7dcbda0dd03daf92d029147e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#af2dce94d7dcbda0dd03daf92d029147e">separation_draw</a> (int32_t x, int32_t y, uint8_t breadth, const uint8_t *p, uint8_t byte_number, uint8_t *color_in, uint8_t change)</td></tr>
-<tr class="separator:af2dce94d7dcbda0dd03daf92d029147e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4691147267eedfb4323ab9781b2dd62" id="r_ad4691147267eedfb4323ab9781b2dd62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#ad4691147267eedfb4323ab9781b2dd62">direct_draw</a> (int32_t x, int32_t y, const uint8_t *p, uint8_t change)</td></tr>
-<tr class="memdesc:ad4691147267eedfb4323ab9781b2dd62"><td class="mdescLeft">&#160;</td><td class="mdescRight">彩色图像直显方式 取模方式适配Img2Lcd  <br /></td></tr>
-<tr class="separator:ad4691147267eedfb4323ab9781b2dd62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8c675e3a2cbb00232293614b66132ca" id="r_ac8c675e3a2cbb00232293614b66132ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#ac8c675e3a2cbb00232293614b66132ca">ledarray_set_auto_refresh_mode</a> (<a class="el" href="sevetest30___led_array_8h.html#a2b0c0a87a69aec8574e6a2217d8b2923">ledarray_auto_refresh_mode_t</a> mode)</td></tr>
+<tr class="memdesc:ac8c675e3a2cbb00232293614b66132ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置LED阵列的自动刷新模式,立即启动生效  <br /></td></tr>
+<tr class="separator:ac8c675e3a2cbb00232293614b66132ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71ec689aa9c86bd3752f92ac43dfddb0" id="r_a71ec689aa9c86bd3752f92ac43dfddb0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a71ec689aa9c86bd3752f92ac43dfddb0">separation_draw</a> (int x, int y, uint64_t breadth, const uint8_t *p, uint8_t byte_number, uint8_t in_color[3], uint8_t change)</td></tr>
+<tr class="memdesc:a71ec689aa9c86bd3752f92ac43dfddb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">三色分离方式 取模适配PCtoLCD2002  <br /></td></tr>
+<tr class="separator:a71ec689aa9c86bd3752f92ac43dfddb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1540a6256b3d0bbec51ff59e62c8fd2f" id="r_a1540a6256b3d0bbec51ff59e62c8fd2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a1540a6256b3d0bbec51ff59e62c8fd2f">direct_draw</a> (int x, int y, const uint8_t *p, uint8_t change)</td></tr>
+<tr class="memdesc:a1540a6256b3d0bbec51ff59e62c8fd2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">彩色图像直显方式 取模方式适配Img2Lcd  <br /></td></tr>
+<tr class="separator:a1540a6256b3d0bbec51ff59e62c8fd2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5ecd4e3eb3636ecc41c3f0a0c67e626" id="r_ab5ecd4e3eb3636ecc41c3f0a0c67e626"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#ab5ecd4e3eb3636ecc41c3f0a0c67e626">clean_draw</a> ()</td></tr>
 <tr class="memdesc:ab5ecd4e3eb3636ecc41c3f0a0c67e626"><td class="mdescLeft">&#160;</td><td class="mdescRight">清除屏幕上的所有图案以及数据缓存  <br /></td></tr>
 <tr class="separator:ab5ecd4e3eb3636ecc41c3f0a0c67e626"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92ce28a239503c364726b5673f2915e5" id="r_a92ce28a239503c364726b5673f2915e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a92ce28a239503c364726b5673f2915e5">clean_draw_buf</a> (int8_t y)</td></tr>
-<tr class="memdesc:a92ce28a239503c364726b5673f2915e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">清空指定行的图像  <br /></td></tr>
-<tr class="separator:a92ce28a239503c364726b5673f2915e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c4efd3188ccd65c9a42b5e67e6c21d2" id="r_a4c4efd3188ccd65c9a42b5e67e6c21d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a4c4efd3188ccd65c9a42b5e67e6c21d2">progress_draw_buf</a> (int8_t y, uint8_t step, uint8_t *color)</td></tr>
-<tr class="memdesc:a4c4efd3188ccd65c9a42b5e67e6c21d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">渐进指定行的图像，使得颜色向目标颜色以步进值偏移一步，这只会对绘制状态非活动的区域起作用  <br /></td></tr>
-<tr class="separator:a4c4efd3188ccd65c9a42b5e67e6c21d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa49fb91e47f7a6f6e916239164d8ee4b" id="r_aa49fb91e47f7a6f6e916239164d8ee4b"><td class="memItemLeft" align="right" valign="top">uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#aa49fb91e47f7a6f6e916239164d8ee4b">rectangle</a> (int8_t breadth, int8_t length)</td></tr>
-<tr class="memdesc:aa49fb91e47f7a6f6e916239164d8ee4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">生成一个矩形字模(需要释放)  <br /></td></tr>
-<tr class="separator:aa49fb91e47f7a6f6e916239164d8ee4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54022fb8ab5a3af59f5864d71250597b" id="r_a54022fb8ab5a3af59f5864d71250597b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a54022fb8ab5a3af59f5864d71250597b">print_number</a> (int32_t x, int32_t y, int8_t figure, uint8_t *color, uint8_t change)</td></tr>
-<tr class="separator:a54022fb8ab5a3af59f5864d71250597b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7ec88320017091e65a906970e06dafd" id="r_ab7ec88320017091e65a906970e06dafd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#ab7ec88320017091e65a906970e06dafd">font_roll_print_12x</a> (int32_t x, int32_t y, uint8_t color[3], uint8_t change, <a class="el" href="sevetest30___u_i_8h.html#a62944b735214a319f7aa83ce4214b8fd">cartoon_handle_t</a> cartoon_handle, char *format,...)</td></tr>
-<tr class="memdesc:ab7ec88320017091e65a906970e06dafd"><td class="mdescLeft">&#160;</td><td class="mdescRight">通过字库芯片支持在LED阵列滚动打印任意字符  <br /></td></tr>
-<tr class="separator:ab7ec88320017091e65a906970e06dafd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbd085293d3f3dbf3083dd048cb5a8d6" id="r_afbd085293d3f3dbf3083dd048cb5a8d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#afbd085293d3f3dbf3083dd048cb5a8d6">font_raw_print_12x</a> (int32_t x, int32_t y, uint8_t color[3], uint8_t change, char *format,...)</td></tr>
-<tr class="memdesc:afbd085293d3f3dbf3083dd048cb5a8d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">通过字库芯片支持在LED阵列打印任意字符,图像不含运动效果  <br /></td></tr>
-<tr class="separator:afbd085293d3f3dbf3083dd048cb5a8d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f7ec79c6c25ce0bff5f2b03a9c5cb30" id="r_a1f7ec79c6c25ce0bff5f2b03a9c5cb30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a1f7ec79c6c25ce0bff5f2b03a9c5cb30">clean_draw_buf</a> (int y)</td></tr>
+<tr class="memdesc:a1f7ec79c6c25ce0bff5f2b03a9c5cb30"><td class="mdescLeft">&#160;</td><td class="mdescRight">清空指定行的图像  <br /></td></tr>
+<tr class="separator:a1f7ec79c6c25ce0bff5f2b03a9c5cb30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cd4e32e2313fd093015cc325d5d742f" id="r_a7cd4e32e2313fd093015cc325d5d742f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a7cd4e32e2313fd093015cc325d5d742f">progress_draw_buf</a> (int y, uint8_t step, uint8_t *color)</td></tr>
+<tr class="memdesc:a7cd4e32e2313fd093015cc325d5d742f"><td class="mdescLeft">&#160;</td><td class="mdescRight">渐进指定行的图像，使得颜色向目标颜色以步进值偏移一步，这只会对绘制状态非活动的区域起作用  <br /></td></tr>
+<tr class="separator:a7cd4e32e2313fd093015cc325d5d742f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1d514d504694d0e94035511faac29d4" id="r_ad1d514d504694d0e94035511faac29d4"><td class="memItemLeft" align="right" valign="top">uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#ad1d514d504694d0e94035511faac29d4">rectangle</a> (int32_t breadth, int32_t length)</td></tr>
+<tr class="memdesc:ad1d514d504694d0e94035511faac29d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">生成一个矩形字模(需要释放)  <br /></td></tr>
+<tr class="separator:ad1d514d504694d0e94035511faac29d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cfbcac2594ee10f0994f0a7b1a899b3" id="r_a0cfbcac2594ee10f0994f0a7b1a899b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a0cfbcac2594ee10f0994f0a7b1a899b3">print_number</a> (int x, int y, int8_t figure, uint8_t color[3], uint8_t change)</td></tr>
+<tr class="memdesc:a0cfbcac2594ee10f0994f0a7b1a899b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">打印一个数字(软件字模)  <br /></td></tr>
+<tr class="separator:a0cfbcac2594ee10f0994f0a7b1a899b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5603cf3c7b1be939ffcf206431263c9b" id="r_a5603cf3c7b1be939ffcf206431263c9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a5603cf3c7b1be939ffcf206431263c9b">font_roll_print_12x</a> (int x, int y, uint8_t color[3], uint8_t change, <a class="el" href="sevetest30___u_i_8h.html#a62944b735214a319f7aa83ce4214b8fd">cartoon_handle_t</a> cartoon_handle, char *format,...)</td></tr>
+<tr class="memdesc:a5603cf3c7b1be939ffcf206431263c9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">通过字库芯片支持在LED阵列滚动打印任意字符  <br /></td></tr>
+<tr class="separator:a5603cf3c7b1be939ffcf206431263c9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72811806c66a024beba60667f2d08608" id="r_a72811806c66a024beba60667f2d08608"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a72811806c66a024beba60667f2d08608">font_raw_print_12x</a> (int x, int y, uint8_t color[3], uint8_t change, char *format,...)</td></tr>
+<tr class="memdesc:a72811806c66a024beba60667f2d08608"><td class="mdescLeft">&#160;</td><td class="mdescRight">通过字库芯片支持在LED阵列打印任意字符,图像不含运动效果  <br /></td></tr>
+<tr class="separator:a72811806c66a024beba60667f2d08608"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e0620bbe75d6552585cf52e3d7170ef" id="r_a1e0620bbe75d6552585cf52e3d7170ef"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a1e0620bbe75d6552585cf52e3d7170ef">ledarray_init</a> ()</td></tr>
 <tr class="memdesc:a1e0620bbe75d6552585cf52e3d7170ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">初始化灯板阵列  <br /></td></tr>
 <tr class="separator:a1e0620bbe75d6552585cf52e3d7170ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af09cfa198e2fb90a5aa9654d886f3664" id="r_af09cfa198e2fb90a5aa9654d886f3664"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#af09cfa198e2fb90a5aa9654d886f3664">ledarray_deinit</a> ()</td></tr>
-<tr class="memdesc:af09cfa198e2fb90a5aa9654d886f3664"><td class="mdescLeft">&#160;</td><td class="mdescRight">去初始化灯板阵列  <br /></td></tr>
-<tr class="separator:af09cfa198e2fb90a5aa9654d886f3664"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a670cb7e9249c70161c21ac2aae2b4e4e" id="r_a670cb7e9249c70161c21ac2aae2b4e4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a670cb7e9249c70161c21ac2aae2b4e4e">color_compound</a> (uint8_t line_sw)</td></tr>
-<tr class="memdesc:a670cb7e9249c70161c21ac2aae2b4e4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">颜色数据合成,将R red_y(x) G green_y(x) B blue_y(x) 合成为 为WS2812发送的数据  <br /></td></tr>
-<tr class="separator:a670cb7e9249c70161c21ac2aae2b4e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0aa50fecb446229afaf4d7b4808254d8" id="r_a0aa50fecb446229afaf4d7b4808254d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a0aa50fecb446229afaf4d7b4808254d8">ledarray_set_and_write</a> (uint8_t group_sw)</td></tr>
-<tr class="memdesc:a0aa50fecb446229afaf4d7b4808254d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">灯板阵列选定并写入，未通过ledarray_init()初始化ledarray，函数内会自动初始化  <br /></td></tr>
-<tr class="separator:a0aa50fecb446229afaf4d7b4808254d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e36c132215af27002355b2ff9d8b072" id="r_a6e36c132215af27002355b2ff9d8b072"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a6e36c132215af27002355b2ff9d8b072">color_input</a> (int8_t x, int8_t y, uint8_t *dat)</td></tr>
-<tr class="memdesc:a6e36c132215af27002355b2ff9d8b072"><td class="mdescLeft">&#160;</td><td class="mdescRight">颜色导入,SE30中VERTICAL_LED_NUMBER=12 如果您希望扩展屏幕纵向长度，务必修改这个函数  <br /></td></tr>
-<tr class="separator:a6e36c132215af27002355b2ff9d8b072"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe36c756b8e5400fbe11f1168eeebab8" id="r_afe36c756b8e5400fbe11f1168eeebab8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#afe36c756b8e5400fbe11f1168eeebab8">color_output</a> (int8_t x, int8_t y, uint8_t *dat)</td></tr>
-<tr class="memdesc:afe36c756b8e5400fbe11f1168eeebab8"><td class="mdescLeft">&#160;</td><td class="mdescRight">颜色导出,SE30中VERTICAL_LED_NUMBER=12 如果您希望扩展屏幕纵向长度，务必修改这个函数  <br /></td></tr>
-<tr class="separator:afe36c756b8e5400fbe11f1168eeebab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa82f96b074e49505bd591624412c6f6c" id="r_aa82f96b074e49505bd591624412c6f6c"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#aa82f96b074e49505bd591624412c6f6c">ledarray_deinit</a> ()</td></tr>
+<tr class="memdesc:aa82f96b074e49505bd591624412c6f6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">灯板阵列反初始化操作  <br /></td></tr>
+<tr class="separator:aa82f96b074e49505bd591624412c6f6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03fa3056a3342002b5c1d15eefb2763c" id="r_a03fa3056a3342002b5c1d15eefb2763c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a03fa3056a3342002b5c1d15eefb2763c">color_compound</a> (int line_num)</td></tr>
+<tr class="memdesc:a03fa3056a3342002b5c1d15eefb2763c"><td class="mdescLeft">&#160;</td><td class="mdescRight">颜色数据合成,将R red_y(x) G green_y(x) B blue_y(x) 合成为 为WS2812发送的数据  <br /></td></tr>
+<tr class="separator:a03fa3056a3342002b5c1d15eefb2763c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53b22c3df6c75320b856a16a7510a8ab" id="r_a53b22c3df6c75320b856a16a7510a8ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a53b22c3df6c75320b856a16a7510a8ab">ledarray_set_and_write</a> (int group_num)</td></tr>
+<tr class="memdesc:a53b22c3df6c75320b856a16a7510a8ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">灯板阵列选定并写入，未通过ledarray_init()初始化ledarray，函数内会自动初始化  <br /></td></tr>
+<tr class="separator:a53b22c3df6c75320b856a16a7510a8ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf758815716152fd82adce0d1a9fc851" id="r_abf758815716152fd82adce0d1a9fc851"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#abf758815716152fd82adce0d1a9fc851">color_input</a> (int x, int y, uint8_t *data)</td></tr>
+<tr class="memdesc:abf758815716152fd82adce0d1a9fc851"><td class="mdescLeft">&#160;</td><td class="mdescRight">颜色导入,SE30中VERTICAL_LED_NUMBER=12 如果您希望扩展屏幕纵向长度，务必修改这个函数  <br /></td></tr>
+<tr class="separator:abf758815716152fd82adce0d1a9fc851"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4f6193be4f33f47972bf9479adff8c3" id="r_ae4f6193be4f33f47972bf9479adff8c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#ae4f6193be4f33f47972bf9479adff8c3">color_output</a> (int x, int y, uint8_t *data)</td></tr>
+<tr class="memdesc:ae4f6193be4f33f47972bf9479adff8c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">颜色导出,SE30中VERTICAL_LED_NUMBER=12 如果您希望扩展屏幕纵向长度，务必修改这个函数  <br /></td></tr>
+<tr class="separator:ae4f6193be4f33f47972bf9479adff8c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56a0725fa7f743bec9d665033a24faec" id="r_a56a0725fa7f743bec9d665033a24faec"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#a56a0725fa7f743bec9d665033a24faec">value_max</a> (double value1, double value2, double value3)</td></tr>
 <tr class="separator:a56a0725fa7f743bec9d665033a24faec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaef76fa03766a31368f86fdb404319d7" id="r_aaef76fa03766a31368f86fdb404319d7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8h.html#aaef76fa03766a31368f86fdb404319d7">value_min</a> (double value1, double value2, double value3)</td></tr>
@@ -269,14 +286,14 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
 <tr class="separator:abfc2482a77212755a828b723e0928ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">宏定义说明</h2>
-<a id="a18ff66448700e8d0184a01b54e05f340" name="a18ff66448700e8d0184a01b54e05f340"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18ff66448700e8d0184a01b54e05f340">&#9670;&#160;</a></span>FIGURE</h2>
+<a id="ac77d15e44d3882546672aabc404a9ac6" name="ac77d15e44d3882546672aabc404a9ac6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac77d15e44d3882546672aabc404a9ac6">&#9670;&#160;</a></span>FIGURE_BREATH</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FIGURE&#160;&#160;&#160;4</td>
+          <td class="memname">#define FIGURE_BREATH&#160;&#160;&#160;4</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -311,6 +328,104 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
 
 </div>
 </div>
+<a id="abb4f3a7a2691644b22b69256295fd605" name="abb4f3a7a2691644b22b69256295fd605"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb4f3a7a2691644b22b69256295fd605">&#9670;&#160;</a></span>LEDARRAY_LED_COLOR_COMPONENT_FMT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LEDARRAY_LED_COLOR_COMPONENT_FMT&#160;&#160;&#160;LED_STRIP_COLOR_COMPONENT_FMT_GRB</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aecc61db375d758b1d86c573795deaff2" name="aecc61db375d758b1d86c573795deaff2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecc61db375d758b1d86c573795deaff2">&#9670;&#160;</a></span>LEDARRAY_LED_INVERT_OUT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LEDARRAY_LED_INVERT_OUT&#160;&#160;&#160;(false)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab8343ae408f4f701ba08718127662b4c" name="ab8343ae408f4f701ba08718127662b4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8343ae408f4f701ba08718127662b4c">&#9670;&#160;</a></span>LEDARRAY_LED_MODEL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LEDARRAY_LED_MODEL&#160;&#160;&#160;LED_MODEL_WS2812</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a14c73a611969c5e90685933827fbc9ba" name="a14c73a611969c5e90685933827fbc9ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14c73a611969c5e90685933827fbc9ba">&#9670;&#160;</a></span>LEDARRAY_LED_RMT_CLK_SRC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LEDARRAY_LED_RMT_CLK_SRC&#160;&#160;&#160;RMT_CLK_SRC_DEFAULT</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0552f4ab4d9a0e8f4626337142272349" name="a0552f4ab4d9a0e8f4626337142272349"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0552f4ab4d9a0e8f4626337142272349">&#9670;&#160;</a></span>LEDARRAY_LED_RMT_MEM_BLOCK_SYMBOLS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LEDARRAY_LED_RMT_MEM_BLOCK_SYMBOLS&#160;&#160;&#160;64</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae3756538f8c248b3c63b6147ca547344" name="ae3756538f8c248b3c63b6147ca547344"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3756538f8c248b3c63b6147ca547344">&#9670;&#160;</a></span>LEDARRAY_LED_RMT_RESOLUTION_HZ</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LEDARRAY_LED_RMT_RESOLUTION_HZ&#160;&#160;&#160;(10*1000*1000)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a44701197dbdd46a12d2accd4cc3d548f" name="a44701197dbdd46a12d2accd4cc3d548f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44701197dbdd46a12d2accd4cc3d548f">&#9670;&#160;</a></span>LEDARRAY_LED_WITH_DMA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LEDARRAY_LED_WITH_DMA&#160;&#160;&#160;(true)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac1338a63be3ce085ed1707b3cd37a8c7" name="ac1338a63be3ce085ed1707b3cd37a8c7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac1338a63be3ce085ed1707b3cd37a8c7">&#9670;&#160;</a></span>LEDARRAY_REFRESH_INIT_MODE</h2>
 
@@ -318,7 +433,7 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define LEDARRAY_REFRESH_INIT_MODE&#160;&#160;&#160;<a class="el" href="sevetest30___led_array_8h.html#a43484d7921da2388b427cde75836f46eadd4d1b30cc7e6a4bbceee0a073bf49e6">LEDARRAY_REFRESH_ALL_ONCE</a></td>
+          <td class="memname">#define LEDARRAY_REFRESH_INIT_MODE&#160;&#160;&#160;<a class="el" href="sevetest30___led_array_8h.html#a2b0c0a87a69aec8574e6a2217d8b2923aa695df486f38bdd46c119674de811909">LEDARRAY_AUTO_REFRESH_ALL_ONCE</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -392,7 +507,7 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">pRECTANGLE</td><td>)</td>
-          <td>&#160;&#160;&#160;(pRECTANGLE+0x01)</td>
+          <td>&#160;&#160;&#160;(pRECTANGLE+0x08)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -428,23 +543,23 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
 </div>
 </div>
 <h2 class="groupheader">枚举类型说明</h2>
-<a id="a43484d7921da2388b427cde75836f46e" name="a43484d7921da2388b427cde75836f46e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43484d7921da2388b427cde75836f46e">&#9670;&#160;</a></span>ledarray_refresh_mode_t</h2>
+<a id="a2b0c0a87a69aec8574e6a2217d8b2923" name="a2b0c0a87a69aec8574e6a2217d8b2923"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b0c0a87a69aec8574e6a2217d8b2923">&#9670;&#160;</a></span>ledarray_auto_refresh_mode_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="sevetest30___led_array_8h.html#a43484d7921da2388b427cde75836f46e">ledarray_refresh_mode_t</a></td>
+          <td class="memname">enum <a class="el" href="sevetest30___led_array_8h.html#a2b0c0a87a69aec8574e6a2217d8b2923">ledarray_auto_refresh_mode_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="a43484d7921da2388b427cde75836f46ea5befe4eb59c860532f3f3287eae868d9" name="a43484d7921da2388b427cde75836f46ea5befe4eb59c860532f3f3287eae868d9"></a>LEDARRAY_REFRESH_DISABLE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a43484d7921da2388b427cde75836f46eadd4d1b30cc7e6a4bbceee0a073bf49e6" name="a43484d7921da2388b427cde75836f46eadd4d1b30cc7e6a4bbceee0a073bf49e6"></a>LEDARRAY_REFRESH_ALL_ONCE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a43484d7921da2388b427cde75836f46ea75f5782064dc57b7bdf8f2641a839d3d" name="a43484d7921da2388b427cde75836f46ea75f5782064dc57b7bdf8f2641a839d3d"></a>LEDARRAY_REFRESH_ALL_MULTIPLE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a43484d7921da2388b427cde75836f46eaa47c4d025e54bcb08511a20420ee96de" name="a43484d7921da2388b427cde75836f46eaa47c4d025e54bcb08511a20420ee96de"></a>LEDARRAY_REFRESH_PART_ONCE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a43484d7921da2388b427cde75836f46eaba1737e697aceb7d95d172c23bc7075a" name="a43484d7921da2388b427cde75836f46eaba1737e697aceb7d95d172c23bc7075a"></a>LEDARRAY_REFRESH_PART_MULTIPLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="a2b0c0a87a69aec8574e6a2217d8b2923a1296c7fd42ca32fae7a8058663808c60" name="a2b0c0a87a69aec8574e6a2217d8b2923a1296c7fd42ca32fae7a8058663808c60"></a>LEDARRAY_AUTO_REFRESH_DISABLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b0c0a87a69aec8574e6a2217d8b2923aa695df486f38bdd46c119674de811909" name="a2b0c0a87a69aec8574e6a2217d8b2923aa695df486f38bdd46c119674de811909"></a>LEDARRAY_AUTO_REFRESH_ALL_ONCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b0c0a87a69aec8574e6a2217d8b2923a352cb495cf3a4e89996e739c4209b77c" name="a2b0c0a87a69aec8574e6a2217d8b2923a352cb495cf3a4e89996e739c4209b77c"></a>LEDARRAY_AUTO_REFRESH_ALL_MULTIPLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b0c0a87a69aec8574e6a2217d8b2923a2e3a98b0baabf93eed328151f8cc2528" name="a2b0c0a87a69aec8574e6a2217d8b2923a2e3a98b0baabf93eed328151f8cc2528"></a>LEDARRAY_AUTO_REFRESH_PART_ONCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b0c0a87a69aec8574e6a2217d8b2923a4a6390cc7ed5f61a2f2a1529c6f4cebf" name="a2b0c0a87a69aec8574e6a2217d8b2923a4a6390cc7ed5f61a2f2a1529c6f4cebf"></a>LEDARRAY_AUTO_REFRESH_PART_MULTIPLE&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -469,8 +584,8 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
 
 </div>
 </div>
-<a id="a92ce28a239503c364726b5673f2915e5" name="a92ce28a239503c364726b5673f2915e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92ce28a239503c364726b5673f2915e5">&#9670;&#160;</a></span>clean_draw_buf()</h2>
+<a id="a1f7ec79c6c25ce0bff5f2b03a9c5cb30" name="a1f7ec79c6c25ce0bff5f2b03a9c5cb30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f7ec79c6c25ce0bff5f2b03a9c5cb30">&#9670;&#160;</a></span>clean_draw_buf()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -478,7 +593,7 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
         <tr>
           <td class="memname">void clean_draw_buf </td>
           <td>(</td>
-          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>y</em></td><td>)</td>
           <td></td>
         </tr>
@@ -495,8 +610,8 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
 
 </div>
 </div>
-<a id="a670cb7e9249c70161c21ac2aae2b4e4e" name="a670cb7e9249c70161c21ac2aae2b4e4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a670cb7e9249c70161c21ac2aae2b4e4e">&#9670;&#160;</a></span>color_compound()</h2>
+<a id="a03fa3056a3342002b5c1d15eefb2763c" name="a03fa3056a3342002b5c1d15eefb2763c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03fa3056a3342002b5c1d15eefb2763c">&#9670;&#160;</a></span>color_compound()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -504,8 +619,8 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
         <tr>
           <td class="memname">void color_compound </td>
           <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>line_sw</em></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>line_num</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -514,15 +629,15 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
 <p>颜色数据合成,将R red_y(x) G green_y(x) B blue_y(x) 合成为 为WS2812发送的数据 </p>
 <p>SE30中VERTICAL_LED_NUMBER=12 如果您希望扩展屏幕纵向长度，务必修改这个函数 </p><dl class="params"><dt>参数</dt><dd>
   <table class="params">
-    <tr><td class="paramname">line_sw</td><td>合成选定的行(1-VERTICAL_LED_NUMBER) </td></tr>
+    <tr><td class="paramname">line_num</td><td>合成选定的行(1-VERTICAL_LED_NUMBER) </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a6e36c132215af27002355b2ff9d8b072" name="a6e36c132215af27002355b2ff9d8b072"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e36c132215af27002355b2ff9d8b072">&#9670;&#160;</a></span>color_input()</h2>
+<a id="abf758815716152fd82adce0d1a9fc851" name="abf758815716152fd82adce0d1a9fc851"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf758815716152fd82adce0d1a9fc851">&#9670;&#160;</a></span>color_input()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -530,20 +645,20 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
         <tr>
           <td class="memname">void color_input </td>
           <td>(</td>
-          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t *&#160;</td>
-          <td class="paramname"><em>dat</em>&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -558,15 +673,15 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
   <table class="params">
     <tr><td class="paramname">x</td><td>绝对横坐标(0 到 LINE_LED_NUMBER-1) </td></tr>
     <tr><td class="paramname">y</td><td>一般纵坐标(1 到 VERTICAL_LED_NUMBER) </td></tr>
-    <tr><td class="paramname">dat</td><td>导入的颜色RGB数据位置 </td></tr>
+    <tr><td class="paramname">data</td><td>导入的颜色RGB数据位置 </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="afe36c756b8e5400fbe11f1168eeebab8" name="afe36c756b8e5400fbe11f1168eeebab8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe36c756b8e5400fbe11f1168eeebab8">&#9670;&#160;</a></span>color_output()</h2>
+<a id="ae4f6193be4f33f47972bf9479adff8c3" name="ae4f6193be4f33f47972bf9479adff8c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4f6193be4f33f47972bf9479adff8c3">&#9670;&#160;</a></span>color_output()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -574,20 +689,20 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
         <tr>
           <td class="memname">void color_output </td>
           <td>(</td>
-          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t *&#160;</td>
-          <td class="paramname"><em>dat</em>&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -602,15 +717,15 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
   <table class="params">
     <tr><td class="paramname">x</td><td>绝对横坐标(0 到 LINE_LED_NUMBER-1) </td></tr>
     <tr><td class="paramname">y</td><td>一般纵坐标(1 到 LINE_LED_NUMBER) </td></tr>
-    <tr><td class="paramname">dat</td><td>导出存储的颜色RGB数据的位置 </td></tr>
+    <tr><td class="paramname">data</td><td>导出存储的颜色RGB数据的位置 </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="ad4691147267eedfb4323ab9781b2dd62" name="ad4691147267eedfb4323ab9781b2dd62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4691147267eedfb4323ab9781b2dd62">&#9670;&#160;</a></span>direct_draw()</h2>
+<a id="a1540a6256b3d0bbec51ff59e62c8fd2f" name="a1540a6256b3d0bbec51ff59e62c8fd2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1540a6256b3d0bbec51ff59e62c8fd2f">&#9670;&#160;</a></span>direct_draw()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -618,13 +733,13 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
         <tr>
           <td class="memname">void direct_draw </td>
           <td>(</td>
-          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
@@ -661,8 +776,8 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
 
 </div>
 </div>
-<a id="afbd085293d3f3dbf3083dd048cb5a8d6" name="afbd085293d3f3dbf3083dd048cb5a8d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbd085293d3f3dbf3083dd048cb5a8d6">&#9670;&#160;</a></span>font_raw_print_12x()</h2>
+<a id="a72811806c66a024beba60667f2d08608" name="a72811806c66a024beba60667f2d08608"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72811806c66a024beba60667f2d08608">&#9670;&#160;</a></span>font_raw_print_12x()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -670,13 +785,13 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
         <tr>
           <td class="memname">void font_raw_print_12x </td>
           <td>(</td>
-          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
@@ -725,8 +840,8 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
 
 </div>
 </div>
-<a id="ab7ec88320017091e65a906970e06dafd" name="ab7ec88320017091e65a906970e06dafd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7ec88320017091e65a906970e06dafd">&#9670;&#160;</a></span>font_roll_print_12x()</h2>
+<a id="a5603cf3c7b1be939ffcf206431263c9b" name="a5603cf3c7b1be939ffcf206431263c9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5603cf3c7b1be939ffcf206431263c9b">&#9670;&#160;</a></span>font_roll_print_12x()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -734,13 +849,13 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
         <tr>
           <td class="memname">void font_roll_print_12x </td>
           <td>(</td>
-          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
@@ -851,14 +966,14 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
 
 </div>
 </div>
-<a id="af09cfa198e2fb90a5aa9654d886f3664" name="af09cfa198e2fb90a5aa9654d886f3664"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af09cfa198e2fb90a5aa9654d886f3664">&#9670;&#160;</a></span>ledarray_deinit()</h2>
+<a id="aa82f96b074e49505bd591624412c6f6c" name="aa82f96b074e49505bd591624412c6f6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa82f96b074e49505bd591624412c6f6c">&#9670;&#160;</a></span>ledarray_deinit()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void ledarray_deinit </td>
+          <td class="memname">esp_err_t ledarray_deinit </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -866,7 +981,14 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
       </table>
 </div><div class="memdoc">
 
-<p>去初始化灯板阵列 </p>
+<p>灯板阵列反初始化操作 </p>
+<dl class="section return"><dt>返回</dt><dd>[ESP_OK 成功] </dd>
+<dd>
+[ESP_FAIL 释放资源失败 / refresh_Task_Mutex互斥量异常] </dd>
+<dd>
+[ESP_ERR_INVALID_STATE 灯板阵列未初始化,无需反初始化] </dd>
+<dd>
+[ESP_ERR_INVALID_ARG ledarray_gpio_num_list中存在错误的GPIO号码] </dd></dl>
 
 </div>
 </div>
@@ -886,15 +1008,15 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
 </div><div class="memdoc">
 
 <p>初始化灯板阵列 </p>
-<dl class="section return"><dt>返回</dt><dd>[ESP_OK 初始化成功] </dd>
+<dl class="section return"><dt>返回</dt><dd>[ESP_OK 成功] </dd>
 <dd>
-[ESP_FAIL 创建refresh_Task_Mutex互斥量时发现问题] </dd>
+[ESP_FAIL 创建refresh_Task_Mutex互斥量时发现问题 / refresh_Task_Mutex互斥量已经被意外创建] </dd>
 <dd>
-[ESP_ERR_INVALID_STATE 灯板阵列之前已经初始化,运行ledarray_deinit以去初始化 / RMT控制器之前已经安装,请调用对应rmt_driver_uninstall] </dd>
+[ESP_ERR_INVALID_STATE 灯板阵列之前已经初始化,运行ledarray_deinit以去初始化 / RMT控制器之前已经安装,请调用对应rmt_driver_uninstall释放需要的资源] </dd>
 <dd>
 [ESP_ERR_INVALID_ARG 参数错误] </dd>
 <dd>
-[ESP_ERR_NO_MEM 内存申请失败] </dd></dl>
+[ESP_ERR_NO_MEM 内存不足] </dd></dl>
 
 </div>
 </div>
@@ -938,8 +1060,8 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
 
 </div>
 </div>
-<a id="a0aa50fecb446229afaf4d7b4808254d8" name="a0aa50fecb446229afaf4d7b4808254d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0aa50fecb446229afaf4d7b4808254d8">&#9670;&#160;</a></span>ledarray_set_and_write()</h2>
+<a id="a53b22c3df6c75320b856a16a7510a8ab" name="a53b22c3df6c75320b856a16a7510a8ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53b22c3df6c75320b856a16a7510a8ab">&#9670;&#160;</a></span>ledarray_set_and_write()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -947,8 +1069,8 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
         <tr>
           <td class="memname">void ledarray_set_and_write </td>
           <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>group_sw</em></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>group_num</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -957,30 +1079,30 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
 <p>灯板阵列选定并写入，未通过ledarray_init()初始化ledarray，函数内会自动初始化 </p>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
-    <tr><td class="paramname">group_sw</td><td>选定要刷新的组,每组有两串WS2812,如12行WS2812,共6组,取值为0-5,不足一组单独按一组计算 </td></tr>
+    <tr><td class="paramname">group_num</td><td>选定要刷新的组,每组有两串WS2812,如12行WS2812,共6组,取值为0-5,不足一组单独按一组计算 </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a350204007e04d378da6acbc29c1c816c" name="a350204007e04d378da6acbc29c1c816c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a350204007e04d378da6acbc29c1c816c">&#9670;&#160;</a></span>ledarray_set_refresh_mode()</h2>
+<a id="ac8c675e3a2cbb00232293614b66132ca" name="ac8c675e3a2cbb00232293614b66132ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8c675e3a2cbb00232293614b66132ca">&#9670;&#160;</a></span>ledarray_set_auto_refresh_mode()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void ledarray_set_refresh_mode </td>
+          <td class="memname">void ledarray_set_auto_refresh_mode </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="sevetest30___led_array_8h.html#a43484d7921da2388b427cde75836f46e">ledarray_refresh_mode_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="sevetest30___led_array_8h.html#a2b0c0a87a69aec8574e6a2217d8b2923">ledarray_auto_refresh_mode_t</a>&#160;</td>
           <td class="paramname"><em>mode</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>设置LED阵列的刷新模式("ALL_ONCE" "ALL_MULTIPLE" "PART_ONCE" "PART_MULTIPLE") </p>
+<p>设置LED阵列的自动刷新模式,立即启动生效 </p>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
     <tr><td class="paramname">mode</td><td>刷新模式,这是一个枚举类型 </td></tr>
@@ -990,8 +1112,8 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
 
 </div>
 </div>
-<a id="a54022fb8ab5a3af59f5864d71250597b" name="a54022fb8ab5a3af59f5864d71250597b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54022fb8ab5a3af59f5864d71250597b">&#9670;&#160;</a></span>print_number()</h2>
+<a id="a0cfbcac2594ee10f0994f0a7b1a899b3" name="a0cfbcac2594ee10f0994f0a7b1a899b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cfbcac2594ee10f0994f0a7b1a899b3">&#9670;&#160;</a></span>print_number()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -999,13 +1121,13 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
         <tr>
           <td class="memname">void print_number </td>
           <td>(</td>
-          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
@@ -1017,8 +1139,8 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint8_t *&#160;</td>
-          <td class="paramname"><em>color</em>, </td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>color</em>[3], </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1034,10 +1156,22 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
       </table>
 </div><div class="memdoc">
 
+<p>打印一个数字(软件字模) </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>起始坐标x </td></tr>
+    <tr><td class="paramname">y</td><td>起始坐标x </td></tr>
+    <tr><td class="paramname">figure</td><td>输入整型0-9数字,不支持负数 </td></tr>
+    <tr><td class="paramname">color</td><td>颜色RGB </td></tr>
+    <tr><td class="paramname">change</td><td>亮度0-100 </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
-<a id="a4c4efd3188ccd65c9a42b5e67e6c21d2" name="a4c4efd3188ccd65c9a42b5e67e6c21d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c4efd3188ccd65c9a42b5e67e6c21d2">&#9670;&#160;</a></span>progress_draw_buf()</h2>
+<a id="a7cd4e32e2313fd093015cc325d5d742f" name="a7cd4e32e2313fd093015cc325d5d742f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cd4e32e2313fd093015cc325d5d742f">&#9670;&#160;</a></span>progress_draw_buf()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1045,7 +1179,7 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
         <tr>
           <td class="memname">void progress_draw_buf </td>
           <td>(</td>
-          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
@@ -1080,8 +1214,8 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
 
 </div>
 </div>
-<a id="aa49fb91e47f7a6f6e916239164d8ee4b" name="aa49fb91e47f7a6f6e916239164d8ee4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa49fb91e47f7a6f6e916239164d8ee4b">&#9670;&#160;</a></span>rectangle()</h2>
+<a id="ad1d514d504694d0e94035511faac29d4" name="ad1d514d504694d0e94035511faac29d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1d514d504694d0e94035511faac29d4">&#9670;&#160;</a></span>rectangle()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1089,13 +1223,13 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
         <tr>
           <td class="memname">uint8_t * rectangle </td>
           <td>(</td>
-          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramtype">int32_t&#160;</td>
           <td class="paramname"><em>breadth</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramtype">int32_t&#160;</td>
           <td class="paramname"><em>length</em>&#160;</td>
         </tr>
         <tr>
@@ -1114,7 +1248,7 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>返回</dt><dd>返回值 rectangle_data 为矩形数据地址 *rectangle_data 为 总数据大小（Byte） <a class="el" href="sevetest30___led_array_8h.html#a7eebbaa5b8e0a2e58d079d7990de0ea3">RECTANGLE_MATRIX(rectangle_data)</a> 为 矩形字模 </dd>
+<dl class="section return"><dt>返回</dt><dd>返回值 rectangle_data 为矩形数据地址 *rectangle_data 为 总数据大小(uint64_t)(单位:Byte) <a class="el" href="sevetest30___led_array_8h.html#a7eebbaa5b8e0a2e58d079d7990de0ea3">RECTANGLE_MATRIX(rectangle_data)</a> 为 矩形字模 </dd>
 <dd>
 例 返回值为p separation_draw(x,y,b,RECTANGLE_MATRIX(p),*p,color,change); free(p); </dd></dl>
 
@@ -1172,8 +1306,8 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
 
 </div>
 </div>
-<a id="af2dce94d7dcbda0dd03daf92d029147e" name="af2dce94d7dcbda0dd03daf92d029147e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2dce94d7dcbda0dd03daf92d029147e">&#9670;&#160;</a></span>separation_draw()</h2>
+<a id="a71ec689aa9c86bd3752f92ac43dfddb0" name="a71ec689aa9c86bd3752f92ac43dfddb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71ec689aa9c86bd3752f92ac43dfddb0">&#9670;&#160;</a></span>separation_draw()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1181,19 +1315,19 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
         <tr>
           <td class="memname">void separation_draw </td>
           <td>(</td>
-          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramtype">uint64_t&#160;</td>
           <td class="paramname"><em>breadth</em>, </td>
         </tr>
         <tr>
@@ -1211,8 +1345,8 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint8_t *&#160;</td>
-          <td class="paramname"><em>color_in</em>, </td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>in_color</em>[3], </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1227,6 +1361,23 @@ sevetest30_LedArray.h 的引用(Include)关系图:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>三色分离方式 取模适配PCtoLCD2002 </p>
+<p>取模说明：从第一行开始向右每取8个点作为一个字节，如果最后不足8个点就补满8位。</p>
+<p>取模顺序是从高到低，即第一个点作为最高位。如*----&mdash;取为10000000</p>
+<p>RGB三色分离方式绘制,只支持单色绘制,之后ledarray_set_and_write需要被调用才可显示</p>
+<p>取模方式请参考头文件 </p><dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>图案横坐标(无范围限制，超出不显示)，灯板左上角设为原点（1，1），由左到右绘制 </td></tr>
+    <tr><td class="paramname">y</td><td>图案纵坐标(无范围限制，超出不显示)，灯板左上角设为原点（1，1），由上到下绘制 </td></tr>
+    <tr><td class="paramname">breadth</td><td>图案宽度（已定义的：FIGURE-数字 LETTER-字母 CHINESE-汉字） </td></tr>
+    <tr><td class="paramname">p</td><td>导入字模指针 </td></tr>
+    <tr><td class="paramname">byte_number</td><td>总数据长度(Byte) </td></tr>
+    <tr><td class="paramname">in_color</td><td>注入颜色 （RGB） </td></tr>
+    <tr><td class="paramname">change</td><td>亮度调整（1-100）警告:过高的调整幅度可能导致色彩失真 </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

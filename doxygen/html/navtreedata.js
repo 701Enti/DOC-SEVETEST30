@@ -53,8 +53,8 @@ var NAVTREEINDEX =
 "_a_g_s10_8c.html",
 "lsm6ds3trc_8c.html#a1e9151d80c2684fe83e771295ce4c60f",
 "sevetest30___i_w_e_d_a_8c.html#a71180d898510335fe528eb67d5ea6484",
-"sevetest30___u_i_8c.html",
-"struct_real__time__weather.html#ab1dc2382a884dd4c5b720e02cab92070"
+"sevetest30___s_w_e_d_a_8h.html#ab2cc0c093b62ce90b74b9d5b68139054",
+"struct_real__time__weather.html#a4d1dd969b95b8df7171eacad73c6ed8f"
 ];
 
 var SYNCONMSG = '点击 关闭 面板同步';

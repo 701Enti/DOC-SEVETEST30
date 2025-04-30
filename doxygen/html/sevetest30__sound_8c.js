@@ -1,7 +1,7 @@
 var sevetest30__sound_8c =
 [
     [ "_TTS_get_token_handle", "sevetest30__sound_8c.html#aa10bbc10ab33ad7909d8fee35132d79e", null ],
-    [ "asr_service_start", "sevetest30__sound_8c.html#a026426bcd54a5888baba098abee58ddd", null ],
+    [ "asr_service_begin", "sevetest30__sound_8c.html#a0ade64f1ab2015416af159e60e13c026", null ],
     [ "audio_element_all_init", "sevetest30__sound_8c.html#a1e06e5bb2b668e761c3dfb74abdec02b", null ],
     [ "common_asr_running_event", "sevetest30__sound_8c.html#ac317280a181cba640181c3089194c185", null ],
     [ "common_mp3_running_event", "sevetest30__sound_8c.html#aa90320a2b84f45cc7cfeb930e80a163e", null ],

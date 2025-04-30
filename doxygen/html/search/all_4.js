@@ -9,7 +9,7 @@ var searchData=
   ['dev_5fpid_6',['dev_pid',['../structbaidu___a_s_r__cfg__t.html#a3ece671231f4dceff197c4f881725ca1',1,'baidu_ASR_cfg_t']]],
   ['device_5fi2c_5finit_7',['device_i2c_init',['../board__ctrl_8h.html#ac99044e3543686d249dffc95b1751527',1,'device_i2c_init():&#160;board_ctrl.c'],['../board__ctrl_8c.html#ac99044e3543686d249dffc95b1751527',1,'device_i2c_init():&#160;board_ctrl.c']]],
   ['dew_8',['dew',['../struct_real__time__weather.html#a9fa2d25174ad2426f2d7ea7963ac1696',1,'Real_time_weather']]],
-  ['direct_5fdraw_9',['direct_draw',['../sevetest30___led_array_8h.html#ad4691147267eedfb4323ab9781b2dd62',1,'direct_draw(int32_t x, int32_t y, const uint8_t *p, uint8_t change):&#160;sevetest30_LedArray.c'],['../sevetest30___led_array_8c.html#ad4691147267eedfb4323ab9781b2dd62',1,'direct_draw(int32_t x, int32_t y, const uint8_t *p, uint8_t change):&#160;sevetest30_LedArray.c']]],
+  ['direct_5fdraw_9',['direct_draw',['../sevetest30___led_array_8h.html#a1540a6256b3d0bbec51ff59e62c8fd2f',1,'direct_draw(int x, int y, const uint8_t *p, uint8_t change):&#160;sevetest30_LedArray.c'],['../sevetest30___led_array_8c.html#a1540a6256b3d0bbec51ff59e62c8fd2f',1,'direct_draw(int x, int y, const uint8_t *p, uint8_t change):&#160;sevetest30_LedArray.c']]],
   ['draw_5fline_5fcount_10',['draw_line_count',['../sevetest30___led_array_8c.html#acd62dac27e0918225ab0aede60ee2f18',1,'sevetest30_LedArray.c']]],
   ['drdy_5fpulse_5fcfg_5fg_11',['DRDY_PULSE_CFG_G',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7ab1ac092dcc3815e592feacea9a0d749b',1,'lsm6ds3trc.h']]],
   ['dsp_5fmax_5ffft_5fsize_12',['DSP_MAX_FFT_SIZE',['../sevetest30___u_i_8h.html#af1ab76206bc3a1addbbd7a154c18911a',1,'sevetest30_UI.h']]]

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['rectangle_0',['rectangle',['../sevetest30___led_array_8c.html#aa49fb91e47f7a6f6e916239164d8ee4b',1,'rectangle(int8_t breadth, int8_t length):&#160;sevetest30_LedArray.c'],['../sevetest30___led_array_8h.html#aa49fb91e47f7a6f6e916239164d8ee4b',1,'rectangle(int8_t breadth, int8_t length):&#160;sevetest30_LedArray.c']]],
+  ['rectangle_0',['rectangle',['../sevetest30___led_array_8c.html#ad1d514d504694d0e94035511faac29d4',1,'rectangle(int32_t breadth, int32_t length):&#160;sevetest30_LedArray.c'],['../sevetest30___led_array_8h.html#ad1d514d504694d0e94035511faac29d4',1,'rectangle(int32_t breadth, int32_t length):&#160;sevetest30_LedArray.c']]],
   ['refresh_5fall_5fmultiple_5ftask_1',['refresh_ALL_MULTIPLE_Task',['../sevetest30___led_array_8c.html#ad0c691643dc5861bc0fda7636c697537',1,'sevetest30_LedArray.c']]],
   ['refresh_5fall_5fonce_5ftask_2',['refresh_ALL_ONCE_Task',['../sevetest30___led_array_8c.html#a7494912b8b468cd33f54bbfecbbbba17',1,'sevetest30_LedArray.c']]],
   ['refresh_5fbattery_5fdata_3',['refresh_battery_data',['../sevetest30___s_w_e_d_a_8h.html#ac0cea770e9b8b0f2982acb59155bb9c7',1,'refresh_battery_data():&#160;sevetest30_SWEDA.c'],['../sevetest30___s_w_e_d_a_8c.html#ac0cea770e9b8b0f2982acb59155bb9c7',1,'refresh_battery_data():&#160;sevetest30_SWEDA.c']]],
