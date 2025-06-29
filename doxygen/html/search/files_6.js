@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['tca6416a_2ec_0',['TCA6416A.c',['../_t_c_a6416_a_8c.html',1,'']]],
-  ['tca6416a_2eh_1',['TCA6416A.h',['../_t_c_a6416_a_8h.html',1,'']]]
+  ['main_2ec_0',['main.c',['../main_8c.html',1,'']]],
+  ['math_5ftools_2ec_1',['math_tools.c',['../math__tools_8c.html',1,'']]],
+  ['math_5ftools_2eh_2',['math_tools.h',['../math__tools_8h.html',1,'']]]
 ];

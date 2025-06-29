@@ -126,7 +126,6 @@ $(document).ready(function(){initNavTree('lsm6ds3trc_8c.html',''); initResizable
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">宏定义</a> &#124;
 <a href="#func-members">函数</a>  </div>
   <div class="headertitle"><div class="title">lsm6ds3trc.c 文件参考</div></div>
 </div><!--header-->
@@ -143,16 +142,11 @@ lsm6ds3trc.c 的引用(Include)关系图:</div>
 <div class="center"><iframe scrolling="no" frameborder="0" src="lsm6ds3trc_8c__incl.svg" width="710" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-宏定义</h2></td></tr>
-<tr class="memitem:aa9d174d2cf4409dbb580cf88262b1a57" id="r_aa9d174d2cf4409dbb580cf88262b1a57"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lsm6ds3trc_8c.html#aa9d174d2cf4409dbb580cf88262b1a57">LSM6DS3TRC_DEVICE_ADD</a>&#160;&#160;&#160;0x6A</td></tr>
-<tr class="separator:aa9d174d2cf4409dbb580cf88262b1a57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 函数</h2></td></tr>
-<tr class="memitem:ab8c1d34398dd66cde3da659309fde72e" id="r_ab8c1d34398dd66cde3da659309fde72e"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lsm6ds3trc_8c.html#ab8c1d34398dd66cde3da659309fde72e">lsm6ds3trc_database_map_set</a> (<a class="el" href="struct_i_m_u__reg__mapping__t.html">IMU_reg_mapping_t</a> *reg_database, int map_num)</td></tr>
-<tr class="memdesc:ab8c1d34398dd66cde3da659309fde72e"><td class="mdescLeft">&#160;</td><td class="mdescRight">映射数据库中的配置到LSM6DS3TRC硬件寄存器,即通过数据库写入设定的寄存器  <br /></td></tr>
-<tr class="separator:ab8c1d34398dd66cde3da659309fde72e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0d7b5b09f98ff8cbc0639c8e5a24a83" id="r_ac0d7b5b09f98ff8cbc0639c8e5a24a83"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lsm6ds3trc_8c.html#ac0d7b5b09f98ff8cbc0639c8e5a24a83">lsm6ds3trc_database_map_write</a> (<a class="el" href="struct_i_m_u__reg__mapping__t.html">IMU_reg_mapping_t</a> *reg_database, int map_num)</td></tr>
+<tr class="memdesc:ac0d7b5b09f98ff8cbc0639c8e5a24a83"><td class="mdescLeft">&#160;</td><td class="mdescRight">映射数据库中的配置到LSM6DS3TRC硬件寄存器,即通过数据库写入设定的寄存器  <br /></td></tr>
+<tr class="separator:ac0d7b5b09f98ff8cbc0639c8e5a24a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a734fd62aae65d8a0dd2314c3db61a7a2" id="r_a734fd62aae65d8a0dd2314c3db61a7a2"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lsm6ds3trc_8c.html#a734fd62aae65d8a0dd2314c3db61a7a2">lsm6ds3trc_database_map_read</a> (<a class="el" href="struct_i_m_u__reg__mapping__t.html">IMU_reg_mapping_t</a> *reg_database, int map_num)</td></tr>
 <tr class="memdesc:a734fd62aae65d8a0dd2314c3db61a7a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">映射LSM6DS3TRC硬件寄存器的数据到数据库,即读取设定的寄存器到数据库  <br /></td></tr>
 <tr class="separator:a734fd62aae65d8a0dd2314c3db61a7a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,8 +159,12 @@ lsm6ds3trc.c 的引用(Include)关系图:</div>
 <tr class="memitem:af9289ed6975d2a4f1122c9c4be5f7e87" id="r_af9289ed6975d2a4f1122c9c4be5f7e87"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lsm6ds3trc_8c.html#af9289ed6975d2a4f1122c9c4be5f7e87">lsm6ds3trc_get_step_counter</a> ()</td></tr>
 <tr class="memdesc:af9289ed6975d2a4f1122c9c4be5f7e87"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取步数计数值  <br /></td></tr>
 <tr class="separator:af9289ed6975d2a4f1122c9c4be5f7e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec78c8d80e1a0ecef27bbf42954d44be" id="r_aec78c8d80e1a0ecef27bbf42954d44be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_i_m_u___d6_d__data__value__t.html">IMU_D6D_data_value_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lsm6ds3trc_8c.html#aec78c8d80e1a0ecef27bbf42954d44be">lsm6ds3trc_get_D6D_data_value</a> ()</td></tr>
-<tr class="separator:aec78c8d80e1a0ecef27bbf42954d44be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0493e516a177e1d239b3fb03f80b841c" id="r_a0493e516a177e1d239b3fb03f80b841c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_i_m_u___d6_d__data__value__t.html">IMU_D6D_data_value_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lsm6ds3trc_8c.html#a0493e516a177e1d239b3fb03f80b841c">lsm6ds3trc_get_D6D_data_value</a> (bool clearNow)</td></tr>
+<tr class="memdesc:a0493e516a177e1d239b3fb03f80b841c"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取实时D6D偏移方向监测数据  <br /></td></tr>
+<tr class="separator:a0493e516a177e1d239b3fb03f80b841c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a218d1a820b1cee6c13eea2c3fc63786d" id="r_a218d1a820b1cee6c13eea2c3fc63786d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lsm6ds3trc_8c.html#a218d1a820b1cee6c13eea2c3fc63786d">lsm6ds3trc_clear_D6D_data_value</a> ()</td></tr>
+<tr class="memdesc:a218d1a820b1cee6c13eea2c3fc63786d"><td class="mdescLeft">&#160;</td><td class="mdescRight">立即清理监测数据(lsm6ds3trc的D6D偏移方向监测数据是自锁的,任意为被置为1后,不会自动重置为0,必须用户显式清理)  <br /></td></tr>
+<tr class="separator:a218d1a820b1cee6c13eea2c3fc63786d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8aaae71782145d70d4670637a15407bf" id="r_a8aaae71782145d70d4670637a15407bf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lsm6ds3trc_8c.html#a8aaae71782145d70d4670637a15407bf">lsm6ds3trc_get_free_fall_status</a> ()</td></tr>
 <tr class="memdesc:a8aaae71782145d70d4670637a15407bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">检测是否处于自由落体状态  <br /></td></tr>
 <tr class="separator:a8aaae71782145d70d4670637a15407bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -228,22 +226,26 @@ lsm6ds3trc.c 的引用(Include)关系图:</div>
 <tr class="memdesc:ad0713884fd1155be756799573b1c8a6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">// 合成寄存器配置值 FIFO_CTRL5 : [0] | ODR_FIFO[3:0] | FIFO_MODE[2:0]  <br /></td></tr>
 <tr class="separator:ad0713884fd1155be756799573b1c8a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">宏定义说明</h2>
-<a id="aa9d174d2cf4409dbb580cf88262b1a57" name="aa9d174d2cf4409dbb580cf88262b1a57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9d174d2cf4409dbb580cf88262b1a57">&#9670;&#160;</a></span>LSM6DS3TRC_DEVICE_ADD</h2>
+<h2 class="groupheader">函数说明</h2>
+<a id="a218d1a820b1cee6c13eea2c3fc63786d" name="a218d1a820b1cee6c13eea2c3fc63786d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a218d1a820b1cee6c13eea2c3fc63786d">&#9670;&#160;</a></span>lsm6ds3trc_clear_D6D_data_value()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define LSM6DS3TRC_DEVICE_ADD&#160;&#160;&#160;0x6A</td>
+          <td class="memname">void lsm6ds3trc_clear_D6D_data_value </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>立即清理监测数据(lsm6ds3trc的D6D偏移方向监测数据是自锁的,任意为被置为1后,不会自动重置为0,必须用户显式清理) </p>
+
 </div>
 </div>
-<h2 class="groupheader">函数说明</h2>
 <a id="a734fd62aae65d8a0dd2314c3db61a7a2" name="a734fd62aae65d8a0dd2314c3db61a7a2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a734fd62aae65d8a0dd2314c3db61a7a2">&#9670;&#160;</a></span>lsm6ds3trc_database_map_read()</h2>
 
@@ -291,14 +293,14 @@ lsm6ds3trc.c 的引用(Include)关系图:</div>
 
 </div>
 </div>
-<a id="ab8c1d34398dd66cde3da659309fde72e" name="ab8c1d34398dd66cde3da659309fde72e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8c1d34398dd66cde3da659309fde72e">&#9670;&#160;</a></span>lsm6ds3trc_database_map_set()</h2>
+<a id="ac0d7b5b09f98ff8cbc0639c8e5a24a83" name="ac0d7b5b09f98ff8cbc0639c8e5a24a83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0d7b5b09f98ff8cbc0639c8e5a24a83">&#9670;&#160;</a></span>lsm6ds3trc_database_map_write()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">esp_err_t lsm6ds3trc_database_map_set </td>
+          <td class="memname">esp_err_t lsm6ds3trc_database_map_write </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_i_m_u__reg__mapping__t.html">IMU_reg_mapping_t</a> *&#160;</td>
           <td class="paramname"><em>reg_database</em>, </td>
@@ -427,8 +429,8 @@ lsm6ds3trc.c 的引用(Include)关系图:</div>
 
 </div>
 </div>
-<a id="aec78c8d80e1a0ecef27bbf42954d44be" name="aec78c8d80e1a0ecef27bbf42954d44be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec78c8d80e1a0ecef27bbf42954d44be">&#9670;&#160;</a></span>lsm6ds3trc_get_D6D_data_value()</h2>
+<a id="a0493e516a177e1d239b3fb03f80b841c" name="a0493e516a177e1d239b3fb03f80b841c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0493e516a177e1d239b3fb03f80b841c">&#9670;&#160;</a></span>lsm6ds3trc_get_D6D_data_value()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -436,11 +438,21 @@ lsm6ds3trc.c 的引用(Include)关系图:</div>
         <tr>
           <td class="memname"><a class="el" href="struct_i_m_u___d6_d__data__value__t.html">IMU_D6D_data_value_t</a> lsm6ds3trc_get_D6D_data_value </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>clearNow</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>获取实时D6D偏移方向监测数据 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">clearNow</td><td>读取完成后立即清理监测数据(lsm6ds3trc的D6D偏移方向监测数据是自锁的,任意为被置为1后,不会自动重置为0,必须用户显式清理) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>方向偏移标识 </dd></dl>
 
 </div>
 </div>

@@ -1,23 +1,10 @@
 var searchData=
 [
-  ['out_5fmag_5fraw_5fx_5fh_0',['OUT_MAG_RAW_X_H',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a9c5492ff7df89f65f8b4dc53bd4be669',1,'lsm6ds3trc.h']]],
-  ['out_5fmag_5fraw_5fx_5fl_1',['OUT_MAG_RAW_X_L',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7ab81e31dd3951aa22b168c8212a454c2c',1,'lsm6ds3trc.h']]],
-  ['out_5fmag_5fraw_5fy_5fh_2',['OUT_MAG_RAW_Y_H',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a518ffe4a56add1b0210d73d1acaf4d64',1,'lsm6ds3trc.h']]],
-  ['out_5fmag_5fraw_5fy_5fl_3',['OUT_MAG_RAW_Y_L',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a7a29684ffebc97ab142573947ac01f0a',1,'lsm6ds3trc.h']]],
-  ['out_5fmag_5fraw_5fz_5fh_4',['OUT_MAG_RAW_Z_H',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a647cfdaf5b131de7441a7f6052830253',1,'lsm6ds3trc.h']]],
-  ['out_5fmag_5fraw_5fz_5fl_5',['OUT_MAG_RAW_Z_L',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7af45eb9a78938a13606b0168746bc4111',1,'lsm6ds3trc.h']]],
-  ['out_5ftemp_5fh_6',['OUT_TEMP_H',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7ada4f76d38c3c05f8508d6c6e3af88bdc',1,'lsm6ds3trc.h']]],
-  ['out_5ftemp_5fl_7',['OUT_TEMP_L',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a6290d2d8aaee6f22894dc06e7dc20f1b',1,'lsm6ds3trc.h']]],
-  ['outx_5fh_5fg_8',['OUTX_H_G',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a8e95cb17fad8221656b7455c5280c6ae',1,'lsm6ds3trc.h']]],
-  ['outx_5fh_5fxl_9',['OUTX_H_XL',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a5340f6ffbc6a8aebc9f52971f75ff9ec',1,'lsm6ds3trc.h']]],
-  ['outx_5fl_5fg_10',['OUTX_L_G',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7ae1c6711eb27791eeec187c164177b645',1,'lsm6ds3trc.h']]],
-  ['outx_5fl_5fxl_11',['OUTX_L_XL',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a16df6ba30fc82730db1a79d3b87ad742',1,'lsm6ds3trc.h']]],
-  ['outy_5fh_5fg_12',['OUTY_H_G',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a9e5069c928eaebcab9fa2b874c26de41',1,'lsm6ds3trc.h']]],
-  ['outy_5fh_5fxl_13',['OUTY_H_XL',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a8f7caabc2a31b4f7c416a33a79747f43',1,'lsm6ds3trc.h']]],
-  ['outy_5fl_5fg_14',['OUTY_L_G',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7ad341f68583ed1b1961d583423bc63bd9',1,'lsm6ds3trc.h']]],
-  ['outy_5fl_5fxl_15',['OUTY_L_XL',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a0d5e7d0080ee0f14d57b5855600e0dcb',1,'lsm6ds3trc.h']]],
-  ['outz_5fh_5fg_16',['OUTZ_H_G',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a04c265eada98b0c8ff5810adfe04e797',1,'lsm6ds3trc.h']]],
-  ['outz_5fh_5fxl_17',['OUTZ_H_XL',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a8bbd4d5f4bdb810323487efde5e8f1ce',1,'lsm6ds3trc.h']]],
-  ['outz_5fl_5fg_18',['OUTZ_L_G',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a7e6dbd48b3e11996b0580519fa28dd8f',1,'lsm6ds3trc.h']]],
-  ['outz_5fl_5fxl_19',['OUTZ_L_XL',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a89edd2f73fcf2502ade42b60404572b9',1,'lsm6ds3trc.h']]]
+  ['ledarray_5fauto_5frefresh_5fall_5fmultiple_0',['LEDARRAY_AUTO_REFRESH_ALL_MULTIPLE',['../sevetest30___led_array_8h.html#a2b0c0a87a69aec8574e6a2217d8b2923a352cb495cf3a4e89996e739c4209b77c',1,'sevetest30_LedArray.h']]],
+  ['ledarray_5fauto_5frefresh_5fall_5fonce_1',['LEDARRAY_AUTO_REFRESH_ALL_ONCE',['../sevetest30___led_array_8h.html#a2b0c0a87a69aec8574e6a2217d8b2923aa695df486f38bdd46c119674de811909',1,'sevetest30_LedArray.h']]],
+  ['ledarray_5fauto_5frefresh_5fdisable_2',['LEDARRAY_AUTO_REFRESH_DISABLE',['../sevetest30___led_array_8h.html#a2b0c0a87a69aec8574e6a2217d8b2923a1296c7fd42ca32fae7a8058663808c60',1,'sevetest30_LedArray.h']]],
+  ['ledarray_5fauto_5frefresh_5fpart_5fmultiple_3',['LEDARRAY_AUTO_REFRESH_PART_MULTIPLE',['../sevetest30___led_array_8h.html#a2b0c0a87a69aec8574e6a2217d8b2923a4a6390cc7ed5f61a2f2a1529c6f4cebf',1,'sevetest30_LedArray.h']]],
+  ['ledarray_5fauto_5frefresh_5fpart_5fonce_4',['LEDARRAY_AUTO_REFRESH_PART_ONCE',['../sevetest30___led_array_8h.html#a2b0c0a87a69aec8574e6a2217d8b2923a2e3a98b0baabf93eed328151f8cc2528',1,'sevetest30_LedArray.h']]],
+  ['ledarray_5finit_5',['LEDARRAY_INIT',['../board__ctrl_8h.html#aaf5e14aa5469195ef948ffc62cff1191a2b441b0a80c77847aa45e81933e8578d',1,'board_ctrl.h']]],
+  ['lsm6ds3trc_5finit_5for_5freset_6',['LSM6DS3TRC_INIT_OR_RESET',['../board__ctrl_8h.html#aaf5e14aa5469195ef948ffc62cff1191a73bbca611f70b92bd311ab83a4f5655a',1,'board_ctrl.h']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['x_5fofs_5fusr_0',['X_OFS_USR',['../lsm6ds3trc_8h.html#adf764cbdea00d65edcd07bb9953ad2b7ae8b8b252ba35f6d871bd070a9b7f3420',1,'lsm6ds3trc.h']]]
+  ['vibra_5fmotor_5finit_0',['VIBRA_MOTOR_INIT',['../board__ctrl_8h.html#aaf5e14aa5469195ef948ffc62cff1191ab218713a938421c0229ca5f624b5bedc',1,'board_ctrl.h']]]
 ];

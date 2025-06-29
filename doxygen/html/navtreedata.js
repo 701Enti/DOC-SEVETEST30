@@ -29,8 +29,8 @@ var NAVTREE =
       [ "类列表", "annotated.html", "annotated_dup" ],
       [ "类索引", "classes.html", null ],
       [ "类成员", "functions.html", [
-        [ "全部", "functions.html", null ],
-        [ "变量", "functions_vars.html", null ]
+        [ "全部", "functions.html", "functions_dup" ],
+        [ "变量", "functions_vars.html", "functions_vars" ]
       ] ]
     ] ],
     [ "文件", "files.html", [
@@ -51,10 +51,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_a_g_s10_8c.html",
-"lsm6ds3trc_8c.html#a1e9151d80c2684fe83e771295ce4c60f",
-"sevetest30___i_w_e_d_a_8c.html#a71180d898510335fe528eb67d5ea6484",
-"sevetest30___s_w_e_d_a_8h.html#ab2cc0c093b62ce90b74b9d5b68139054",
-"struct_real__time__weather.html#a4d1dd969b95b8df7171eacad73c6ed8f"
+"globals_func_p.html",
+"lsm6ds3trc_8h.html#abae73eeaa9040884fdb7492a44b054c8aad64987c18a429012fbe4c8fbfd5bcdb",
+"sevetest30___led_array_8c.html#ab085bed50e76747cef84dc4a569ddf1b",
+"sevetest30__sound_8c.html#a6260cb7cb822cb7bd2d705fca54e441c",
+"structboard__ctrl__t.html#a34dbf8676e948fa4cf9ce72770b0200f"
 ];
 
 var SYNCONMSG = '点击 关闭 面板同步';

@@ -175,9 +175,12 @@ sevetest30_LedArray.c 的引用(Include)关系图:</div>
 <tr class="memitem:ad1d514d504694d0e94035511faac29d4" id="r_ad1d514d504694d0e94035511faac29d4"><td class="memItemLeft" align="right" valign="top">uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8c.html#ad1d514d504694d0e94035511faac29d4">rectangle</a> (int32_t breadth, int32_t length)</td></tr>
 <tr class="memdesc:ad1d514d504694d0e94035511faac29d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">生成一个矩形字模(需要释放)  <br /></td></tr>
 <tr class="separator:ad1d514d504694d0e94035511faac29d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71ec689aa9c86bd3752f92ac43dfddb0" id="r_a71ec689aa9c86bd3752f92ac43dfddb0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8c.html#a71ec689aa9c86bd3752f92ac43dfddb0">separation_draw</a> (int x, int y, uint64_t breadth, const uint8_t *p, uint8_t byte_number, uint8_t in_color[3], uint8_t change)</td></tr>
-<tr class="memdesc:a71ec689aa9c86bd3752f92ac43dfddb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">三色分离方式 取模适配PCtoLCD2002  <br /></td></tr>
-<tr class="separator:a71ec689aa9c86bd3752f92ac43dfddb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5182acfa3e3e386f6bf575c30737f770" id="r_a5182acfa3e3e386f6bf575c30737f770"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8c.html#a5182acfa3e3e386f6bf575c30737f770">matrix_size</a> (uint8_t *matrix_data)</td></tr>
+<tr class="memdesc:a5182acfa3e3e386f6bf575c30737f770"><td class="mdescLeft">&#160;</td><td class="mdescRight">计算字模有效图形数据大小(单位:Byte)  <br /></td></tr>
+<tr class="separator:a5182acfa3e3e386f6bf575c30737f770"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ac38e625704740debd1ae7f8b58f900" id="r_a1ac38e625704740debd1ae7f8b58f900"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8c.html#a1ac38e625704740debd1ae7f8b58f900">separation_draw</a> (int x, int y, uint64_t breadth, const uint8_t *p, uint64_t byte_number, uint8_t in_color[3], uint8_t change)</td></tr>
+<tr class="memdesc:a1ac38e625704740debd1ae7f8b58f900"><td class="mdescLeft">&#160;</td><td class="mdescRight">三色分离方式 取模适配PCtoLCD2002  <br /></td></tr>
+<tr class="separator:a1ac38e625704740debd1ae7f8b58f900"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1540a6256b3d0bbec51ff59e62c8fd2f" id="r_a1540a6256b3d0bbec51ff59e62c8fd2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sevetest30___led_array_8c.html#a1540a6256b3d0bbec51ff59e62c8fd2f">direct_draw</a> (int x, int y, const uint8_t *p, uint8_t change)</td></tr>
 <tr class="memdesc:a1540a6256b3d0bbec51ff59e62c8fd2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">彩色图像直显方式 取模方式适配Img2Lcd  <br /></td></tr>
 <tr class="separator:a1540a6256b3d0bbec51ff59e62c8fd2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -890,6 +893,33 @@ sevetest30_LedArray.c 的引用(Include)关系图:</div>
 
 </div>
 </div>
+<a id="a5182acfa3e3e386f6bf575c30737f770" name="a5182acfa3e3e386f6bf575c30737f770"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5182acfa3e3e386f6bf575c30737f770">&#9670;&#160;</a></span>matrix_size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t matrix_size </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>matrix_data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>计算字模有效图形数据大小(单位:Byte) </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">matrix_data</td><td>字模数据,如rectangle()的返回值 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>有效图形数据大小(单位:Byte) </dd></dl>
+
+</div>
+</div>
 <a id="a0cfbcac2594ee10f0994f0a7b1a899b3" name="a0cfbcac2594ee10f0994f0a7b1a899b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0cfbcac2594ee10f0994f0a7b1a899b3">&#9670;&#160;</a></span>print_number()</h2>
 
@@ -1026,7 +1056,7 @@ sevetest30_LedArray.c 的引用(Include)关系图:</div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>返回</dt><dd>返回值 rectangle_data 为矩形数据地址 *rectangle_data 为 总数据大小(uint64_t)(单位:Byte) <a class="el" href="sevetest30___led_array_8h.html#a7eebbaa5b8e0a2e58d079d7990de0ea3">RECTANGLE_MATRIX(rectangle_data)</a> 为 矩形字模 </dd>
+<dl class="section return"><dt>返回</dt><dd>返回值 rectangle_data 为矩形数据地址 [matrix_size(rectangle_data) 为 总数据大小(uint64_t)(单位:Byte)] [<a class="el" href="sevetest30___led_array_8h.html#a7eebbaa5b8e0a2e58d079d7990de0ea3">RECTANGLE_MATRIX(rectangle_data)</a> 为 矩形字模] </dd>
 <dd>
 例 返回值为p separation_draw(x,y,b,RECTANGLE_MATRIX(p),*p,color,change); free(p); </dd></dl>
 
@@ -1160,8 +1190,8 @@ sevetest30_LedArray.c 的引用(Include)关系图:</div>
 
 </div>
 </div>
-<a id="a71ec689aa9c86bd3752f92ac43dfddb0" name="a71ec689aa9c86bd3752f92ac43dfddb0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71ec689aa9c86bd3752f92ac43dfddb0">&#9670;&#160;</a></span>separation_draw()</h2>
+<a id="a1ac38e625704740debd1ae7f8b58f900" name="a1ac38e625704740debd1ae7f8b58f900"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ac38e625704740debd1ae7f8b58f900">&#9670;&#160;</a></span>separation_draw()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1193,7 +1223,7 @@ sevetest30_LedArray.c 的引用(Include)关系图:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramtype">uint64_t&#160;</td>
           <td class="paramname"><em>byte_number</em>, </td>
         </tr>
         <tr>
@@ -1224,7 +1254,7 @@ sevetest30_LedArray.c 的引用(Include)关系图:</div>
   <table class="params">
     <tr><td class="paramname">x</td><td>图案横坐标(无范围限制，超出不显示)，灯板左上角设为原点（1，1），由左到右绘制 </td></tr>
     <tr><td class="paramname">y</td><td>图案纵坐标(无范围限制，超出不显示)，灯板左上角设为原点（1，1），由上到下绘制 </td></tr>
-    <tr><td class="paramname">breadth</td><td>图案宽度（已定义的：FIGURE-数字 LETTER-字母 CHINESE-汉字） </td></tr>
+    <tr><td class="paramname">breadth</td><td>图案宽度（已定义的：FIGURE-数字 <a class="el" href="sevetest30___led_array_8h.html#a7eebbaa5b8e0a2e58d079d7990de0ea3">RECTANGLE_MATRIX(x)</a>-生成的矩形 ） </td></tr>
     <tr><td class="paramname">p</td><td>导入字模指针 </td></tr>
     <tr><td class="paramname">byte_number</td><td>总数据长度(Byte) </td></tr>
     <tr><td class="paramname">in_color</td><td>注入颜色 （RGB） </td></tr>

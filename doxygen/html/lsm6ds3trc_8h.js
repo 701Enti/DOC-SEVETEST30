@@ -17,6 +17,7 @@ var lsm6ds3trc_8h =
     [ "IMU_LA_SO_FS_2G", "lsm6ds3trc_8h.html#a46b76b622d1ea33bbdaa20d34383e312", null ],
     [ "IMU_LA_SO_FS_4G", "lsm6ds3trc_8h.html#a2a4fbd6c772c6ff6ad5da5519fed408a", null ],
     [ "IMU_LA_SO_FS_8G", "lsm6ds3trc_8h.html#a3e3519d5b4d860ee9afb50baa3ce4426", null ],
+    [ "LSM6DS3TRC_DEVICE_ADDRESS", "lsm6ds3trc_8h.html#a96ef860ba0377b706585236d78d0d9f6", null ],
     [ "MAP_BASE", "lsm6ds3trc_8h.html#a22ad46818115840df5af15abda84dc47", null ],
     [ "USE_MAP_ID", "lsm6ds3trc_8h.html#afc047f0fb615bb022d4c668a7c6707e2", null ],
     [ "IMU_DEC_FIFO_GYRO_t", "lsm6ds3trc_8h.html#a702e742030ae594bd389d5f514ff58a1", [
@@ -139,12 +140,13 @@ var lsm6ds3trc_8h =
       [ "IMU_SIXD_THS_60_DEGREES", "lsm6ds3trc_8h.html#a6cafbe08461f831bffb0bab596ba1debac106d9cbe9646860b2d106508694ad97", null ],
       [ "IMU_SIXD_THS_50_DEGREES", "lsm6ds3trc_8h.html#a6cafbe08461f831bffb0bab596ba1deba8359570b40153e2924a0461969b2077f", null ]
     ] ],
+    [ "lsm6ds3trc_clear_D6D_data_value", "lsm6ds3trc_8h.html#a218d1a820b1cee6c13eea2c3fc63786d", null ],
     [ "lsm6ds3trc_database_map_read", "lsm6ds3trc_8h.html#a734fd62aae65d8a0dd2314c3db61a7a2", null ],
-    [ "lsm6ds3trc_database_map_set", "lsm6ds3trc_8h.html#ab8c1d34398dd66cde3da659309fde72e", null ],
+    [ "lsm6ds3trc_database_map_write", "lsm6ds3trc_8h.html#ac0d7b5b09f98ff8cbc0639c8e5a24a83", null ],
     [ "lsm6ds3trc_FIFO_map", "lsm6ds3trc_8h.html#a36d23681d5f803f809601324608ec184", null ],
     [ "lsm6ds3trc_gat_now_acceleration", "lsm6ds3trc_8h.html#ab302c2f3c2e51730da253a704643bcb2", null ],
     [ "lsm6ds3trc_gat_now_angular_rate", "lsm6ds3trc_8h.html#ad3e5286502aa1f5a9158e976e30f981a", null ],
-    [ "lsm6ds3trc_get_D6D_data_value", "lsm6ds3trc_8h.html#aec78c8d80e1a0ecef27bbf42954d44be", null ],
+    [ "lsm6ds3trc_get_D6D_data_value", "lsm6ds3trc_8h.html#a0493e516a177e1d239b3fb03f80b841c", null ],
     [ "lsm6ds3trc_get_free_fall_status", "lsm6ds3trc_8h.html#a8aaae71782145d70d4670637a15407bf", null ],
     [ "lsm6ds3trc_get_now_temperature", "lsm6ds3trc_8h.html#aaf0042004ca7f0dffcb0cebe2823e44b", null ],
     [ "lsm6ds3trc_get_step_counter", "lsm6ds3trc_8h.html#af9289ed6975d2a4f1122c9c4be5f7e87", null ],

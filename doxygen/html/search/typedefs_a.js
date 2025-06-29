@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['ui_5fcolor_5fvisual_5fcfg_5ft_0',['UI_color_visual_cfg_t',['../sevetest30___u_i_8h.html#acf0e0eeb8fecca7cf60f19f1cdfe1bc2',1,'sevetest30_UI.h']]]
+  ['tca6416a_5flevel_5ft_0',['TCA6416A_level_t',['../_t_c_a6416_a_8h.html#a8e54019fcda5f2208280b8ccc561d691',1,'TCA6416A.h']]],
+  ['tca6416a_5fmode_5ft_1',['TCA6416A_mode_t',['../_t_c_a6416_a_8h.html#a403e3348f1e6e790346b8255d889bd87',1,'TCA6416A.h']]]
 ];

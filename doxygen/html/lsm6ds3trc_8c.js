@@ -1,12 +1,12 @@
 var lsm6ds3trc_8c =
 [
-    [ "LSM6DS3TRC_DEVICE_ADD", "lsm6ds3trc_8c.html#aa9d174d2cf4409dbb580cf88262b1a57", null ],
+    [ "lsm6ds3trc_clear_D6D_data_value", "lsm6ds3trc_8c.html#a218d1a820b1cee6c13eea2c3fc63786d", null ],
     [ "lsm6ds3trc_database_map_read", "lsm6ds3trc_8c.html#a734fd62aae65d8a0dd2314c3db61a7a2", null ],
-    [ "lsm6ds3trc_database_map_set", "lsm6ds3trc_8c.html#ab8c1d34398dd66cde3da659309fde72e", null ],
+    [ "lsm6ds3trc_database_map_write", "lsm6ds3trc_8c.html#ac0d7b5b09f98ff8cbc0639c8e5a24a83", null ],
     [ "lsm6ds3trc_FIFO_map", "lsm6ds3trc_8c.html#a36d23681d5f803f809601324608ec184", null ],
     [ "lsm6ds3trc_gat_now_acceleration", "lsm6ds3trc_8c.html#ab302c2f3c2e51730da253a704643bcb2", null ],
     [ "lsm6ds3trc_gat_now_angular_rate", "lsm6ds3trc_8c.html#ad3e5286502aa1f5a9158e976e30f981a", null ],
-    [ "lsm6ds3trc_get_D6D_data_value", "lsm6ds3trc_8c.html#aec78c8d80e1a0ecef27bbf42954d44be", null ],
+    [ "lsm6ds3trc_get_D6D_data_value", "lsm6ds3trc_8c.html#a0493e516a177e1d239b3fb03f80b841c", null ],
     [ "lsm6ds3trc_get_free_fall_status", "lsm6ds3trc_8c.html#a8aaae71782145d70d4670637a15407bf", null ],
     [ "lsm6ds3trc_get_now_temperature", "lsm6ds3trc_8c.html#aaf0042004ca7f0dffcb0cebe2823e44b", null ],
     [ "lsm6ds3trc_get_step_counter", "lsm6ds3trc_8c.html#af9289ed6975d2a4f1122c9c4be5f7e87", null ],
