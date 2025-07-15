@@ -5,7 +5,7 @@ var searchData=
   ['x_5fen_2',['x_en',['../structcartoon__plan__t.html#a23904beb6bf0def3af78ddaad50f5e57',1,'cartoon_plan_t']]],
   ['x_5fmove_3',['x_move',['../struct_u_i__color__visual__cfg__t.html#a2778ca00354edfef410e54aea98be321',1,'UI_color_visual_cfg_t']]],
   ['x_5fmultiples_4',['x_multiples',['../struct_u_i__color__visual__cfg__t.html#a88a3fffdca8dddde56701c5bb88d1cdd',1,'UI_color_visual_cfg_t']]],
-  ['x_5fofs_5fusr_5',['X_OFS_USR',['../lsm6ds3trc_8h.html#a99fb83031ce9923c84392b4e92f956b5ae8b8b252ba35f6d871bd070a9b7f3420',1,'lsm6ds3trc.h']]],
+  ['x_5fofs_5fusr_5',['X_OFS_USR',['../lsm6ds3trc_8h.html#a726ca809ffd3d67ab4b8476646f26635ae8b8b252ba35f6d871bd070a9b7f3420',1,'lsm6ds3trc.h']]],
   ['xh_6',['XH',['../struct_i_m_u___d6_d__data__value__t.html#a6b57157948677488c7ab15d757484238',1,'IMU_D6D_data_value_t']]],
   ['xl_7',['XL',['../struct_i_m_u___d6_d__data__value__t.html#a995fe9d87244f3d126bd0dacba472df4',1,'IMU_D6D_data_value_t']]]
 ];

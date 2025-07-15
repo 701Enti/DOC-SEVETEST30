@@ -38,12 +38,12 @@
 <area shape="poly" id="edge26_Node000001_Node000023" title=" " alt="" coords="1174,20,1453,36,1627,52,1804,76,1803,81,1626,58,1453,41,1173,25"/>
 <area shape="rect" id="Node000024" href="$board__ctrl_8h.html" title=" " alt="" coords="1913,79,2011,104"/>
 <area shape="poly" id="edge27_Node000001_Node000024" title=" " alt="" coords="1174,20,1492,38,1693,54,1900,76,1899,81,1693,59,1492,43,1173,25"/>
-<area shape="rect" id="Node000036" title=" " alt="" coords="2036,79,2104,104"/>
-<area shape="poly" id="edge45_Node000001_Node000036" title=" " alt="" coords="1173,17,1333,21,1542,30,1780,47,2023,76,2022,82,1779,53,1542,35,1333,26,1173,22"/>
-<area shape="rect" id="Node000037" title=" " alt="" coords="2129,79,2278,104"/>
-<area shape="poly" id="edge46_Node000001_Node000037" title=" " alt="" coords="1174,20,1579,38,1844,54,2115,76,2114,81,1843,60,1579,43,1174,25"/>
-<area shape="rect" id="Node000038" title=" " alt="" coords="2302,79,2395,104"/>
-<area shape="poly" id="edge47_Node000001_Node000038" title=" " alt="" coords="1173,17,1374,19,1649,28,1965,46,2288,76,2287,81,1964,51,1649,33,1374,25,1173,22"/>
+<area shape="rect" id="Node000036" title=" " alt="" coords="2036,79,2109,104"/>
+<area shape="poly" id="edge45_Node000001_Node000036" title=" " alt="" coords="1174,18,1333,21,1543,31,1780,48,2022,76,2022,81,1779,54,1542,36,1333,27,1174,23"/>
+<area shape="rect" id="Node000037" title=" " alt="" coords="2134,79,2283,104"/>
+<area shape="poly" id="edge46_Node000001_Node000037" title=" " alt="" coords="1174,20,1581,38,1847,54,2120,76,2120,81,1847,59,1581,43,1173,25"/>
+<area shape="rect" id="Node000038" title=" " alt="" coords="2307,79,2401,104"/>
+<area shape="poly" id="edge47_Node000001_Node000038" title=" " alt="" coords="1173,17,1375,19,1651,28,1968,46,2293,76,2293,81,1968,51,1651,33,1375,25,1173,22"/>
 <area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="882,106,811,147,808,143,880,102"/>
 <area shape="rect" id="Node000012" title=" " alt="" coords="957,152,1090,177"/>
 <area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="922,102,993,143,990,147,919,106"/>

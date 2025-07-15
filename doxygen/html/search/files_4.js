@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['hscdtd008a_2ec_0',['hscdtd008a.c',['../hscdtd008a_8c.html',1,'']]],
-  ['hscdtd008a_2eh_1',['hscdtd008a.h',['../hscdtd008a_8h.html',1,'']]]
+  ['gt32l32s0140_2ec_0',['gt32l32s0140.c',['../gt32l32s0140_8c.html',1,'']]],
+  ['gt32l32s0140_2eh_1',['gt32l32s0140.h',['../gt32l32s0140_8h.html',1,'']]]
 ];

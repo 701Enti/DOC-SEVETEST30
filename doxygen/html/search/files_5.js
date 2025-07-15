@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['lsm6ds3trc_2ec_0',['lsm6ds3trc.c',['../lsm6ds3trc_8c.html',1,'']]],
-  ['lsm6ds3trc_2eh_1',['lsm6ds3trc.h',['../lsm6ds3trc_8h.html',1,'']]]
+  ['hscdtd008a_2ec_0',['hscdtd008a.c',['../hscdtd008a_8c.html',1,'']]],
+  ['hscdtd008a_2eh_1',['hscdtd008a.h',['../hscdtd008a_8h.html',1,'']]]
 ];

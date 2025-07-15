@@ -16,8 +16,10 @@ var searchData=
   ['amplifier_5fvolume_13',['amplifier_volume',['../structboard__ctrl__t.html#ad92037e11f941ab6265efda74be5f453',1,'board_ctrl_t']]],
   ['app_5fid_14',['app_id',['../structgatts__profile__inst.html#a9ad98b3ef12c175e238b5ea7a0a72bc1',1,'gatts_profile_inst']]],
   ['asr_5fcfg_5fbuf_15',['ASR_cfg_buf',['../sevetest30__sound_8c.html#ac94c9afb2cf553a7f46671270080a9dd',1,'sevetest30_sound.c']]],
-  ['audio_5frsp_5ffilter_16',['audio_rsp_filter',['../sevetest30__sound_8c.html#a2178a7d77ec600217b2d53be32c95fdf',1,'sevetest30_sound.c']]],
-  ['auto_5fread_5fen_17',['auto_read_EN',['../structext__io__ctrl__t.html#a2b287a7f750cf531855a84cc3f49fcf3',1,'ext_io_ctrl_t']]],
-  ['auto_5fread_5fint_18',['auto_read_INT',['../structext__io__ctrl__t.html#ae56277b478f29d57990d5718d5ce4499',1,'ext_io_ctrl_t']]],
-  ['azimuth_19',['azimuth',['../struct_g_s__angle__data__t.html#a4fcef46c55bd77dce264bc18fe3e4a9f',1,'GS_angle_data_t']]]
+  ['attached_16',['attached',['../struct_ps_p2_p___d_m__message__t.html#a6a8c467901e8a68f83369a0c4d56878f',1,'PsP2P_DM_message_t']]],
+  ['attached_5ftotal_5fsize_17',['attached_total_size',['../struct_ps_p2_p___d_m__message__t.html#a1f0834e1a729649d0dfed5d6d418dbf8',1,'PsP2P_DM_message_t']]],
+  ['audio_5frsp_5ffilter_18',['audio_rsp_filter',['../sevetest30__sound_8c.html#a2178a7d77ec600217b2d53be32c95fdf',1,'sevetest30_sound.c']]],
+  ['auto_5fread_5fen_19',['auto_read_EN',['../structext__io__ctrl__t.html#a2b287a7f750cf531855a84cc3f49fcf3',1,'ext_io_ctrl_t']]],
+  ['auto_5fread_5fint_20',['auto_read_INT',['../structext__io__ctrl__t.html#ae56277b478f29d57990d5718d5ce4499',1,'ext_io_ctrl_t']]],
+  ['azimuth_21',['azimuth',['../struct_g_s__angle__data__t.html#a4fcef46c55bd77dce264bc18fe3e4a9f',1,'GS_angle_data_t']]]
 ];

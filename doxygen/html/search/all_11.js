@@ -43,8 +43,9 @@ var searchData=
   ['refresh_5fweather_5fdata_40',['refresh_weather_data',['../sevetest30___i_w_e_d_a_8h.html#a71180d898510335fe528eb67d5ea6484',1,'refresh_weather_data():&#160;sevetest30_IWEDA.c'],['../sevetest30___i_w_e_d_a_8c.html#a71180d898510335fe528eb67d5ea6484',1,'refresh_weather_data():&#160;sevetest30_IWEDA.c']]],
   ['reg_5faddress_41',['reg_address',['../struct_i_m_u__reg__mapping__t.html#a0bbdc838c5611afe00877d8742b8bda4',1,'IMU_reg_mapping_t']]],
   ['reg_5fvalue_42',['reg_value',['../struct_i_m_u__reg__mapping__t.html#a59e98e375b883a05767def2d741a98f8',1,'IMU_reg_mapping_t']]],
-  ['rgb_5fto_5fhvs_43',['rgb_to_hvs',['../sevetest30___led_array_8h.html#af86abda8c11bbccc90993c7b4e18fd37',1,'rgb_to_hvs(uint8_t red_buf, uint8_t green_buf, uint8_t blue_buf, uint32_t *p_h, uint32_t *p_s, uint32_t *p_v):&#160;sevetest30_LedArray.c'],['../sevetest30___led_array_8c.html#af86abda8c11bbccc90993c7b4e18fd37',1,'rgb_to_hvs(uint8_t red_buf, uint8_t green_buf, uint8_t blue_buf, uint32_t *p_h, uint32_t *p_s, uint32_t *p_v):&#160;sevetest30_LedArray.c']]],
-  ['roll_44',['roll',['../struct_g_s__dynamic__calibration__model__t.html#a07234893371ff8b5bd634e51e7c63e5f',1,'GS_dynamic_calibration_model_t']]],
-  ['rsp_5fcfg_45',['rsp_cfg',['../sevetest30__sound_8c.html#a12bfa84f2a9ae3357df04ec7f1d5cb01',1,'sevetest30_sound.c']]],
-  ['running_5fi2s_5fport_46',['running_i2s_port',['../sevetest30__sound_8h.html#aee102a99c3594bf6aa26ce6f1164c233',1,'running_i2s_port:&#160;sevetest30_sound.c'],['../sevetest30__sound_8c.html#aee102a99c3594bf6aa26ce6f1164c233',1,'running_i2s_port:&#160;sevetest30_sound.c']]]
+  ['resource_43',['resource',['../struct_ps_p2_p___d_m__product__t.html#a8b84babf4cac355dde7f18b7a864cb0f',1,'PsP2P_DM_product_t']]],
+  ['rgb_5fto_5fhvs_44',['rgb_to_hvs',['../sevetest30___led_array_8h.html#af86abda8c11bbccc90993c7b4e18fd37',1,'rgb_to_hvs(uint8_t red_buf, uint8_t green_buf, uint8_t blue_buf, uint32_t *p_h, uint32_t *p_s, uint32_t *p_v):&#160;sevetest30_LedArray.c'],['../sevetest30___led_array_8c.html#af86abda8c11bbccc90993c7b4e18fd37',1,'rgb_to_hvs(uint8_t red_buf, uint8_t green_buf, uint8_t blue_buf, uint32_t *p_h, uint32_t *p_s, uint32_t *p_v):&#160;sevetest30_LedArray.c']]],
+  ['roll_45',['roll',['../struct_g_s__dynamic__calibration__model__t.html#a07234893371ff8b5bd634e51e7c63e5f',1,'GS_dynamic_calibration_model_t']]],
+  ['rsp_5fcfg_46',['rsp_cfg',['../sevetest30__sound_8c.html#a12bfa84f2a9ae3357df04ec7f1d5cb01',1,'sevetest30_sound.c']]],
+  ['running_5fi2s_5fport_47',['running_i2s_port',['../sevetest30__sound_8h.html#aee102a99c3594bf6aa26ce6f1164c233',1,'running_i2s_port:&#160;sevetest30_sound.c'],['../sevetest30__sound_8c.html#aee102a99c3594bf6aa26ce6f1164c233',1,'running_i2s_port:&#160;sevetest30_sound.c']]]
 ];

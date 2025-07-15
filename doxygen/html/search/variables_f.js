@@ -28,7 +28,8 @@ var searchData=
   ['refresh_5ftask_5fmutex_25',['refresh_Task_Mutex',['../sevetest30___led_array_8c.html#aa35baad1478bed024ce17f93bc5f4ce0',1,'sevetest30_LedArray.c']]],
   ['reg_5faddress_26',['reg_address',['../struct_i_m_u__reg__mapping__t.html#a0bbdc838c5611afe00877d8742b8bda4',1,'IMU_reg_mapping_t']]],
   ['reg_5fvalue_27',['reg_value',['../struct_i_m_u__reg__mapping__t.html#a59e98e375b883a05767def2d741a98f8',1,'IMU_reg_mapping_t']]],
-  ['roll_28',['roll',['../struct_g_s__dynamic__calibration__model__t.html#a07234893371ff8b5bd634e51e7c63e5f',1,'GS_dynamic_calibration_model_t']]],
-  ['rsp_5fcfg_29',['rsp_cfg',['../sevetest30__sound_8c.html#a12bfa84f2a9ae3357df04ec7f1d5cb01',1,'sevetest30_sound.c']]],
-  ['running_5fi2s_5fport_30',['running_i2s_port',['../sevetest30__sound_8h.html#aee102a99c3594bf6aa26ce6f1164c233',1,'running_i2s_port:&#160;sevetest30_sound.c'],['../sevetest30__sound_8c.html#aee102a99c3594bf6aa26ce6f1164c233',1,'running_i2s_port:&#160;sevetest30_sound.c']]]
+  ['resource_28',['resource',['../struct_ps_p2_p___d_m__product__t.html#a8b84babf4cac355dde7f18b7a864cb0f',1,'PsP2P_DM_product_t']]],
+  ['roll_29',['roll',['../struct_g_s__dynamic__calibration__model__t.html#a07234893371ff8b5bd634e51e7c63e5f',1,'GS_dynamic_calibration_model_t']]],
+  ['rsp_5fcfg_30',['rsp_cfg',['../sevetest30__sound_8c.html#a12bfa84f2a9ae3357df04ec7f1d5cb01',1,'sevetest30_sound.c']]],
+  ['running_5fi2s_5fport_31',['running_i2s_port',['../sevetest30__sound_8h.html#aee102a99c3594bf6aa26ce6f1164c233',1,'running_i2s_port:&#160;sevetest30_sound.c'],['../sevetest30__sound_8c.html#aee102a99c3594bf6aa26ce6f1164c233',1,'running_i2s_port:&#160;sevetest30_sound.c']]]
 ];
