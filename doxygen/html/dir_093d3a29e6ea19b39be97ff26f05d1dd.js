@@ -8,6 +8,7 @@ var dir_093d3a29e6ea19b39be97ff26f05d1dd =
     [ "hscdtd008a.h", "hscdtd008a_8h.html", "hscdtd008a_8h" ],
     [ "lsm6ds3trc.h", "lsm6ds3trc_8h.html", "lsm6ds3trc_8h" ],
     [ "math_tools.h", "math__tools_8h.html", "math__tools_8h" ],
+    [ "math_tools_fp64.h", "math__tools__fp64_8h.html", "math__tools__fp64_8h" ],
     [ "sdkconfig.h", "sdkconfig_8h.html", "sdkconfig_8h" ],
     [ "sevetest30_BWEDA.h", "sevetest30___b_w_e_d_a_8h.html", "sevetest30___b_w_e_d_a_8h" ],
     [ "sevetest30_gpio.h", "sevetest30__gpio_8h.html", "sevetest30__gpio_8h" ],

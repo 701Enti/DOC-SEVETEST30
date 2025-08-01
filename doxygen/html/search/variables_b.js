@@ -13,7 +13,7 @@ var searchData=
   ['matrix_5f9_10',['matrix_9',['../sevetest30___led_array_8c.html#abfc2482a77212755a828b723e0928ad9',1,'matrix_9:&#160;sevetest30_LedArray.c'],['../sevetest30___led_array_8h.html#abfc2482a77212755a828b723e0928ad9',1,'matrix_9:&#160;sevetest30_LedArray.c']]],
   ['media_5fctrl_5fservice_5fhandle_5ftable_11',['media_ctrl_service_handle_table',['../sevetest30___b_w_e_d_a_8c.html#a803279e740d3ff740db91c5ed729c2ee',1,'sevetest30_BWEDA.c']]],
   ['medium_12',['medium',['../struct_u_i__color__visual__cfg__t.html#a6e88c7fee046e40591ee1a9817089bbc',1,'UI_color_visual_cfg_t']]],
-  ['message_13',['message',['../struct_ps_p2_p___d_m__message__t.html#a00828badd968134aaf6f392cd7a570f2',1,'PsP2P_DM_message_t']]],
+  ['message_5flist_13',['message_list',['../struct_ps_p2_p___d_m__message__box__t.html#ab2d43fd796b914e4a3b86af0892cb3bb',1,'PsP2P_DM_message_box_t']]],
   ['messagequeue_14',['messageQueue',['../struct_ps_p2_p___d_m__node__t.html#a4c08a281ef11dc125a00bdfd321ead9f',1,'PsP2P_DM_node_t']]],
   ['minute_15',['minute',['../structsystemtime__t.html#a26241a9cba322bdad77e4b9fd50370e2',1,'systemtime_t::minute'],['../struct_b_l5372__time__t.html#af1de38e893ffc7bfa31490ef860058af',1,'BL5372_time_t::minute']]],
   ['monday_5fen_16',['Monday_en',['../struct_b_l5372__alarm__cycle__plan__t.html#ab9cbe503db202fbeea8bf995a93d2c4f',1,'BL5372_alarm_cycle_plan_t']]],

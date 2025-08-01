@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "SEVETEST30", "index.html", [
+    [ "文档", "index.html", "index" ],
     [ "类", "annotated.html", [
       [ "类列表", "annotated.html", "annotated_dup" ],
       [ "类索引", "classes.html", null ],
@@ -51,11 +52,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_a_g_s10_8c.html",
-"globals_b.html",
-"lsm6ds3trc_8h.html#a8571e017c1cdde054ec8480cd15e9c0fa6b134bc60dbba84932e4e443ec5ddcb7",
-"sevetest30___led_array_8c.html#a21bdacda990e8d3298c917ca08242a04",
-"sevetest30___u_i_8h.html#ad791f106f61ad6d7f1437e6c64a1984c",
-"struct_real__time__weather.html#ab78ae843feae177bd248b28038098b67"
+"functions_vars_h.html",
+"lsm6ds3trc_8h.html#a604b73f6ae6abe0cb2032fe1c9129748",
+"sevetest30___i_w_e_d_a_8c.html#aae31c687cd82dc52352b25eee3055227",
+"sevetest30___u_i_8c.html",
+"struct_g_s__static__calibration__model__t.html#a38c1add8d01b0d0ad77585dd2e4c8798"
 ];
 
 var SYNCONMSG = '点击 关闭 面板同步';

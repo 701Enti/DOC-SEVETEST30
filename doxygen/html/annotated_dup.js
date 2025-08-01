@@ -29,6 +29,7 @@ var annotated_dup =
     [ "key_frame_t", "structkey__frame__t.html", "structkey__frame__t" ],
     [ "music_FFT_UI_cfg_t", "structmusic___f_f_t___u_i__cfg__t.html", "structmusic___f_f_t___u_i__cfg__t" ],
     [ "prepare_type_env_t", "structprepare__type__env__t.html", "structprepare__type__env__t" ],
+    [ "PsP2P_DM_message_box_t", "struct_ps_p2_p___d_m__message__box__t.html", "struct_ps_p2_p___d_m__message__box__t" ],
     [ "PsP2P_DM_message_t", "struct_ps_p2_p___d_m__message__t.html", "struct_ps_p2_p___d_m__message__t" ],
     [ "PsP2P_DM_node_t", "struct_ps_p2_p___d_m__node__t.html", "struct_ps_p2_p___d_m__node__t" ],
     [ "PsP2P_DM_product_t", "struct_ps_p2_p___d_m__product__t.html", "struct_ps_p2_p___d_m__product__t" ],

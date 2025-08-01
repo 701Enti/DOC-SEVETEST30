@@ -19,7 +19,7 @@ var searchData=
   ['board_5fctrl_5fbuf_16',['board_ctrl_buf',['../board__ctrl_8c.html#ae697ce7d8a54f4c08d7b3d842d19d273',1,'board_ctrl.c']]],
   ['board_5fctrl_5finit_5freport_17',['board_ctrl_init_report',['../board__ctrl_8c.html#a445c868a22258071fa13ac1e6cd60709',1,'board_ctrl.c']]],
   ['boost_5fvoltage_18',['boost_voltage',['../structboard__ctrl__t.html#a75d27430d446afc5d0442d6163de5498',1,'board_ctrl_t']]],
-  ['buy_5fsum_19',['buy_sum',['../struct_ps_p2_p___d_m__node__t.html#a40c64cb2740736d4fab5b38be2e83407',1,'PsP2P_DM_node_t']]],
+  ['buy_5fsum_19',['buy_sum',['../struct_ps_p2_p___d_m__node__t.html#a6552f24accf35c3a6eda61e12b34a69c',1,'PsP2P_DM_node_t']]],
   ['bx_20',['Bx',['../struct_g_s__magnetic__flux__density__data__t.html#a6132708f76dfff58a7fa5c88b646337c',1,'GS_magnetic_flux_density_data_t']]],
   ['by_21',['By',['../struct_g_s__magnetic__flux__density__data__t.html#a4ead51a252bba7121e278f2fe1dc3c85',1,'GS_magnetic_flux_density_data_t']]],
   ['bz_22',['Bz',['../struct_g_s__magnetic__flux__density__data__t.html#a03ec8c57c39efb360adfb280c3f23a92',1,'GS_magnetic_flux_density_data_t']]]

@@ -10,6 +10,7 @@ var dir_5c982d53a68cdbcd421152b4020263a9 =
     [ "lsm6ds3trc.c", "lsm6ds3trc_8c.html", "lsm6ds3trc_8c" ],
     [ "main.c", "main_8c.html", "main_8c" ],
     [ "math_tools.c", "math__tools_8c.html", "math__tools_8c" ],
+    [ "math_tools_fp64.c", "math__tools__fp64_8c.html", "math__tools__fp64_8c" ],
     [ "sevetest30_BWEDA.c", "sevetest30___b_w_e_d_a_8c.html", "sevetest30___b_w_e_d_a_8c" ],
     [ "sevetest30_gpio.c", "sevetest30__gpio_8c.html", "sevetest30__gpio_8c" ],
     [ "sevetest30_IWEDA.c", "sevetest30___i_w_e_d_a_8c.html", "sevetest30___i_w_e_d_a_8c" ],

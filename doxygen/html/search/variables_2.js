@@ -16,16 +16,17 @@ var searchData=
   ['codec_5fdac_5fpin_13',['codec_dac_pin',['../structboard__ctrl__t.html#a8f48f8a0970947466a8698fa76c56d26',1,'board_ctrl_t']]],
   ['codec_5fdac_5fvolume_14',['codec_dac_volume',['../structboard__ctrl__t.html#af4f84a0c5609a57e608829515ae2f1b3',1,'board_ctrl_t']]],
   ['codec_5fmode_15',['codec_mode',['../structboard__ctrl__t.html#a34dbf8676e948fa4cf9ce72770b0200f',1,'board_ctrl_t']]],
-  ['color_16',['color',['../structcartoon__ctrl__param__t.html#a20c54fc8030acc24e9532f1589241139',1,'cartoon_ctrl_param_t::color'],['../structkey__frame__t.html#ac1b15873dbdc184bcde1b6e0ae810f5d',1,'key_frame_t::color']]],
+  ['color_16',['color',['../structkey__frame__t.html#ac1b15873dbdc184bcde1b6e0ae810f5d',1,'key_frame_t::color'],['../structcartoon__ctrl__param__t.html#a20c54fc8030acc24e9532f1589241139',1,'cartoon_ctrl_param_t::color']]],
   ['color_5fen_17',['color_en',['../structcartoon__plan__t.html#aed705fa7beffc009b9a2e5c75ec999e0',1,'cartoon_plan_t']]],
   ['common_5fmp3_5fevt_18',['common_mp3_evt',['../sevetest30__sound_8c.html#a75cfa39b583cf08d9cf390fb89ddf139',1,'sevetest30_sound.c']]],
   ['compound_5fresult_19',['compound_result',['../sevetest30___led_array_8c.html#ae2fe0d11648c892888a243c9e29cbb81',1,'sevetest30_LedArray.c']]],
   ['conn_5fid_20',['conn_id',['../structgatts__profile__inst.html#a9cb9e05e2051e95647ab28c85d83e9c0',1,'gatts_profile_inst']]],
   ['consumer_5fid_21',['consumer_id',['../struct_ps_p2_p___d_m__product__t.html#a20f5c091c465e77246d56470e0b8f6e9',1,'PsP2P_DM_product_t']]],
   ['consumer_5fnode_5flist_22',['consumer_node_list',['../struct_ps_p2_p___d_m__product__t.html#a3912c4effc96c5df9d093dbdac64f19c',1,'PsP2P_DM_product_t']]],
-  ['consumer_5fsum_23',['consumer_sum',['../struct_ps_p2_p___d_m__product__t.html#ae6762c5a47a4f30a4401a18c7c8168b1',1,'PsP2P_DM_product_t']]],
-  ['country_24',['country',['../structip__position.html#a9450a3b689003454e830412177ce0ef4',1,'ip_position']]],
-  ['create_5fcallback_25',['create_callback',['../structcartoon__support__t.html#a38f3bb6b5c5280ef788e28cc66cf6888',1,'cartoon_support_t']]],
-  ['ctrl_5fhook_26',['ctrl_hook',['../structcartoon__support__t.html#a128d932d98718b9f813b2e7727805dce',1,'cartoon_support_t']]],
-  ['ctrl_5fparam_5flist_27',['ctrl_param_list',['../structcartoon__support__t.html#a2dad4f18126dfadee4177b604573f538',1,'cartoon_support_t']]]
+  ['consumer_5fsum_23',['consumer_sum',['../struct_ps_p2_p___d_m__product__t.html#af55c86e1dc0a084c2f8ff16124ac5635',1,'PsP2P_DM_product_t']]],
+  ['content_24',['content',['../struct_ps_p2_p___d_m__message__t.html#a4a0fc636e06fb920d9770dd31c1129f5',1,'PsP2P_DM_message_t']]],
+  ['country_25',['country',['../structip__position.html#a9450a3b689003454e830412177ce0ef4',1,'ip_position']]],
+  ['create_5fcallback_26',['create_callback',['../structcartoon__support__t.html#a38f3bb6b5c5280ef788e28cc66cf6888',1,'cartoon_support_t']]],
+  ['ctrl_5fhook_27',['ctrl_hook',['../structcartoon__support__t.html#a128d932d98718b9f813b2e7727805dce',1,'cartoon_support_t']]],
+  ['ctrl_5fparam_5flist_28',['ctrl_param_list',['../structcartoon__support__t.html#a2dad4f18126dfadee4177b604573f538',1,'cartoon_support_t']]]
 ];

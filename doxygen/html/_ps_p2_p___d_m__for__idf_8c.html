@@ -131,52 +131,46 @@ $(document).ready(function(){initNavTree('_ps_p2_p___d_m__for__idf_8c.html','');
   <div class="headertitle"><div class="title">PsP2P_DM_for_idf.c 文件参考</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;stdlib.h&quot;</code><br />
-<code>#include &quot;string.h&quot;</code><br />
-<code>#include &quot;stdbool.h&quot;</code><br />
-<code>#include &quot;esp_err.h&quot;</code><br />
-<code>#include &quot;esp_check.h&quot;</code><br />
-<code>#include &quot;FreeRTOS.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="_ps_p2_p___d_m__for__idf_8h_source.html">PsP2P_DM_for_idf.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_frequency_e_c_d__for__idf_8h_source.html">FrequencyECD_for_idf.h</a>&quot;</code><br />
+<code>#include &quot;stdlib.h&quot;</code><br />
+<code>#include &quot;string.h&quot;</code><br />
+<code>#include &quot;esp_check.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 PsP2P_DM_for_idf.c 的引用(Include)关系图:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_ps_p2_p___d_m__for__idf_8c__incl.svg" width="838" height="271"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="_ps_p2_p___d_m__for__idf_8c__incl.svg" width="783" height="271"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 函数</h2></td></tr>
-<tr class="memitem:a67cf77e312b17c44ceb334eb1665c647" id="r_a67cf77e312b17c44ceb334eb1665c647"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ps_p2_p___d_m__for__idf_8c.html#a67cf77e312b17c44ceb334eb1665c647">PsP2P_DM_Producer_create</a> ()</td></tr>
-<tr class="memdesc:a67cf77e312b17c44ceb334eb1665c647"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建PsP2P_DM生产者  <br /></td></tr>
-<tr class="separator:a67cf77e312b17c44ceb334eb1665c647"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9d28b94abc1d84df5b8843663a18d7e" id="r_ae9d28b94abc1d84df5b8843663a18d7e"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ps_p2_p___d_m__for__idf_8c.html#ae9d28b94abc1d84df5b8843663a18d7e">PsP2P_DM_Producer_destory</a> ()</td></tr>
-<tr class="memdesc:ae9d28b94abc1d84df5b8843663a18d7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">销毁PsP2P_DM生产者  <br /></td></tr>
-<tr class="separator:ae9d28b94abc1d84df5b8843663a18d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a350eb72e271eeeee6094279ad241713a" id="r_a350eb72e271eeeee6094279ad241713a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ps_p2_p___d_m__for__idf_8c.html#a350eb72e271eeeee6094279ad241713a">PsP2P_DM_Producer_put</a> (void *resource, char *product_name)</td></tr>
-<tr class="memdesc:a350eb72e271eeeee6094279ad241713a"><td class="mdescLeft">&#160;</td><td class="mdescRight">生产者上架产品  <br /></td></tr>
-<tr class="separator:a350eb72e271eeeee6094279ad241713a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a37beea79c8e5d9eb3d456e3eb293e9" id="r_a6a37beea79c8e5d9eb3d456e3eb293e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ps_p2_p___d_m__for__idf_8c.html#a6a37beea79c8e5d9eb3d456e3eb293e9">PsP2P_DM_Producer_message_send</a> (<a class="el" href="_ps_p2_p___d_m__for__idf_8h.html#a2b85c791ffa75fa7ab7efa3a7dd5e481">PsP2P_DM_node_handle_t</a> receiver, <a class="el" href="struct_ps_p2_p___d_m__message__t.html">PsP2P_DM_message_t</a> message, TickType_t xTicksToWait)</td></tr>
-<tr class="memdesc:a6a37beea79c8e5d9eb3d456e3eb293e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">生产者发送枚举消息  <br /></td></tr>
-<tr class="separator:a6a37beea79c8e5d9eb3d456e3eb293e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeea9bc9e99a4301b5682b839dfd37501" id="r_aeea9bc9e99a4301b5682b839dfd37501"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_ps_p2_p___d_m__for__idf_8h.html#a2b85c791ffa75fa7ab7efa3a7dd5e481">PsP2P_DM_node_handle_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ps_p2_p___d_m__for__idf_8c.html#aeea9bc9e99a4301b5682b839dfd37501">PsP2P_DM_node_create</a> (const char *node_name, <a class="el" href="_ps_p2_p___d_m__for__idf_8h.html#ae2a61751ec7ddc0907ece7d5f523fb70">PsP2P_DM_identity_t</a> identity, UBaseType_t uxMessageQueueLength, UBaseType_t uxMessageItemSize)</td></tr>
-<tr class="memdesc:aeea9bc9e99a4301b5682b839dfd37501"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建PsP2P_DM节点  <br /></td></tr>
-<tr class="separator:aeea9bc9e99a4301b5682b839dfd37501"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0f975bc4e2bb2ef3d997d67f8a219e7" id="r_ad0f975bc4e2bb2ef3d997d67f8a219e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_ps_p2_p___d_m__for__idf_8h.html#a2b85c791ffa75fa7ab7efa3a7dd5e481">PsP2P_DM_node_handle_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ps_p2_p___d_m__for__idf_8c.html#ad0f975bc4e2bb2ef3d997d67f8a219e7">PsP2P_DM_node_create</a> (const char *node_name, <a class="el" href="_ps_p2_p___d_m__for__idf_8h.html#ae2a61751ec7ddc0907ece7d5f523fb70">PsP2P_DM_identity_t</a> identity, UBaseType_t uxMessageQueueLength)</td></tr>
+<tr class="memdesc:ad0f975bc4e2bb2ef3d997d67f8a219e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建PsP2P_DM节点  <br /></td></tr>
+<tr class="separator:ad0f975bc4e2bb2ef3d997d67f8a219e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aede2cd94dffd402866d6da0195238432" id="r_aede2cd94dffd402866d6da0195238432"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ps_p2_p___d_m__for__idf_8c.html#aede2cd94dffd402866d6da0195238432">PsP2P_DM_node_destory</a> (<a class="el" href="_ps_p2_p___d_m__for__idf_8h.html#a2b85c791ffa75fa7ab7efa3a7dd5e481">PsP2P_DM_node_handle_t</a> node_to_destory)</td></tr>
 <tr class="memdesc:aede2cd94dffd402866d6da0195238432"><td class="mdescLeft">&#160;</td><td class="mdescRight">销毁PsP2P_DM节点  <br /></td></tr>
 <tr class="separator:aede2cd94dffd402866d6da0195238432"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac63e66f78973234b3d8524380c29484f" id="r_ac63e66f78973234b3d8524380c29484f"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ps_p2_p___d_m__for__idf_8c.html#ac63e66f78973234b3d8524380c29484f">PsP2P_DM_put</a> (<a class="el" href="_ps_p2_p___d_m__for__idf_8h.html#a2b85c791ffa75fa7ab7efa3a7dd5e481">PsP2P_DM_node_handle_t</a> producer, void *resource, const char *product_name)</td></tr>
 <tr class="memdesc:ac63e66f78973234b3d8524380c29484f"><td class="mdescLeft">&#160;</td><td class="mdescRight">PsP2P_DM产品上架  <br /></td></tr>
 <tr class="separator:ac63e66f78973234b3d8524380c29484f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5e2161a468a8d5b67148c9e7268c7cd" id="r_ae5e2161a468a8d5b67148c9e7268c7cd"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ps_p2_p___d_m__for__idf_8c.html#ae5e2161a468a8d5b67148c9e7268c7cd">PsP2P_DM_off</a> (<a class="el" href="_ps_p2_p___d_m__for__idf_8h.html#a2b85c791ffa75fa7ab7efa3a7dd5e481">PsP2P_DM_node_handle_t</a> producer, const char *product_name)</td></tr>
+<tr class="memdesc:ae5e2161a468a8d5b67148c9e7268c7cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">PsP2P_DM产品下架  <br /></td></tr>
+<tr class="separator:ae5e2161a468a8d5b67148c9e7268c7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa29e25f5acd9dbacef6fbf5928847a8d" id="r_aa29e25f5acd9dbacef6fbf5928847a8d"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ps_p2_p___d_m__for__idf_8c.html#aa29e25f5acd9dbacef6fbf5928847a8d">PsP2P_DM_off_all</a> (<a class="el" href="_ps_p2_p___d_m__for__idf_8h.html#a2b85c791ffa75fa7ab7efa3a7dd5e481">PsP2P_DM_node_handle_t</a> producer)</td></tr>
+<tr class="memdesc:aa29e25f5acd9dbacef6fbf5928847a8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">PsP2P_DM下架所有产品  <br /></td></tr>
+<tr class="separator:aa29e25f5acd9dbacef6fbf5928847a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f434e46d783e53e8f24463e5d8253bf" id="r_a6f434e46d783e53e8f24463e5d8253bf"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ps_p2_p___d_m__for__idf_8c.html#a6f434e46d783e53e8f24463e5d8253bf">PsP2P_DM_buy</a> (<a class="el" href="_ps_p2_p___d_m__for__idf_8h.html#a2b85c791ffa75fa7ab7efa3a7dd5e481">PsP2P_DM_node_handle_t</a> consumer, const char *producer_name, const char *product_name)</td></tr>
 <tr class="memdesc:a6f434e46d783e53e8f24463e5d8253bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">PsP2P_DM购买产品  <br /></td></tr>
 <tr class="separator:a6f434e46d783e53e8f24463e5d8253bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65fa8c29b250ad4ccea0bcdd399ba166" id="r_a65fa8c29b250ad4ccea0bcdd399ba166"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ps_p2_p___d_m__for__idf_8c.html#a65fa8c29b250ad4ccea0bcdd399ba166">PsP2P_DM_message_send</a> (<a class="el" href="_ps_p2_p___d_m__for__idf_8h.html#a2b85c791ffa75fa7ab7efa3a7dd5e481">PsP2P_DM_node_handle_t</a> receiver, <a class="el" href="struct_ps_p2_p___d_m__message__t.html">PsP2P_DM_message_t</a> message, TickType_t xTicksToWait)</td></tr>
-<tr class="separator:a65fa8c29b250ad4ccea0bcdd399ba166"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa635fdaabab648ec1cedcfa39757e0a0" id="r_aa635fdaabab648ec1cedcfa39757e0a0"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ps_p2_p___d_m__for__idf_8c.html#aa635fdaabab648ec1cedcfa39757e0a0">PsP2P_DM_message_send</a> (<a class="el" href="_ps_p2_p___d_m__for__idf_8h.html#a2b85c791ffa75fa7ab7efa3a7dd5e481">PsP2P_DM_node_handle_t</a> receiver, <a class="el" href="struct_ps_p2_p___d_m__message__t.html">PsP2P_DM_message_t</a> *message, TickType_t xTicksToWait)</td></tr>
+<tr class="memdesc:aa635fdaabab648ec1cedcfa39757e0a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">PsP2P_DM消息发送  <br /></td></tr>
+<tr class="separator:aa635fdaabab648ec1cedcfa39757e0a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d7665737542f0829d97c4c836ab8b92" id="r_a7d7665737542f0829d97c4c836ab8b92"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ps_p2_p___d_m__for__idf_8c.html#a7d7665737542f0829d97c4c836ab8b92">PsP2P_DM_message_box_create_as_receiver_own_consumer</a> (<a class="el" href="_ps_p2_p___d_m__for__idf_8h.html#a2b85c791ffa75fa7ab7efa3a7dd5e481">PsP2P_DM_node_handle_t</a> producer, <a class="el" href="_ps_p2_p___d_m__for__idf_8h.html#a9776271f015e07b819438b039bf06dff">PsP2P_DM_message_box_handle_t</a> *result)</td></tr>
+<tr class="memdesc:a7d7665737542f0829d97c4c836ab8b92"><td class="mdescLeft">&#160;</td><td class="mdescRight">PsP2P_DM创建信箱,信箱中消息接收者是生产者(发送者)自己的消费者  <br /></td></tr>
+<tr class="separator:a7d7665737542f0829d97c4c836ab8b92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 变量</h2></td></tr>
-<tr class="memitem:a5e69023d0c627e71d9f6e296100ba45e" id="r_a5e69023d0c627e71d9f6e296100ba45e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_ps_p2_p___d_m__for__idf_8h.html#a2b85c791ffa75fa7ab7efa3a7dd5e481">PsP2P_DM_node_handle_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ps_p2_p___d_m__for__idf_8c.html#a5e69023d0c627e71d9f6e296100ba45e">Producer_handle</a></td></tr>
-<tr class="separator:a5e69023d0c627e71d9f6e296100ba45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81937be487c36a295333bf2bbed97b52" id="r_a81937be487c36a295333bf2bbed97b52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_ps_p2_p___d_m__for__idf_8h.html#a2b85c791ffa75fa7ab7efa3a7dd5e481">PsP2P_DM_node_handle_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ps_p2_p___d_m__for__idf_8c.html#a81937be487c36a295333bf2bbed97b52">head_node</a> = NULL</td></tr>
 <tr class="separator:a81937be487c36a295333bf2bbed97b52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa06d5bb041b3916c19558b3678344289" id="r_aa06d5bb041b3916c19558b3678344289"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_ps_p2_p___d_m__for__idf_8h.html#a2b85c791ffa75fa7ab7efa3a7dd5e481">PsP2P_DM_node_handle_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ps_p2_p___d_m__for__idf_8c.html#aa06d5bb041b3916c19558b3678344289">tail_node</a> = NULL</td></tr>
@@ -226,8 +220,10 @@ PsP2P_DM_for_idf.c 的引用(Include)关系图:</div>
 </dl>
 <dl class="section note"><dt>注解</dt><dd>产品名一般是产品数据资源source存储对象名,比如把结构体变量的指针作为产品数据资源source上架,那么产品名一般是结构体变量的变量名 </dd>
 <dd>
-消费者可以购买产品名相同,但是生产者名不同的商品,同一生产者不可以有完全同名产品,所以消费者不可能买到它们 </dd></dl>
-<dl class="section return"><dt>返回</dt><dd>[ESP_ERR_INVALID_ARG 输入了无法处理的空指针] </dd>
+消费者可以购买产品名相同,但是生产者名不同的产品,同一生产者不可以有完全同名产品,所以消费者不可能买到它们 </dd></dl>
+<dl class="section return"><dt>返回</dt><dd>[ESP_OK 成功] </dd>
+<dd>
+[ESP_ERR_INVALID_ARG 输入了无法处理的空指针] </dd>
 <dd>
 [ESP_ERR_NOT_SUPPORTED 非消费者不可使用购买(buy)操作] </dd>
 <dd>
@@ -239,8 +235,53 @@ PsP2P_DM_for_idf.c 的引用(Include)关系图:</div>
 
 </div>
 </div>
-<a id="a65fa8c29b250ad4ccea0bcdd399ba166" name="a65fa8c29b250ad4ccea0bcdd399ba166"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65fa8c29b250ad4ccea0bcdd399ba166">&#9670;&#160;</a></span>PsP2P_DM_message_send()</h2>
+<a id="a7d7665737542f0829d97c4c836ab8b92" name="a7d7665737542f0829d97c4c836ab8b92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d7665737542f0829d97c4c836ab8b92">&#9670;&#160;</a></span>PsP2P_DM_message_box_create_as_receiver_own_consumer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">esp_err_t PsP2P_DM_message_box_create_as_receiver_own_consumer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_ps_p2_p___d_m__for__idf_8h.html#a2b85c791ffa75fa7ab7efa3a7dd5e481">PsP2P_DM_node_handle_t</a>&#160;</td>
+          <td class="paramname"><em>producer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_ps_p2_p___d_m__for__idf_8h.html#a9776271f015e07b819438b039bf06dff">PsP2P_DM_message_box_handle_t</a> *&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>PsP2P_DM创建信箱,信箱中消息接收者是生产者(发送者)自己的消费者 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">producer</td><td>生产者(发送者) </td></tr>
+    <tr><td class="paramname">result</td><td>创建结果存储到句柄(句柄变量在外部定义一个即可) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>信箱使用完后记得调用free()释放信箱资源和消息资源(没有明确附件,它们不由这里申请内存) </dd>
+<dd>
+如果是调用create(包括本函数)或外部malloc等堆内存申请,信箱,消息和附件内存资源都要单独调用相关free释放,否则不需要 </dd></dl>
+<dl class="section return"><dt>返回</dt><dd>[ESP_OK 成功] </dd>
+<dd>
+[ESP_ERR_NOT_FOUND 不需要发送消息,因为符合条件的接收者数量为0] </dd>
+<dd>
+[ESP_ERR_NO_MEM 内存不足] </dd></dl>
+
+</div>
+</div>
+<a id="aa635fdaabab648ec1cedcfa39757e0a0" name="aa635fdaabab648ec1cedcfa39757e0a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa635fdaabab648ec1cedcfa39757e0a0">&#9670;&#160;</a></span>PsP2P_DM_message_send()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -254,7 +295,7 @@ PsP2P_DM_for_idf.c 的引用(Include)关系图:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_ps_p2_p___d_m__message__t.html">PsP2P_DM_message_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="struct_ps_p2_p___d_m__message__t.html">PsP2P_DM_message_t</a> *&#160;</td>
           <td class="paramname"><em>message</em>, </td>
         </tr>
         <tr>
@@ -271,10 +312,23 @@ PsP2P_DM_for_idf.c 的引用(Include)关系图:</div>
       </table>
 </div><div class="memdoc">
 
+<p>PsP2P_DM消息发送 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">receiver</td><td>接收节点 </td></tr>
+    <tr><td class="paramname">message</td><td>消息 </td></tr>
+    <tr><td class="paramname">xTicksToWait</td><td>发送超时时间,将传递给xQueueSend </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>[ESP_OK 成功] </dd>
+<dd>
+[ESP_ERR_INVALID_STATE 消息队列已满,等待后队列仍非空闲,无法完成消息发送] </dd></dl>
+
 </div>
 </div>
-<a id="aeea9bc9e99a4301b5682b839dfd37501" name="aeea9bc9e99a4301b5682b839dfd37501"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeea9bc9e99a4301b5682b839dfd37501">&#9670;&#160;</a></span>PsP2P_DM_node_create()</h2>
+<a id="ad0f975bc4e2bb2ef3d997d67f8a219e7" name="ad0f975bc4e2bb2ef3d997d67f8a219e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0f975bc4e2bb2ef3d997d67f8a219e7">&#9670;&#160;</a></span>PsP2P_DM_node_create()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -295,13 +349,7 @@ PsP2P_DM_for_idf.c 的引用(Include)关系图:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">UBaseType_t&#160;</td>
-          <td class="paramname"><em>uxMessageQueueLength</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">UBaseType_t&#160;</td>
-          <td class="paramname"><em>uxMessageItemSize</em>&#160;</td>
+          <td class="paramname"><em>uxMessageQueueLength</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -352,7 +400,7 @@ PsP2P_DM_for_idf.c 的引用(Include)关系图:</div>
   </dd>
 </dl>
 <dl class="section note"><dt>注解</dt><dd>节点的产品链表为空链表则允许销毁节点,意味着对于生产者销毁需要下架所有产品,对于消费者销毁需要退货所有产品 </dd></dl>
-<dl class="section return"><dt>返回</dt><dd>[ESP_OK 销毁成功] </dd>
+<dl class="section return"><dt>返回</dt><dd>[ESP_OK 成功] </dd>
 <dd>
 [ESP_ERR_INVALID_ARG 输入了无法处理的空指针] </dd>
 <dd>
@@ -362,103 +410,22 @@ PsP2P_DM_for_idf.c 的引用(Include)关系图:</div>
 
 </div>
 </div>
-<a id="a67cf77e312b17c44ceb334eb1665c647" name="a67cf77e312b17c44ceb334eb1665c647"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67cf77e312b17c44ceb334eb1665c647">&#9670;&#160;</a></span>PsP2P_DM_Producer_create()</h2>
+<a id="ae5e2161a468a8d5b67148c9e7268c7cd" name="ae5e2161a468a8d5b67148c9e7268c7cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5e2161a468a8d5b67148c9e7268c7cd">&#9670;&#160;</a></span>PsP2P_DM_off()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void PsP2P_DM_Producer_create </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>创建PsP2P_DM生产者 </p>
-
-</div>
-</div>
-<a id="ae9d28b94abc1d84df5b8843663a18d7e" name="ae9d28b94abc1d84df5b8843663a18d7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9d28b94abc1d84df5b8843663a18d7e">&#9670;&#160;</a></span>PsP2P_DM_Producer_destory()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">esp_err_t PsP2P_DM_Producer_destory </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>销毁PsP2P_DM生产者 </p>
-
-</div>
-</div>
-<a id="a6a37beea79c8e5d9eb3d456e3eb293e9" name="a6a37beea79c8e5d9eb3d456e3eb293e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a37beea79c8e5d9eb3d456e3eb293e9">&#9670;&#160;</a></span>PsP2P_DM_Producer_message_send()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void PsP2P_DM_Producer_message_send </td>
+          <td class="memname">esp_err_t PsP2P_DM_off </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="_ps_p2_p___d_m__for__idf_8h.html#a2b85c791ffa75fa7ab7efa3a7dd5e481">PsP2P_DM_node_handle_t</a>&#160;</td>
-          <td class="paramname"><em>receiver</em>, </td>
+          <td class="paramname"><em>producer</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_ps_p2_p___d_m__message__t.html">PsP2P_DM_message_t</a>&#160;</td>
-          <td class="paramname"><em>message</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">TickType_t&#160;</td>
-          <td class="paramname"><em>xTicksToWait</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>生产者发送枚举消息 </p>
-<dl class="params"><dt>参数</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">enum_type_name</td><td>枚举类型名 </td></tr>
-    <tr><td class="paramname">value</td><td>枚举值 </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a350eb72e271eeeee6094279ad241713a" name="a350eb72e271eeeee6094279ad241713a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a350eb72e271eeeee6094279ad241713a">&#9670;&#160;</a></span>PsP2P_DM_Producer_put()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void PsP2P_DM_Producer_put </td>
-          <td>(</td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>resource</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char *&#160;</td>
+          <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>product_name</em>&#160;</td>
         </tr>
         <tr>
@@ -469,14 +436,61 @@ PsP2P_DM_for_idf.c 的引用(Include)关系图:</div>
       </table>
 </div><div class="memdoc">
 
-<p>生产者上架产品 </p>
+<p>PsP2P_DM产品下架 </p>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
-    <tr><td class="paramname">resource</td><td>产品数据资源 </td></tr>
+    <tr><td class="paramname">producer</td><td>生产者句柄 </td></tr>
     <tr><td class="paramname">product_name</td><td>产品名 </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section note"><dt>注解</dt><dd>产品名一般是产品数据资源source存储对象名,比如把结构体变量的指针作为产品数据资源source上架,那么产品名一般是结构体变量的变量名 </dd>
+<dd>
+同一生产者不可以有完全同名产品,上架时会检查产品名,若产品名被使用过(根据内容比较)不允许上架 </dd></dl>
+<dl class="section return"><dt>返回</dt><dd>[ESP_OK 成功] </dd>
+<dd>
+[ESP_ERR_NOT_FOUND 产品链表是非空链表,但是未找到指定的产品 / 产品链表是空链表,不可能找到指定的产品] </dd>
+<dd>
+[ESP_ERR_INVALID_ARG 输入了无法处理的空指针] </dd>
+<dd>
+[ESP_ERR_INVALID_STATE 产品链表存在头或尾缺失,维护状态异常] </dd>
+<dd>
+[ESP_ERR_NOT_SUPPORTED 非生产者不可使用下架(off)操作] </dd></dl>
+
+</div>
+</div>
+<a id="aa29e25f5acd9dbacef6fbf5928847a8d" name="aa29e25f5acd9dbacef6fbf5928847a8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa29e25f5acd9dbacef6fbf5928847a8d">&#9670;&#160;</a></span>PsP2P_DM_off_all()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">esp_err_t PsP2P_DM_off_all </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_ps_p2_p___d_m__for__idf_8h.html#a2b85c791ffa75fa7ab7efa3a7dd5e481">PsP2P_DM_node_handle_t</a>&#160;</td>
+          <td class="paramname"><em>producer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>PsP2P_DM下架所有产品 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">producer</td><td>生产者句柄 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>[ESP_OK 成功] </dd>
+<dd>
+[ESP_ERR_NOT_FOUND 产品链表是空链表,不可能找到指定的产品] </dd>
+<dd>
+[ESP_ERR_INVALID_ARG 输入了无法处理的空指针] </dd>
+<dd>
+[ESP_ERR_INVALID_STATE 产品链表存在头或尾缺失,维护状态异常] </dd>
+<dd>
+[ESP_ERR_NOT_SUPPORTED 非生产者不可使用下架所有产品(off_all)操作] </dd></dl>
 
 </div>
 </div>
@@ -524,7 +538,7 @@ PsP2P_DM_for_idf.c 的引用(Include)关系图:</div>
 <dl class="section note"><dt>注解</dt><dd>产品名一般是产品数据资源source存储对象名,比如把结构体变量的指针作为产品数据资源source上架,那么产品名一般是结构体变量的变量名 </dd>
 <dd>
 同一生产者不可以有完全同名产品,上架时会检查产品名,若产品名被使用过(根据内容比较)不允许上架 </dd></dl>
-<dl class="section return"><dt>返回</dt><dd>[ESP_OK 上架成功] </dd>
+<dl class="section return"><dt>返回</dt><dd>[ESP_OK 成功] </dd>
 <dd>
 [ESP_ERR_NO_MEM 内存不足] </dd>
 <dd>
@@ -545,20 +559,6 @@ PsP2P_DM_for_idf.c 的引用(Include)关系图:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="_ps_p2_p___d_m__for__idf_8h.html#a2b85c791ffa75fa7ab7efa3a7dd5e481">PsP2P_DM_node_handle_t</a> head_node = NULL</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5e69023d0c627e71d9f6e296100ba45e" name="a5e69023d0c627e71d9f6e296100ba45e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e69023d0c627e71d9f6e296100ba45e">&#9670;&#160;</a></span>Producer_handle</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="_ps_p2_p___d_m__for__idf_8h.html#a2b85c791ffa75fa7ab7efa3a7dd5e481">PsP2P_DM_node_handle_t</a> Producer_handle</td>
         </tr>
       </table>
 </div><div class="memdoc">
