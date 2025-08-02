@@ -14,17 +14,17 @@
   <option  id='BRIEF_MEMBER_DESC' default='yes' type='bool'><value>YES</value></option>
   <option  id='REPEAT_BRIEF' default='yes' type='bool'><value>YES</value></option>
   <option  id='ABBREVIATE_BRIEF' default='yes' type='stringlist'>
-    <value><![CDATA["The $name class"]]></value>
-    <value><![CDATA["The $name widget"]]></value>
-    <value><![CDATA["The $name file"]]></value>
-    <value><![CDATA[is]]></value>
-    <value><![CDATA[provides]]></value>
-    <value><![CDATA[specifies]]></value>
-    <value><![CDATA[contains]]></value>
-    <value><![CDATA[represents]]></value>
-    <value><![CDATA[a]]></value>
-    <value><![CDATA[an]]></value>
-    <value><![CDATA[the]]></value>
+***REMOVED***<value><![CDATA["The $name class"]]></value>
+***REMOVED***<value><![CDATA["The $name widget"]]></value>
+***REMOVED***<value><![CDATA["The $name file"]]></value>
+***REMOVED***<value><![CDATA[is]]></value>
+***REMOVED***<value><![CDATA[provides]]></value>
+***REMOVED***<value><![CDATA[specifies]]></value>
+***REMOVED***<value><![CDATA[contains]]></value>
+***REMOVED***<value><![CDATA[represents]]></value>
+***REMOVED***<value><![CDATA[a]]></value>
+***REMOVED***<value><![CDATA[an]]></value>
+***REMOVED***<value><![CDATA[the]]></value>
   </option>
   <option  id='ALWAYS_DETAILED_SEC' default='yes' type='bool'><value>NO</value></option>
   <option  id='INLINE_INHERITED_MEMB' default='yes' type='bool'><value>NO</value></option>
@@ -128,84 +128,84 @@
   <option  id='WARN_LINE_FORMAT' default='yes' type='string'><value><![CDATA["at line $line of file $file"]]></value></option>
   <option  id='WARN_LOGFILE' default='yes' type='string'><value><![CDATA[]]></value></option>
   <option  id='INPUT' default='no' type='stringlist'>
-    <value><![CDATA[.]]></value>
+***REMOVED***<value><![CDATA[.]]></value>
   </option>
   <option  id='INPUT_ENCODING' default='yes' type='string'><value><![CDATA[UTF-8]]></value></option>
   <option  id='INPUT_FILE_ENCODING' default='yes' type='stringlist'>
   </option>
   <option  id='FILE_PATTERNS' default='yes' type='stringlist'>
-    <value><![CDATA[*.c]]></value>
-    <value><![CDATA[*.cc]]></value>
-    <value><![CDATA[*.cxx]]></value>
-    <value><![CDATA[*.cxxm]]></value>
-    <value><![CDATA[*.cpp]]></value>
-    <value><![CDATA[*.cppm]]></value>
-    <value><![CDATA[*.ccm]]></value>
-    <value><![CDATA[*.c++]]></value>
-    <value><![CDATA[*.c++m]]></value>
-    <value><![CDATA[*.java]]></value>
-    <value><![CDATA[*.ii]]></value>
-    <value><![CDATA[*.ixx]]></value>
-    <value><![CDATA[*.ipp]]></value>
-    <value><![CDATA[*.i++]]></value>
-    <value><![CDATA[*.inl]]></value>
-    <value><![CDATA[*.idl]]></value>
-    <value><![CDATA[*.ddl]]></value>
-    <value><![CDATA[*.odl]]></value>
-    <value><![CDATA[*.h]]></value>
-    <value><![CDATA[*.hh]]></value>
-    <value><![CDATA[*.hxx]]></value>
-    <value><![CDATA[*.hpp]]></value>
-    <value><![CDATA[*.h++]]></value>
-    <value><![CDATA[*.ixx]]></value>
-    <value><![CDATA[*.l]]></value>
-    <value><![CDATA[*.cs]]></value>
-    <value><![CDATA[*.d]]></value>
-    <value><![CDATA[*.php]]></value>
-    <value><![CDATA[*.php4]]></value>
-    <value><![CDATA[*.php5]]></value>
-    <value><![CDATA[*.phtml]]></value>
-    <value><![CDATA[*.inc]]></value>
-    <value><![CDATA[*.m]]></value>
-    <value><![CDATA[*.markdown]]></value>
-    <value><![CDATA[*.md]]></value>
-    <value><![CDATA[*.mm]]></value>
-    <value><![CDATA[*.dox]]></value>
-    <value><![CDATA[*.py]]></value>
-    <value><![CDATA[*.pyw]]></value>
-    <value><![CDATA[*.f90]]></value>
-    <value><![CDATA[*.f95]]></value>
-    <value><![CDATA[*.f03]]></value>
-    <value><![CDATA[*.f08]]></value>
-    <value><![CDATA[*.f18]]></value>
-    <value><![CDATA[*.f]]></value>
-    <value><![CDATA[*.for]]></value>
-    <value><![CDATA[*.vhd]]></value>
-    <value><![CDATA[*.vhdl]]></value>
-    <value><![CDATA[*.ucf]]></value>
-    <value><![CDATA[*.qsf]]></value>
-    <value><![CDATA[*.ice]]></value>
+***REMOVED***<value><![CDATA[*.c]]></value>
+***REMOVED***<value><![CDATA[*.cc]]></value>
+***REMOVED***<value><![CDATA[*.cxx]]></value>
+***REMOVED***<value><![CDATA[*.cxxm]]></value>
+***REMOVED***<value><![CDATA[*.cpp]]></value>
+***REMOVED***<value><![CDATA[*.cppm]]></value>
+***REMOVED***<value><![CDATA[*.ccm]]></value>
+***REMOVED***<value><![CDATA[*.c++]]></value>
+***REMOVED***<value><![CDATA[*.c++m]]></value>
+***REMOVED***<value><![CDATA[*.java]]></value>
+***REMOVED***<value><![CDATA[*.ii]]></value>
+***REMOVED***<value><![CDATA[*.ixx]]></value>
+***REMOVED***<value><![CDATA[*.ipp]]></value>
+***REMOVED***<value><![CDATA[*.i++]]></value>
+***REMOVED***<value><![CDATA[*.inl]]></value>
+***REMOVED***<value><![CDATA[*.idl]]></value>
+***REMOVED***<value><![CDATA[*.ddl]]></value>
+***REMOVED***<value><![CDATA[*.odl]]></value>
+***REMOVED***<value><![CDATA[*.h]]></value>
+***REMOVED***<value><![CDATA[*.hh]]></value>
+***REMOVED***<value><![CDATA[*.hxx]]></value>
+***REMOVED***<value><![CDATA[*.hpp]]></value>
+***REMOVED***<value><![CDATA[*.h++]]></value>
+***REMOVED***<value><![CDATA[*.ixx]]></value>
+***REMOVED***<value><![CDATA[*.l]]></value>
+***REMOVED***<value><![CDATA[*.cs]]></value>
+***REMOVED***<value><![CDATA[*.d]]></value>
+***REMOVED***<value><![CDATA[*.php]]></value>
+***REMOVED***<value><![CDATA[*.php4]]></value>
+***REMOVED***<value><![CDATA[*.php5]]></value>
+***REMOVED***<value><![CDATA[*.phtml]]></value>
+***REMOVED***<value><![CDATA[*.inc]]></value>
+***REMOVED***<value><![CDATA[*.m]]></value>
+***REMOVED***<value><![CDATA[*.markdown]]></value>
+***REMOVED***<value><![CDATA[*.md]]></value>
+***REMOVED***<value><![CDATA[*.mm]]></value>
+***REMOVED***<value><![CDATA[*.dox]]></value>
+***REMOVED***<value><![CDATA[*.py]]></value>
+***REMOVED***<value><![CDATA[*.pyw]]></value>
+***REMOVED***<value><![CDATA[*.f90]]></value>
+***REMOVED***<value><![CDATA[*.f95]]></value>
+***REMOVED***<value><![CDATA[*.f03]]></value>
+***REMOVED***<value><![CDATA[*.f08]]></value>
+***REMOVED***<value><![CDATA[*.f18]]></value>
+***REMOVED***<value><![CDATA[*.f]]></value>
+***REMOVED***<value><![CDATA[*.for]]></value>
+***REMOVED***<value><![CDATA[*.vhd]]></value>
+***REMOVED***<value><![CDATA[*.vhdl]]></value>
+***REMOVED***<value><![CDATA[*.ucf]]></value>
+***REMOVED***<value><![CDATA[*.qsf]]></value>
+***REMOVED***<value><![CDATA[*.ice]]></value>
   </option>
   <option  id='RECURSIVE' default='no' type='bool'><value>YES</value></option>
   <option  id='EXCLUDE' default='yes' type='stringlist'>
   </option>
   <option  id='EXCLUDE_SYMLINKS' default='yes' type='bool'><value>NO</value></option>
   <option  id='EXCLUDE_PATTERNS' default='no' type='stringlist'>
-    <value><![CDATA[*/pattern/*]]></value>
-    <value><![CDATA[*/font/*]]></value>
-    <value><![CDATA[*/zlib_lib/*]]></value>
-    <value><![CDATA[*/managed_components/*]]></value>
-    <value><![CDATA[*/base64_re]]></value>
-    <value><![CDATA[*/board_def]]></value>
-    <value><![CDATA[*/board_pins_config]]></value>
-    <value><![CDATA[*/board]]></value>
+***REMOVED***<value><![CDATA[*/pattern/*]]></value>
+***REMOVED***<value><![CDATA[*/font/*]]></value>
+***REMOVED***<value><![CDATA[*/zlib_lib/*]]></value>
+***REMOVED***<value><![CDATA[*/managed_components/*]]></value>
+***REMOVED***<value><![CDATA[*/base64_re]]></value>
+***REMOVED***<value><![CDATA[*/board_def]]></value>
+***REMOVED***<value><![CDATA[*/board_pins_config]]></value>
+***REMOVED***<value><![CDATA[*/board]]></value>
   </option>
   <option  id='EXCLUDE_SYMBOLS' default='yes' type='stringlist'>
   </option>
   <option  id='EXAMPLE_PATH' default='yes' type='stringlist'>
   </option>
   <option  id='EXAMPLE_PATTERNS' default='yes' type='stringlist'>
-    <value><![CDATA[*]]></value>
+***REMOVED***<value><![CDATA[*]]></value>
   </option>
   <option  id='EXAMPLE_RECURSIVE' default='yes' type='bool'><value>NO</value></option>
   <option  id='IMAGE_PATH' default='yes' type='stringlist'>
