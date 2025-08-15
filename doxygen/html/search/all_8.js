@@ -11,7 +11,7 @@ var searchData=
   ['device_5fi2c_5finit_8',['device_i2c_init',['../board__ctrl_8h.html#ac99044e3543686d249dffc95b1751527',1,'device_i2c_init():&#160;board_ctrl.c'],['../board__ctrl_8c.html#ac99044e3543686d249dffc95b1751527',1,'device_i2c_init():&#160;board_ctrl.c']]],
   ['dew_9',['dew',['../struct_real__time__weather.html#a9fa2d25174ad2426f2d7ea7963ac1696',1,'Real_time_weather']]],
   ['direct_5fdraw_10',['direct_draw',['../sevetest30___led_array_8h.html#a1540a6256b3d0bbec51ff59e62c8fd2f',1,'direct_draw(int x, int y, const uint8_t *p, uint8_t change):&#160;sevetest30_LedArray.c'],['../sevetest30___led_array_8c.html#a1540a6256b3d0bbec51ff59e62c8fd2f',1,'direct_draw(int x, int y, const uint8_t *p, uint8_t change):&#160;sevetest30_LedArray.c']]],
-  ['double_20后_20运算需要的时间可能延长_11',['[^1]: 值得明确的是修改为 double 后,运算需要的时间可能延长',['../index.html#autotoc_md13',1,'']]],
+  ['double_20后_20运算需要的时间可能延长_11',['[^1]: 值得明确的是修改为 double 后,运算需要的时间可能延长',['../index.html#autotoc_md16',1,'']]],
   ['draw_5fline_5fcount_12',['draw_line_count',['../sevetest30___led_array_8c.html#acd62dac27e0918225ab0aede60ee2f18',1,'sevetest30_LedArray.c']]],
   ['drdy_5fpulse_5fcfg_5fg_13',['DRDY_PULSE_CFG_G',['../lsm6ds3trc_8h.html#a385c44f6fb256e5716a2302a5b940388ab1ac092dcc3815e592feacea9a0d749b',1,'lsm6ds3trc.h']]],
   ['dsp_5fmax_5ffft_5fsize_14',['DSP_MAX_FFT_SIZE',['../sevetest30___u_i_8h.html#af1ab76206bc3a1addbbd7a154c18911a',1,'sevetest30_UI.h']]],

@@ -14,5 +14,5 @@ var math__tools__fp64_8c =
     [ "matrix_transpose_fp64", "math__tools__fp64_8c.html#a7a4b1666083bc375d1e3e9cd30581c37", null ],
     [ "solve_overdet_system_ols_mlr_fp64", "math__tools__fp64_8c.html#a48f52060bbe54168188bb10277dd92ae", null ],
     [ "square_aligned_16_matrix_transpose_fp64", "math__tools__fp64_8c.html#a34b967168888a6a07bd037eed9972338", null ],
-    [ "square_matrix_transpose_fp64", "math__tools__fp64_8c.html#af49ef77dcbe906db8bc3c9462f5fe5cb", null ]
+    [ "square_matrix_inplace_transpose_fp64", "math__tools__fp64_8c.html#a9ed4c3b28c1d78039e189690a9ad0427", null ]
 ];

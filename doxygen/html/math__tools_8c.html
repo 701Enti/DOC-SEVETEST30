@@ -152,8 +152,9 @@ math_tools.c 的引用(Include)关系图:</div>
 <tr class="separator:a17411c6ad1dd2889941f609c950f0cab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab80ca127d3b437639d1a28d0dc833c6f" id="r_ab80ca127d3b437639d1a28d0dc833c6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math__tools_8c.html#ab80ca127d3b437639d1a28d0dc833c6f">aligned_16_matrix_transpose</a> (float *input, float *output, int m, int n)</td></tr>
 <tr class="separator:ab80ca127d3b437639d1a28d0dc833c6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af309b2734b9a50f77fdb44594e32bf16" id="r_af309b2734b9a50f77fdb44594e32bf16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math__tools_8c.html#af309b2734b9a50f77fdb44594e32bf16">square_matrix_transpose</a> (float *local, int n)</td></tr>
-<tr class="separator:af309b2734b9a50f77fdb44594e32bf16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f553273d9309690334c2adf0f6518af" id="r_a7f553273d9309690334c2adf0f6518af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math__tools_8c.html#a7f553273d9309690334c2adf0f6518af">square_matrix_inplace_transpose</a> (float *local, int n)</td></tr>
+<tr class="memdesc:a7f553273d9309690334c2adf0f6518af"><td class="mdescLeft">&#160;</td><td class="mdescRight">方阵原地转置,直接在输入上操作  <br /></td></tr>
+<tr class="separator:a7f553273d9309690334c2adf0f6518af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3dcf695761244506eb52a0633b881bb2" id="r_a3dcf695761244506eb52a0633b881bb2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math__tools_8c.html#a3dcf695761244506eb52a0633b881bb2">square_aligned_16_matrix_transpose</a> (float *local, int n)</td></tr>
 <tr class="separator:a3dcf695761244506eb52a0633b881bb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93580068fdabc174dbe81e18ee422679" id="r_a93580068fdabc174dbe81e18ee422679"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math__tools_8c.html#a93580068fdabc174dbe81e18ee422679">matrix_transpose</a> (float *input, float *output, int m, int n)</td></tr>
@@ -1025,14 +1026,14 @@ math_tools.c 的引用(Include)关系图:</div>
 
 </div>
 </div>
-<a id="af309b2734b9a50f77fdb44594e32bf16" name="af309b2734b9a50f77fdb44594e32bf16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af309b2734b9a50f77fdb44594e32bf16">&#9670;&#160;</a></span>square_matrix_transpose()</h2>
+<a id="a7f553273d9309690334c2adf0f6518af" name="a7f553273d9309690334c2adf0f6518af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f553273d9309690334c2adf0f6518af">&#9670;&#160;</a></span>square_matrix_inplace_transpose()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void square_matrix_transpose </td>
+          <td class="memname">void square_matrix_inplace_transpose </td>
           <td>(</td>
           <td class="paramtype">float *&#160;</td>
           <td class="paramname"><em>local</em>, </td>
@@ -1050,6 +1051,15 @@ math_tools.c 的引用(Include)关系图:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>方阵原地转置,直接在输入上操作 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">local</td><td>矩阵输入 </td></tr>
+    <tr><td class="paramname">n</td><td>原矩阵(n,n)的列数 </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

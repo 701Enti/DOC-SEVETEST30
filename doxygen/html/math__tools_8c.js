@@ -14,5 +14,5 @@ var math__tools_8c =
     [ "matrix_transpose", "math__tools_8c.html#a93580068fdabc174dbe81e18ee422679", null ],
     [ "solve_overdet_system_ols_mlr", "math__tools_8c.html#a96781feac646c93cbaad9646ab5a57df", null ],
     [ "square_aligned_16_matrix_transpose", "math__tools_8c.html#a3dcf695761244506eb52a0633b881bb2", null ],
-    [ "square_matrix_transpose", "math__tools_8c.html#af309b2734b9a50f77fdb44594e32bf16", null ]
+    [ "square_matrix_inplace_transpose", "math__tools_8c.html#a7f553273d9309690334c2adf0f6518af", null ]
 ];
