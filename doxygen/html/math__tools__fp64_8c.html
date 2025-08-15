@@ -153,8 +153,9 @@ math_tools_fp64.c 的引用(Include)关系图:</div>
 <tr class="separator:a309ce19729bfb095cc04c8e27fe48f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9609c71a71156df827194fc5e60ae559" id="r_a9609c71a71156df827194fc5e60ae559"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math__tools__fp64_8c.html#a9609c71a71156df827194fc5e60ae559">aligned_16_matrix_transpose_fp64</a> (double *input, double *output, int m, int n)</td></tr>
 <tr class="separator:a9609c71a71156df827194fc5e60ae559"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af49ef77dcbe906db8bc3c9462f5fe5cb" id="r_af49ef77dcbe906db8bc3c9462f5fe5cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math__tools__fp64_8c.html#af49ef77dcbe906db8bc3c9462f5fe5cb">square_matrix_transpose_fp64</a> (double *local, int n)</td></tr>
-<tr class="separator:af49ef77dcbe906db8bc3c9462f5fe5cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ed4c3b28c1d78039e189690a9ad0427" id="r_a9ed4c3b28c1d78039e189690a9ad0427"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math__tools__fp64_8c.html#a9ed4c3b28c1d78039e189690a9ad0427">square_matrix_inplace_transpose_fp64</a> (double *local, int n)</td></tr>
+<tr class="memdesc:a9ed4c3b28c1d78039e189690a9ad0427"><td class="mdescLeft">&#160;</td><td class="mdescRight">方阵原地转置,直接在输入上操作  <br /></td></tr>
+<tr class="separator:a9ed4c3b28c1d78039e189690a9ad0427"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34b967168888a6a07bd037eed9972338" id="r_a34b967168888a6a07bd037eed9972338"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math__tools__fp64_8c.html#a34b967168888a6a07bd037eed9972338">square_aligned_16_matrix_transpose_fp64</a> (double *local, int n)</td></tr>
 <tr class="separator:a34b967168888a6a07bd037eed9972338"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a4b1666083bc375d1e3e9cd30581c37" id="r_a7a4b1666083bc375d1e3e9cd30581c37"><td class="memItemLeft" align="right" valign="top">esp_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math__tools__fp64_8c.html#a7a4b1666083bc375d1e3e9cd30581c37">matrix_transpose_fp64</a> (double *input, double *output, int m, int n)</td></tr>
@@ -1026,14 +1027,14 @@ math_tools_fp64.c 的引用(Include)关系图:</div>
 
 </div>
 </div>
-<a id="af49ef77dcbe906db8bc3c9462f5fe5cb" name="af49ef77dcbe906db8bc3c9462f5fe5cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af49ef77dcbe906db8bc3c9462f5fe5cb">&#9670;&#160;</a></span>square_matrix_transpose_fp64()</h2>
+<a id="a9ed4c3b28c1d78039e189690a9ad0427" name="a9ed4c3b28c1d78039e189690a9ad0427"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ed4c3b28c1d78039e189690a9ad0427">&#9670;&#160;</a></span>square_matrix_inplace_transpose_fp64()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void square_matrix_transpose_fp64 </td>
+          <td class="memname">void square_matrix_inplace_transpose_fp64 </td>
           <td>(</td>
           <td class="paramtype">double *&#160;</td>
           <td class="paramname"><em>local</em>, </td>
@@ -1051,6 +1052,15 @@ math_tools_fp64.c 的引用(Include)关系图:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>方阵原地转置,直接在输入上操作 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">local</td><td>矩阵输入 </td></tr>
+    <tr><td class="paramname">n</td><td>原矩阵(n,n)的列数 </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

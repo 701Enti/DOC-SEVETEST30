@@ -16,7 +16,7 @@
 <meta name="twitter:title" content="Doxygen Awesome" />
 <meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
 <!-- END twitter metadata -->
-<title>SEVETEST30: 文档</title>
+<title>SEVETEST30: 文档相关</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -125,7 +125,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">文档 </div></div>
+  <div class="headertitle"><div class="title">文档相关 </div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md__r_e_a_d_m_e"></a> </p>
@@ -133,17 +133,70 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 在 Github 上可访问/编辑的 SEVETEST30 文档仓库</h1>
 <ul>
 <li><b>仓库链接</b>: <a href="https://github.com/701Enti/DOC-SEVETEST30">https://github.com/701Enti/DOC-SEVETEST30</a></li>
-<li><b>文档撰写方式</b>: Doxygen 生成 + 贡献者修改</li>
-<li><b>相关技术实现</b>: 当 SEVETEST30 仓库有新的推送时,自动在 Github 工作流中使用 Doxygen 生成文档,并提交新文档到文档仓库</li>
+<li><b>文档撰写方式</b>: Doxygen 根据代码和注释生成</li>
+<li><b>特别声明</b>:<ul>
+<li>SEVETEST30 文档仓库不是私有仓库,您完全可以 push 个人分支生成的文档到独立分支,甚至可以是您对 SEVETEST30 的见解等其他任何与 SEVETEST30 相关的内容,只要您没有影响自动文档或进行不合理的推送</li>
+<li>为保证资源充足,只会为关键分支提供自动文档生成,具体会触发工作流的关键分支在工作流文件 DoxygenAutoDocSync.yml 中可设置和查看</li>
+<li>当然,如果您希望自己的分支像关键分支一样可云端部署文档,您可以在本地运行 Doxygen 生成文档,并推送到 SEVETEST30 文档仓库与个人分支同名的分支,之后可联系 SEVETEST30 团队协商,他们管理文档的云端部署</li>
+</ul>
+</li>
+<li><b>文档修改</b>:<ul>
+<li>更改 SEVETEST30 仓库的源码和注释内容即可,因为生成就是根据这些完成的,代码即文档</li>
+<li>由于生成结果文件非常多,不适合编辑修改管理工作,并且生成后的推送会覆盖之前的所有内容,更改源码注释反而更可靠,因此,目前不考虑生成后文件内容再修改的工作,即使是发布分支</li>
+</ul>
+</li>
+<li><b>相关技术实现</b>:<ul>
+<li>当 SEVETEST30 仓库的关键分支有新的 push/pull&amp;request 时(或者手动触发),自动在 Github 工作流中使用 Doxygen 生成文档,并提交新文档到文档仓库的同名分支</li>
+<li>例如 SEVETEST30 名为 A 分支的推送,将触发文档仓库名为 A 分支的更新</li>
+<li>文档生成和推送工作使用可复用工作流: <a href="https://github.com/701Enti/Github-WorkFlows/blob/master/.github/workflows/doxygen-auto-code-to-doc.yml">https://github.com/701Enti/Github-WorkFlows/blob/master/.github/workflows/doxygen-auto-code-to-doc.yml</a> (它存储在 701Enti 的专门工作流文件存储库)</li>
+<li>为保证资源充足,只会为关键分支提供自动文档生成,具体会触发工作流的关键分支在工作流文件 DoxygenAutoDocSync.yml 中可设置和查看</li>
+</ul>
+</li>
 <li><b>相关工作流</b>:<ul>
-<li><a href="https://github.com/701Enti/SEVETEST30/blob/develop/.github/workflows/DoxygenAutoDocSync.yml">https://github.com/701Enti/SEVETEST30/blob/develop/.github/workflows/DoxygenAutoDocSync.yml</a></li>
+<li>.github/workflows/DoxygenAutoDocSync.yml</li>
 <li><a href="https://github.com/701Enti/Github-WorkFlows/blob/master/.github/workflows/doxygen-auto-code-to-doc.yml">https://github.com/701Enti/Github-WorkFlows/blob/master/.github/workflows/doxygen-auto-code-to-doc.yml</a></li>
 </ul>
 </li>
 </ul>
 <h1><a class="anchor" id="autotoc_md2"></a>
-第三方代码使用声明</h1>
+安全设施</h1>
 <h2><a class="anchor" id="autotoc_md3"></a>
+.gitignore 敏感文件排除</h2>
+<ul>
+<li><b>SDK 配置文件 - sdkconfig</b><ul>
+<li>SEVETEST30 的 WIFI 连接密码和 API 相关密钥均需要在 SDK 配置编辑器(menuconfig)设置,其生成的 sdkconfig 硬编码这些敏感内容</li>
+<li>sdkconfig 及其任意扩展名的文件均被排除,包括 sdkconfig.default</li>
+<li>在本仓库任何分支中都请不要使用 sdkconfig.default 配置默认值,请在./main/Kconfig.prebuild 直接配置默认值,它更易维护</li>
+</ul>
+</li>
+<li><b>其他常见敏感文件</b>:<ul>
+<li>环境变量和其他配置文件（含 API 密钥/数据库密码）</li>
+<li>加密密钥和证书文件（SSL/SSH 私钥）</li>
+<li>云服务凭证文件（AWS/GCP 访问密钥）</li>
+<li>数据库文件和备份（可能含敏感数据）</li>
+<li>日志文件（可能泄露调试信息）</li>
+<li>开发工具配置文件（含私有仓库令牌）</li>
+<li>网络连接配置文件（VPN/RDP 凭证）</li>
+</ul>
+</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md4"></a>
+关键分支的 PR 检查(基于 TruffleHog)</h2>
+<ul>
+<li><b>相关技术实现</b>:<ul>
+<li>当 SEVETEST30 仓库的关键分支有新的 pull&amp;request 时,必须经过 Github 工作流检查才可以进行 pull&amp;request(需要仓库设置规则)</li>
+<li>工作流中使用 TruffleHog 检查整个提交历史是否含敏感内容</li>
+<li>也可以手动触发来人工检查结果</li>
+</ul>
+</li>
+<li><b>相关工作流</b>:<ul>
+<li>.github/workflows/TruffleHogPRCheck.yml</li>
+</ul>
+</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md5"></a>
+第三方代码使用声明</h1>
+<h2><a class="anchor" id="autotoc_md6"></a>
 components/matrix_f64/matrix_fp64_mult_ansi.c</h2>
 <ul>
 <li><b>原项目</b>: esp-dsp</li>
@@ -159,7 +212,7 @@ components/matrix_f64/matrix_fp64_mult_ansi.c</h2>
 </ul>
 </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md4"></a>
+<h2><a class="anchor" id="autotoc_md7"></a>
 components/matrix_f64/matrix_fp64_sub_ansi.c</h2>
 <ul>
 <li><b>原项目</b>: esp-dsp</li>
@@ -175,7 +228,7 @@ components/matrix_f64/matrix_fp64_sub_ansi.c</h2>
 </ul>
 </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md5"></a>
+<h2><a class="anchor" id="autotoc_md8"></a>
 components/matrix_f64/matrix_fp64_dotprod_ansi.c</h2>
 <ul>
 <li><b>原项目</b>: esp-dsp</li>
@@ -191,7 +244,7 @@ components/matrix_f64/matrix_fp64_dotprod_ansi.c</h2>
 </ul>
 </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md6"></a>
+<h2><a class="anchor" id="autotoc_md9"></a>
 components/base64_re/base64_re.c</h2>
 <ul>
 <li><b>原项目</b>: hostapd</li>
@@ -206,7 +259,7 @@ components/base64_re/base64_re.c</h2>
 </ul>
 </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md7"></a>
+<h2><a class="anchor" id="autotoc_md10"></a>
 components/base64_re/include/base64_re.h</h2>
 <ul>
 <li><b>原项目</b>: hostapd</li>
@@ -221,7 +274,7 @@ components/base64_re/include/base64_re.h</h2>
 </ul>
 </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md8"></a>
+<h2><a class="anchor" id="autotoc_md11"></a>
 components/sevetest30_board/board_def.h</h2>
 <ul>
 <li><b>原项目</b>: esp-adf</li>
@@ -235,7 +288,7 @@ components/sevetest30_board/board_def.h</h2>
 </ul>
 </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md9"></a>
+<h2><a class="anchor" id="autotoc_md12"></a>
 components/sevetest30_board/board_pins_config.c</h2>
 <ul>
 <li><b>原项目</b>: esp-adf</li>
@@ -248,7 +301,7 @@ components/sevetest30_board/board_pins_config.c</h2>
 </ul>
 </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md10"></a>
+<h2><a class="anchor" id="autotoc_md13"></a>
 components/sevetest30_board/board_pins_config.h</h2>
 <ul>
 <li><b>原项目</b>: esp-adf</li>
@@ -261,7 +314,7 @@ components/sevetest30_board/board_pins_config.h</h2>
 </ul>
 </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md11"></a>
+<h2><a class="anchor" id="autotoc_md14"></a>
 components/sevetest30_board/board.c</h2>
 <ul>
 <li><b>原项目</b>: esp-adf</li>
@@ -274,7 +327,7 @@ components/sevetest30_board/board.c</h2>
 </ul>
 </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md12"></a>
+<h2><a class="anchor" id="autotoc_md15"></a>
 components/sevetest30_board/board.h</h2>
 <ul>
 <li><b>原项目</b>: esp-adf</li>
@@ -287,13 +340,13 @@ components/sevetest30_board/board.h</h2>
 </ul>
 </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md13"></a>
+<h2><a class="anchor" id="autotoc_md16"></a>
 [^1]: 值得明确的是修改为 double 后,运算需要的时间可能延长</h2>
-<h2><a class="anchor" id="autotoc_md14"></a>
+<h2><a class="anchor" id="autotoc_md17"></a>
 [^2]: 在原程序基础上,取消了 base64 编码的"\n"操作,因为将音频编码为 base64 时添加"\n"引起了一些 API 服务无法识别的问题</h2>
-<h2><a class="anchor" id="autotoc_md15"></a>
+<h2><a class="anchor" id="autotoc_md18"></a>
 [^3]: 这个修改为适应 API 服务的一个项目需求, 不是否认原作者设计的可靠性, 事实上添加"\n"是一个正常编码操作</h2>
-<h1><a class="anchor" id="autotoc_md16"></a>
+<h1><a class="anchor" id="autotoc_md19"></a>
 法律声明</h1>
 <ol type="1">
 <li>所有文件头部均已保留原始版权声明</li>
