@@ -1,6 +1,6 @@
 var indexSectionsWithContent =
 {
-  0: "123:_abcdefghijklmnoprstuvwxyz上不事值关取后因在基安引操敏文时是服检法第编运这",
+  0: "1234:_abcdefghijklmnoprstuvwxyz上不事信值免关函取后和因在基引接操敏文时是服本检法版的硬第简编详软运这",
   1: "abcegikmprstu",
   2: "abcfghlmprst",
   3: "_abcdefghijlmprstuvw",
@@ -9,7 +9,7 @@ var indexSectionsWithContent =
   6: "abcgiklps",
   7: "abcdfgijklmopstvwxyz",
   8: "_abcdefghilmprstuvwz",
-  9: "文"
+  9: "简"
 };
 
 var indexSectionNames =

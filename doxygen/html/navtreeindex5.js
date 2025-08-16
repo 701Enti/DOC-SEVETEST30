@@ -1,5 +1,13 @@
 var NAVTREEINDEX5 =
 {
+"struct_g_s__magnetic__flux__density__data__t.html#a6132708f76dfff58a7fa5c88b646337c":[1,0,18,0],
+"struct_g_s__magnetic__flux__density__data__t.html#aa1f99576beae35b61fd62c5d9258a9a9":[1,0,18,3],
+"struct_g_s__output__data__t.html":[1,0,19],
+"struct_g_s__output__data__t.html#a1bd4d08f9be35e5909ae709e88af355c":[1,0,19,6],
+"struct_g_s__output__data__t.html#a2b7145165937089698c22f1921c8a498":[1,0,19,2],
+"struct_g_s__output__data__t.html#a829044128afa324cd44325bf06d52fa4":[1,0,19,1],
+"struct_g_s__output__data__t.html#aadf4ba9ab7211fcf5d53957f9953da9b":[1,0,19,0],
+"struct_g_s__output__data__t.html#ac64dd98c7dc0711b51bec6a42e60237e":[1,0,19,5],
 "struct_g_s__output__data__t.html#acb1a9c431857eb01092a4200814be3bf":[1,0,19,4],
 "struct_g_s__output__data__t.html#ae9c36ba6260cf40833c99a5ca71f86cb":[1,0,19,3],
 "struct_g_s__static__calibration__model__t.html":[1,0,20],

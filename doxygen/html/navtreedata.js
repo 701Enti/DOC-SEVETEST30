@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "SEVETEST30", "index.html", [
-    [ "文档相关", "index.html", "index" ],
+    [ "简介", "index.html", "index" ],
     [ "类", "annotated.html", [
       [ "类列表", "annotated.html", "annotated_dup" ],
       [ "类索引", "classes.html", null ],
@@ -53,10 +53,10 @@ var NAVTREEINDEX =
 [
 "_a_g_s10_8c.html",
 "functions_vars_h.html",
-"lsm6ds3trc_8h.html#a47aa319d4e952beb65ea924f7c2ece96",
-"sevetest30___i_w_e_d_a_8c.html#a9e45a7edd8edbe3b4a405d4bb66ec91e",
-"sevetest30___s_w_e_d_a_8h.html#aed9126abb43b075cd7b1242625e4c6e6",
-"struct_g_s__output__data__t.html#acb1a9c431857eb01092a4200814be3bf"
+"lsm6ds3trc_8h.html#a32e7c8785938fbad63ba6528b7119a3d",
+"sevetest30___i_w_e_d_a_8c.html#a692bbc21a4fc6fbd33865a0f9e21be79",
+"sevetest30___s_w_e_d_a_8h.html#a8c6ca5c1f86ae8713148b19dd79b04ec",
+"struct_g_s__magnetic__flux__density__data__t.html#a6132708f76dfff58a7fa5c88b646337c"
 ];
 
 var SYNCONMSG = '点击 关闭 面板同步';

@@ -1,10 +1,11 @@
 var searchData=
 [
-  ['y_0',['y',['../struct_i_m_u__acceleration__value__t.html#a72a2cb48d08d1aa3242a73859d5a4ecc',1,'IMU_acceleration_value_t::y'],['../struct_i_m_u__angular__rate__value__t.html#ab12062171fc346a5cf02e7d3010ef00f',1,'IMU_angular_rate_value_t::y'],['../structmusic___f_f_t___u_i__cfg__t.html#aa09dc98b4f5168e86115d76d0079aaf0',1,'music_FFT_UI_cfg_t::y'],['../structcartoon__ctrl__param__t.html#a1fe3a0e9c809b9b32edc3c9a537e6716',1,'cartoon_ctrl_param_t::y'],['../structkey__frame__t.html#a92edb167faa486c265537090441a7d6f',1,'key_frame_t::y']]],
-  ['y0_1',['y0',['../struct_g_s__static__calibration__model__t.html#ab9c9275ca8eb114063121d2c31ec62dc',1,'GS_static_calibration_model_t']]],
-  ['y_5fen_2',['y_en',['../structcartoon__plan__t.html#a65962bcc60030c656ffc531d069cfddb',1,'cartoon_plan_t']]],
-  ['y_5fofs_5fusr_3',['Y_OFS_USR',['../lsm6ds3trc_8h.html#a385c44f6fb256e5716a2302a5b940388ac3b829b6b6d3a3c58fe7a98dfec668ab',1,'lsm6ds3trc.h']]],
-  ['year_4',['year',['../struct_b_l5372__time__t.html#afa987dc6281f28c6200e81f42b5c179a',1,'BL5372_time_t::year'],['../structsystemtime__t.html#a75d1f36313cefabfc26a9cc7944129a1',1,'systemtime_t::year']]],
-  ['yh_5',['YH',['../struct_i_m_u___d6_d__data__value__t.html#af3823edbb6125c038f8b6830c5cbcf7d',1,'IMU_D6D_data_value_t']]],
-  ['yl_6',['YL',['../struct_i_m_u___d6_d__data__value__t.html#af0e33ca28617785739a87302d2722b0a',1,'IMU_D6D_data_value_t']]]
+  ['x_0',['x',['../struct_i_m_u__acceleration__value__t.html#a5e77067f52adc8d5f4d2e07a10176e8b',1,'IMU_acceleration_value_t::x'],['../struct_i_m_u__angular__rate__value__t.html#a75ca5134a04c47cfd51d6596ca6c8973',1,'IMU_angular_rate_value_t::x'],['../structmusic___f_f_t___u_i__cfg__t.html#aa5cf8d790305e205a63fb90295abe514',1,'music_FFT_UI_cfg_t::x'],['../structcartoon__ctrl__param__t.html#a3245d33b5f4135ff7d94dfffb4c426ef',1,'cartoon_ctrl_param_t::x'],['../structkey__frame__t.html#a12c0378189b8b3f42dea21bdb1dc7919',1,'key_frame_t::x']]],
+  ['x0_1',['x0',['../struct_g_s__static__calibration__model__t.html#aa848fa4a1dda48f2ae864b6b724f23ef',1,'GS_static_calibration_model_t']]],
+  ['x_5fen_2',['x_en',['../structcartoon__plan__t.html#a23904beb6bf0def3af78ddaad50f5e57',1,'cartoon_plan_t']]],
+  ['x_5fmove_3',['x_move',['../struct_u_i__color__visual__cfg__t.html#a2778ca00354edfef410e54aea98be321',1,'UI_color_visual_cfg_t']]],
+  ['x_5fmultiples_4',['x_multiples',['../struct_u_i__color__visual__cfg__t.html#a88a3fffdca8dddde56701c5bb88d1cdd',1,'UI_color_visual_cfg_t']]],
+  ['x_5fofs_5fusr_5',['X_OFS_USR',['../lsm6ds3trc_8h.html#a385c44f6fb256e5716a2302a5b940388ae8b8b252ba35f6d871bd070a9b7f3420',1,'lsm6ds3trc.h']]],
+  ['xh_6',['XH',['../struct_i_m_u___d6_d__data__value__t.html#a6b57157948677488c7ab15d757484238',1,'IMU_D6D_data_value_t']]],
+  ['xl_7',['XL',['../struct_i_m_u___d6_d__data__value__t.html#a995fe9d87244f3d126bd0dacba472df4',1,'IMU_D6D_data_value_t']]]
 ];

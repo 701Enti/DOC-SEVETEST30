@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['安全设施_0',['安全设施',['../index.html#autotoc_md2',1,'']]]
+  ['后_20运算需要的时间可能延长_0',['[^1]: 值得明确的是修改为 double 后,运算需要的时间可能延长',['../index.html#autotoc_md22',1,'']]]
 ];
