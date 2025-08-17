@@ -10,7 +10,7 @@ var searchData=
   ['raw_5foutput_5fz_5flsb_7',['raw_output_z_LSB',['../struct_g_s__output__data__t.html#ac64dd98c7dc0711b51bec6a42e60237e',1,'GS_output_data_t']]],
   ['raw_5foutput_5fz_5fmsb_8',['raw_output_z_MSB',['../struct_g_s__output__data__t.html#a1bd4d08f9be35e5909ae709e88af355c',1,'GS_output_data_t']]],
   ['raw_5fread_9',['raw_read',['../sevetest30__sound_8c.html#a3458e3a91a2ca7d4d2465b23868a0482',1,'sevetest30_sound.c']]],
-  ['readme_2emd_10',['readme.md',['../_r_e_a_d_m_e_8md.html',1,'(全局命名空间)'],['../_d_o_c-_s_e_v_e_t_e_s_t30_2_r_e_a_d_m_e_8md.html',1,'(全局命名空间)']]],
+  ['readme_2emd_10',['readme.md',['../_r_e_a_d_m_e_8md.html',1,'(全局命名空间)'],['../docs_2official_2repo__doc_2_d_o_c-_s_e_v_e_t_e_s_t30_2_r_e_a_d_m_e_8md.html',1,'(全局命名空间)']]],
   ['real_5ftime_5fweather_11',['real_time_weather',['../struct_real__time__weather.html',1,'Real_time_weather'],['../sevetest30___i_w_e_d_a_8h.html#a820da215334c16021bd626a549c1e630',1,'Real_time_weather:&#160;sevetest30_IWEDA.h']]],
   ['real_5ftime_5fweather_5fdata_12',['real_time_weather_data',['../sevetest30___i_w_e_d_a_8c.html#ac7bb61d4f7ba5faf047aa01bbf89956f',1,'real_time_weather_data:&#160;sevetest30_IWEDA.c'],['../sevetest30___i_w_e_d_a_8h.html#ac7bb61d4f7ba5faf047aa01bbf89956f',1,'real_time_weather_data:&#160;sevetest30_IWEDA.c']]],
   ['receiver_13',['receiver',['../struct_ps_p2_p___d_m__message__t.html#ae66123ba96bc8b32569b6d7754f99c8b',1,'PsP2P_DM_message_t']]],
