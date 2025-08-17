@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['是一个正常编码操作_0',['[^3]: 这个修改为适应 API 服务的一个项目需求, 不是否认原作者设计的可靠性, 事实上添加&quot;\n&quot;是一个正常编码操作',['../index.html#autotoc_md24',1,'']]]
+  ['引起了一些_20api_20服务无法识别的问题_0',['[^2]: 在原程序基础上,取消了 base64 编码的&quot;\n&quot;操作,因为将音频编码为 base64 时添加&quot;\n&quot;引起了一些 API 服务无法识别的问题',['..//home/runner/work/SEVETEST30/SEVETEST30/README.md#autotoc_md28',1,'']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['详见下方_20法律声明_20免责声明_0',['[^4]: 本项目开发者和贡献者不承担任何硬件更改活动导致的财产损失,信息泄露和人员伤亡(详见下方 法律声明 - 免责声明)',['../index.html#autotoc_md25',1,'']]]
+  ['检查_20基于_20trufflehog_0',['关键分支的 PR 检查(基于 TruffleHog)',['..//home/runner/work/SEVETEST30/SEVETEST30/README.md#autotoc_md9',1,'']]]
 ];

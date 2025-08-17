@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['免责声明_0',['免责声明',['../index.html#autotoc_md27',1,'法律声明 - 免责声明'],['../index.html#autotoc_md25',1,'[^4]: 本项目开发者和贡献者不承担任何硬件更改活动导致的财产损失,信息泄露和人员伤亡(详见下方 法律声明 - 免责声明)']]]
+  ['使用本仓库_0',['方法 2 - 使用本仓库',['../index.html#autotoc_md2',1,'']]],
+  ['使用_20sevetest30_20仓库_1',['方法 1 - 使用 SEVETEST30 仓库',['../index.html#autotoc_md1',1,'']]]
 ];

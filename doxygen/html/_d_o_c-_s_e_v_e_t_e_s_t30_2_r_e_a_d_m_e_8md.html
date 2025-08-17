@@ -16,7 +16,7 @@
 <meta name="twitter:title" content="Doxygen Awesome" />
 <meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
 <!-- END twitter metadata -->
-<title>SEVETEST30: 本地离线访问文档 - 如何在本地/无网络情况下浏览文档</title>
+<title>SEVETEST30: DOC-SEVETEST30/README.md 文件参考</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -99,7 +99,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('index.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('_d_o_c-_s_e_v_e_t_e_s_t30_2_r_e_a_d_m_e_8md.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -124,61 +124,16 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </div>
 </div>
 
-<div><div class="header">
-  <div class="headertitle"><div class="title">本地离线访问文档 - 如何在本地/无网络情况下浏览文档 </div></div>
+<div class="header">
+  <div class="headertitle"><div class="title">DOC-SEVETEST30/README.md 文件参考</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="md__d_o_c-_s_e_v_e_t_e_s_t30_2_r_e_a_d_m_e"></a> </p>
-<h1><a class="anchor" id="autotoc_md1"></a>
-方法 1 - 使用 SEVETEST30 仓库</h1>
-<ul>
-<li><b>前提</b>: 在之前已经 clone/下载了 SEVETEST30 仓库,并且确定它是最新的</li>
-<li><b>浏览文档</b>:<ul>
-<li>进入该仓库文件夹目录,打开根目录中的 index.html 文件</li>
-<li>这将在浏览器显示文档,这无需网络连接</li>
-</ul>
-</li>
-</ul>
-<h1><a class="anchor" id="autotoc_md2"></a>
-方法 2 - 使用本仓库</h1>
-<ul>
-<li><b>前提</b>: 在之前已经 clone/下载了文档仓库,并且确定它是最新的</li>
-<li><b>浏览文档</b>:<ul>
-<li>进入该仓库文件夹目录,打开./doxygen/html/index.html 文件</li>
-<li>这将在浏览器显示文档,这无需网络连接</li>
-</ul>
-</li>
-</ul>
-<h1><a class="anchor" id="autotoc_md3"></a>
-云端部署相关</h1>
-<h2><a class="anchor" id="autotoc_md4"></a>
-如何在指定域名下上线新分支的文档(利用 GitHub Pages,公共仓库免费托管)</h2>
-<ul>
-<li><b>例如需上线 SEVETEST30 仓库的关键分支 K 分支对应文档</b>: (需要 SEVETEST30 团队通过 pull&amp;request 才可完成部署)<ul>
-<li>1.进入 SEVETEST30 本地仓库目录，并确保处于个人分支最新版本</li>
-<li>2.进入./docs/official/repo_doc</li>
-<li>3.在此目录下,安装文档仓库的 K 分支作为个人分支的子模块 <code>git submodule add -b K <a href="https://github.com/701Enti/DOC-SEVETEST30.git">https://github.com/701Enti/DOC-SEVETEST30.git</a></code> 如果报错"Invalid branch name": 这可能是因为文档仓库未建立需要的文档分支,一般只有关键分支如 master 会被考虑自动文档支持 当然,如果您希望自己的分支像关键分支一样可云端部署文档,您可以在本地运行 Doxygen 生成文档 并推送到 SEVETEST30 文档仓库与个人分支同名的分支,之后可联系 SEVETEST30 团队协商,他们管理文档的云端部署 详情请见 SEVETEST30 仓库 README-文档相关,如果确实是关键分支,可以更改工作流配置并触发文档同步,之后再次执行</li>
-<li>4.同步子模块代码 <code>git submodule update --init --recursive</code></li>
-<li>5.推送更改到个人分支,并发起个人分支到 master 分支的 pull&amp;request</li>
-<li>6.需要 SEVETEST30 团队通过 pull&amp;request 才可完成部署</li>
-</ul>
-</li>
-<li><b>例如需上线 SEVETEST30 仓库的个人分支 A 对应文档</b>: (需要 SEVETEST30 团队通过 pull&amp;request 才可完成部署)<ul>
-<li>1.进入 SEVETEST30 本地仓库目录，并确保处于个人分支最新版本</li>
-<li>2.进入./docs/personal/repo_doc</li>
-<li>3.在此目录下,安装文档仓库的 A 分支作为个人分支的子模块 <code>git submodule add -b A <a href="https://github.com/701Enti/DOC-SEVETEST30.git">https://github.com/701Enti/DOC-SEVETEST30.git</a></code> 如果报错"Invalid branch name": 这可能是因为文档仓库未建立需要的文档分支,联系申请者在本地运行 Doxygen 生成文档 并推送到 SEVETEST30 文档仓库与个人分支 A 同名的分支,之后可联系 SEVETEST30 团队协商,他们管理文档的云端部署 详情请见 SEVETEST30 仓库 README-文档相关</li>
-<li>4.同步子模块代码 <code>git submodule update --init --recursive</code></li>
-<li>5.推送更改到个人分支,并发起个人分支到 master 分支的 pull&amp;request</li>
-<li>6.需要 SEVETEST30 团队通过 pull&amp;request 才可完成部署 </li>
-</ul>
-</li>
-</ul>
-</div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="_d_o_c-_s_e_v_e_t_e_s_t30_2_r_e_a_d_m_e_8md.html">README.md</a></li>
     <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>

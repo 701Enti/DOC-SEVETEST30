@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['函数_0',['main/AGS10.c 和 components/sevetest30_board/include/AGS10.h 的 Calc_CRC8 函数',['../index.html#autotoc_md21',1,'']]]
+  ['值得明确的是修改为_20double_20后_20运算需要的时间可能延长_0',['[^1]: 值得明确的是修改为 double 后,运算需要的时间可能延长',['..//home/runner/work/SEVETEST30/SEVETEST30/README.md#autotoc_md27',1,'']]]
 ];

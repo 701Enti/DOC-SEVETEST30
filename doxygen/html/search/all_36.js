@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['检查_20基于_20trufflehog_0',['关键分支的 PR 检查(基于 TruffleHog)',['../index.html#autotoc_md4',1,'']]]
+  ['敏感文件排除_0',['.gitignore 敏感文件排除',['..//home/runner/work/SEVETEST30/SEVETEST30/README.md#autotoc_md8',1,'']]]
 ];
