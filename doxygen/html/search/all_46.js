@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['软件安全设施_0',['软件安全设施',['..//home/runner/work/SEVETEST30/SEVETEST30/README.md#autotoc_md7',1,'']]],
-  ['软件_1',['软件',['..//home/runner/work/SEVETEST30/SEVETEST30/README.md#autotoc_md6',1,'']]]
+  ['详见下方_20法律声明_20免责声明_0',['[^4]: 本项目开发者和贡献者不承担任何硬件更改活动导致的财产损失,信息泄露和人员伤亡(详见下方 法律声明 - 免责声明)',['../index.html#autotoc_md30',1,'']]]
 ];

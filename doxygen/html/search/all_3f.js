@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['法律声明_20免责声明_0',['法律声明 免责声明',['..//home/runner/work/SEVETEST30/SEVETEST30/README.md#autotoc_md32',1,'法律声明 - 免责声明'],['..//home/runner/work/SEVETEST30/SEVETEST30/README.md#autotoc_md30',1,'[^4]: 本项目开发者和贡献者不承担任何硬件更改活动导致的财产损失,信息泄露和人员伤亡(详见下方 法律声明 - 免责声明)']]],
-  ['法律声明_20版权相关_1',['法律声明 - 版权相关',['..//home/runner/work/SEVETEST30/SEVETEST30/README.md#autotoc_md31',1,'']]]
+  ['法律声明_20免责声明_0',['法律声明 免责声明',['../index.html#autotoc_md32',1,'法律声明 - 免责声明'],['../index.html#autotoc_md30',1,'[^4]: 本项目开发者和贡献者不承担任何硬件更改活动导致的财产损失,信息泄露和人员伤亡(详见下方 法律声明 - 免责声明)']]],
+  ['法律声明_20版权相关_1',['法律声明 - 版权相关',['../index.html#autotoc_md31',1,'']]]
 ];

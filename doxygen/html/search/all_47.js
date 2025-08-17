@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['运算需要的时间可能延长_0',['[^1]: 值得明确的是修改为 double 后,运算需要的时间可能延长',['..//home/runner/work/SEVETEST30/SEVETEST30/README.md#autotoc_md27',1,'']]]
+  ['软件安全设施_0',['软件安全设施',['../index.html#autotoc_md7',1,'']]],
+  ['软件_1',['软件',['../index.html#autotoc_md6',1,'']]]
 ];

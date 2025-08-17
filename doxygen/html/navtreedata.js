@@ -25,7 +25,14 @@
 var NAVTREE =
 [
   [ "SEVETEST30", "index.html", [
-    [ "本地离线访问文档 - 如何在本地/无网络情况下浏览文档", "index.html", "index" ],
+    [ "简介", "index.html", "index" ],
+    [ "本地离线访问文档 - 如何在本地/无网络情况下浏览文档", "md_docs_2official_2repo__doc_2_d_o_c-_s_e_v_e_t_e_s_t30_2_r_e_a_d_m_e.html", [
+      [ "方法 1 - 使用 SEVETEST30 仓库", "md_docs_2official_2repo__doc_2_d_o_c-_s_e_v_e_t_e_s_t30_2_r_e_a_d_m_e.html#autotoc_md1", null ],
+      [ "方法 2 - 使用本仓库", "md_docs_2official_2repo__doc_2_d_o_c-_s_e_v_e_t_e_s_t30_2_r_e_a_d_m_e.html#autotoc_md2", null ],
+      [ "云端部署相关", "md_docs_2official_2repo__doc_2_d_o_c-_s_e_v_e_t_e_s_t30_2_r_e_a_d_m_e.html#autotoc_md3", [
+        [ "如何在指定域名下上线新分支的文档(利用 GitHub Pages,公共仓库免费托管)", "md_docs_2official_2repo__doc_2_d_o_c-_s_e_v_e_t_e_s_t30_2_r_e_a_d_m_e.html#autotoc_md4", null ]
+      ] ]
+    ] ],
     [ "类", "annotated.html", [
       [ "类列表", "annotated.html", "annotated_dup" ],
       [ "类索引", "classes.html", null ],
@@ -53,10 +60,11 @@ var NAVTREEINDEX =
 [
 "_a_g_s10_8c.html",
 "functions_vars_d.html",
-"lsm6ds3trc_8h.html#a6b3baba753e30808e0972e6f759a8a58",
-"sevetest30___i_w_e_d_a_8c.html#aec71d466f36992a2eba45408ef193056",
-"sevetest30___u_i_8c.html#a838cbb7bad8b790ff2b70ba268c3d8bd",
-"struct_g_s__static__calibration__model__t.html#aa848fa4a1dda48f2ae864b6b724f23ef"
+"lsm6ds3trc_8h.html#a22ad46818115840df5af15abda84dc47",
+"sevetest30___i_w_e_d_a_8c.html#a219bd6694bce503b164a4c07c1ae896b",
+"sevetest30___s_w_e_d_a_8h.html#a5d728ea4221bb21a77d4a08c2bff14f4",
+"struct_g_s__dynamic__calibration__model__t.html#a07234893371ff8b5bd634e51e7c63e5f",
+"structsystemtime__t.html#ad09681409732b9584187e65584ab7e7a"
 ];
 
 var SYNCONMSG = '点击 关闭 面板同步';
