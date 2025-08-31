@@ -158,6 +158,9 @@ math_tools.h 的引用(Include)关系图:</div>
 <tr class="memitem:ac192466465e739760624ed62772b4d94" id="r_ac192466465e739760624ed62772b4d94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math__tools_8h.html#ac192466465e739760624ed62772b4d94">matrix_swap_rows</a> (float *A, int n, int r1, int r2)</td></tr>
 <tr class="memdesc:ac192466465e739760624ed62772b4d94"><td class="mdescLeft">&#160;</td><td class="mdescRight">[目前仅支持行主序](会修改源数据矩阵)矩阵中的两行(r1和r2)交换所有元素  <br /></td></tr>
 <tr class="separator:ac192466465e739760624ed62772b4d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfecd5845d360e099804b797db269f43" id="r_abfecd5845d360e099804b797db269f43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math__tools_8h.html#abfecd5845d360e099804b797db269f43">matrix_swap_rows_with_col_limit</a> (float *A, int n, int r1, int r2, int k)</td></tr>
+<tr class="memdesc:abfecd5845d360e099804b797db269f43"><td class="mdescLeft">&#160;</td><td class="mdescRight">[目前仅支持行主序](会修改源数据矩阵)矩阵中的两行(r1和r2)交换所有元素,但是其中列号大于等于k的列不进行任何交换操作  <br /></td></tr>
+<tr class="separator:abfecd5845d360e099804b797db269f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adafaf6a2b7386882391061c7516ff285" id="r_adafaf6a2b7386882391061c7516ff285"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math__tools_8h.html#adafaf6a2b7386882391061c7516ff285">matrix_only_row_elimination_step</a> (float *A, int aim_row, int pivot_row, int pivot_col, bool major_default, int LDA)</td></tr>
 <tr class="memdesc:adafaf6a2b7386882391061c7516ff285"><td class="mdescLeft">&#160;</td><td class="mdescRight">(会修改源数据矩阵)矩阵仅行消元操作(高斯消元)(之前要预先完成如归一化,行交换等预处理),用主元行消去目标行(高斯消元),本函数是消元操作步骤中的单一一步,不会遍历迭代完成所有消元,需要外部手动遍历  <br /></td></tr>
 <tr class="separator:adafaf6a2b7386882391061c7516ff285"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -335,11 +338,12 @@ math_tools.h 的引用(Include)关系图:</div>
 </div><div class="memdoc">
 
 <p>[目前仅支持行主序]矩阵分解-LU分解(带部分主元法,支持非方阵,自动解决主元为0情况而不报错)(不会修改源数据矩阵) </p>
+<dl class="section note"><dt>注解</dt><dd>分解结果U矩阵的数学无效区域将保留A矩阵对应原始值 </dd></dl>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
     <tr><td class="paramname">A</td><td>要进行分解的矩阵(m x n) </td></tr>
-    <tr><td class="paramname">L</td><td>下三角/梯形矩阵 L (m x min(m,n)) 输出到 </td></tr>
-    <tr><td class="paramname">U</td><td>上三角/梯形矩阵 U (min(m,n) x n) 输出到 </td></tr>
+    <tr><td class="paramname">L</td><td>下三角/梯形矩阵 L (m x n 其中数学定义有效区域尺寸 m x min(m,n)) 输出到 </td></tr>
+    <tr><td class="paramname">U</td><td>上三角/梯形矩阵 U (m x n 其中数学定义有效区域尺寸 min(m,n) x n) 输出到 </td></tr>
     <tr><td class="paramname">P</td><td>置换数组 P (m) (存储为普通int一维数组,大小为m) 输出到 [置换矩阵P记录行交换索引,本函数运行完后,有P[原行号]=现行号(若不需要可以设置为NULL以禁止输出矩阵P,但是其他任何操作正常执行,包括自动解决主元为0情况)] </td></tr>
     <tr><td class="paramname">m</td><td>矩阵A行数 </td></tr>
     <tr><td class="paramname">n</td><td>矩阵A列数 </td></tr>
@@ -780,6 +784,64 @@ math_tools.h 的引用(Include)关系图:</div>
     <tr><td class="paramname">n</td><td>矩阵A的总列数 </td></tr>
     <tr><td class="paramname">r1</td><td>需要进行交换操作的行号(范围 0 - m-1) </td></tr>
     <tr><td class="paramname">r2</td><td>需要进行交换操作的行号(范围 0 - m-1) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="abfecd5845d360e099804b797db269f43" name="abfecd5845d360e099804b797db269f43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfecd5845d360e099804b797db269f43">&#9670;&#160;</a></span>matrix_swap_rows_with_col_limit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void matrix_swap_rows_with_col_limit </td>
+          <td>(</td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>r1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>r2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>k</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>[目前仅支持行主序](会修改源数据矩阵)矩阵中的两行(r1和r2)交换所有元素,但是其中列号大于等于k的列不进行任何交换操作 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">A</td><td>需要进行交换操作的矩阵A(m x n) </td></tr>
+    <tr><td class="paramname">n</td><td>矩阵A的总列数 </td></tr>
+    <tr><td class="paramname">r1</td><td>需要进行交换操作的行号(范围 0 - m-1) </td></tr>
+    <tr><td class="paramname">r2</td><td>需要进行交换操作的行号(范围 0 - m-1) </td></tr>
+    <tr><td class="paramname">k</td><td>交换列范围限制,列号大于等于k的列不进行任何交换操作 </td></tr>
   </table>
   </dd>
 </dl>

@@ -11,6 +11,7 @@ var math__tools_8c =
     [ "matrix_only_row_elimination_step", "math__tools_8c.html#adafaf6a2b7386882391061c7516ff285", null ],
     [ "matrix_square_solve_LU", "math__tools_8c.html#ae5465be8b60c6fba0195eb1ec66afc7c", null ],
     [ "matrix_swap_rows", "math__tools_8c.html#ac192466465e739760624ed62772b4d94", null ],
+    [ "matrix_swap_rows_with_col_limit", "math__tools_8c.html#abfecd5845d360e099804b797db269f43", null ],
     [ "matrix_transpose", "math__tools_8c.html#a93580068fdabc174dbe81e18ee422679", null ],
     [ "solve_overdet_system_ols_mlr", "math__tools_8c.html#a96781feac646c93cbaad9646ab5a57df", null ],
     [ "square_aligned_16_matrix_transpose", "math__tools_8c.html#a3dcf695761244506eb52a0633b881bb2", null ],

@@ -11,6 +11,7 @@ var math__tools__fp64_8c =
     [ "matrix_only_row_elimination_step_fp64", "math__tools__fp64_8c.html#a09d05adeb95bf2dcd4e0d5febe9bea58", null ],
     [ "matrix_square_solve_LU_fp64", "math__tools__fp64_8c.html#a1b06acc998d5d0182487f1c26e08e774", null ],
     [ "matrix_swap_rows_fp64", "math__tools__fp64_8c.html#a5ba16975c489c27d2db54a548887c7fd", null ],
+    [ "matrix_swap_rows_fp64_with_col_limit", "math__tools__fp64_8c.html#aed8f28bb56a009da9e7a7848e85347b1", null ],
     [ "matrix_transpose_fp64", "math__tools__fp64_8c.html#a7a4b1666083bc375d1e3e9cd30581c37", null ],
     [ "solve_overdet_system_ols_mlr_fp64", "math__tools__fp64_8c.html#a48f52060bbe54168188bb10277dd92ae", null ],
     [ "square_aligned_16_matrix_transpose_fp64", "math__tools__fp64_8c.html#a34b967168888a6a07bd037eed9972338", null ],

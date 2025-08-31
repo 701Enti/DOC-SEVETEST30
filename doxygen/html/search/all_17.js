@@ -73,7 +73,7 @@ var searchData=
   ['sevetest30_5ffft_5fui_5frunning_5fflag_70',['sevetest30_fft_ui_running_flag',['../sevetest30___u_i_8h.html#a989913e89b959169beea7e3c60b301c2',1,'sevetest30_UI.h']]],
   ['sevetest30_5fgpio_2ec_71',['sevetest30_gpio.c',['../sevetest30__gpio_8c.html',1,'']]],
   ['sevetest30_5fgpio_2eh_72',['sevetest30_gpio.h',['../sevetest30__gpio_8h.html',1,'']]],
-  ['sevetest30_5fgpio_5finit_73',['sevetest30_gpio_init',['../sevetest30__gpio_8c.html#ac3885e1d013125f9bf688cb53418d633',1,'sevetest30_gpio_init(TCA6416A_mode_t *p_ext_mode, TCA6416A_level_t *p_ext_value):&#160;sevetest30_gpio.c'],['../board__ctrl_8h.html#aaf5e14aa5469195ef948ffc62cff1191a3144116bf2ee8bbfd870682fb8321350',1,'SEVETEST30_GPIO_INIT:&#160;board_ctrl.h'],['../sevetest30__gpio_8h.html#ac3885e1d013125f9bf688cb53418d633',1,'sevetest30_gpio_init(TCA6416A_mode_t *p_ext_mode, TCA6416A_level_t *p_ext_value):&#160;sevetest30_gpio.c']]],
+  ['sevetest30_5fgpio_5finit_73',['sevetest30_gpio_init',['../sevetest30__gpio_8h.html#ac3885e1d013125f9bf688cb53418d633',1,'sevetest30_gpio_init(TCA6416A_mode_t *p_ext_mode, TCA6416A_level_t *p_ext_value):&#160;sevetest30_gpio.c'],['../sevetest30__gpio_8c.html#ac3885e1d013125f9bf688cb53418d633',1,'sevetest30_gpio_init(TCA6416A_mode_t *p_ext_mode, TCA6416A_level_t *p_ext_value):&#160;sevetest30_gpio.c'],['../board__ctrl_8h.html#aaf5e14aa5469195ef948ffc62cff1191a3144116bf2ee8bbfd870682fb8321350',1,'SEVETEST30_GPIO_INIT:&#160;board_ctrl.h']]],
   ['sevetest30_5fiweda_2ec_74',['sevetest30_IWEDA.c',['../sevetest30___i_w_e_d_a_8c.html',1,'']]],
   ['sevetest30_5fiweda_2eh_75',['sevetest30_IWEDA.h',['../sevetest30___i_w_e_d_a_8h.html',1,'']]],
   ['sevetest30_5fledarray_2ec_76',['sevetest30_LedArray.c',['../sevetest30___led_array_8c.html',1,'']]],
